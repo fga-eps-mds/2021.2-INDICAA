@@ -1,6 +1,6 @@
-# Planejamento spoi
+# Planejamento sprint
 
 
-# Revie
+# Review2
 gajigjfghag
 hikfdhnjahjfdiojhsa
