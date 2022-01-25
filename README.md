@@ -1,4 +1,4 @@
-# Projeto01 - Indicadores SIGAA
+# Tema01 (grupos 1,3 e 4) - Indicadores SIGAA
 
 <p align="center">
   <img width="300" src="docs/assets/img/logo.png">
