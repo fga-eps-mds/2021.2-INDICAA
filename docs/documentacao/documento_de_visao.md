@@ -1,10 +1,11 @@
 ## Histórico de versões
 
-Data|Versão|Descrição|Autor
--|-|-|-
-27/01/2022|0.1|Começar Documento de Visão| Caio|
-27/01/2022|0.2|Introdução aos itens 1, 2 e 3| Caio|
-28/01/2022|0.3|Continuação do item 3|Lucas|
+|Data|Versão|Descrição|Autor|
+|-|-|-|-|
+|27/01/2022|0.1|Abertura Documento de Visão| Caio|
+|27/01/2022|0.2|Adição dos tópicos 1, 2 e 3| Caio|
+|28/01/2022|0.3|Continuação do tópico 3|Lucas|
+|28/01/2022|0.4|Adição tópico 4 -Visão geral de produto|Matheus|
 
 ## 1. <a name="1">Introdução</a>
 
@@ -136,5 +137,8 @@ Grupo 1:
 ### 3.5.3  <a name="3.5.2">Outros</a>
 |**Representantes**|**tipo**|**Responsabilidade**|**Critério de sucesso**|**Envolvimento**|
 |:-:|:-:|:-:|:-:|:-:|
-| ? | Outros |  ?|  ?| ?
+| ? | Outros |  ?|  ?| ?|
 
+## 4. Visão geral do produto
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O projeto é uma implementação para web que visa elaborar um painel com os indicadores da lista de ofertas do SIGAA, de forma que o usuário possa ter acesso a informações relativas a quantidade de: disciplinas ofertadas por curso; vagas ofertadas por curso; alunos matriculados por curso; salas disponíveis por curso.
