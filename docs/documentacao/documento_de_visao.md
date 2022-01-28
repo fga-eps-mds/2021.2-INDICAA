@@ -1,9 +1,10 @@
-## Histórico de Versões
+## Histórico de versões
 
 Data|Versão|Descrição|Autor
 -|-|-|-
 27/01/2022|0.1|Começar Documento de Visão| Caio|
 27/01/2022|0.2|Introdução aos itens 1, 2 e 3| Caio|
+28/01/2022|0.3|Continuação do item 3|Lucas|
 
 ## 1. <a name="1">Introdução</a>
 
@@ -48,7 +49,7 @@ de gestão e controle de processos complicados como a própria matrícula em dis
 | ------------ | --------- | -------------- | ----------------------|
 | Dificuldade na busca por informações simples pelo SIGAA. | Principalmente estudantes. | A carência de informações necessárias para atividades acadêmicas | Organização das informações em uma aplicação de fácil entendimento. |
 
-### 2.2 <a name="2_3">Descrição do Posicionamento do Produto</a>
+### 2.2 <a name="2_3">Descrição do posicionamento do produto</a>
 
 <p align="justify">&emsp;&emsp; O produto final consistirá em uma aplicação, onde será possível visualizar 
  um painel com informações sobre os cursos ofertados. Funcionando como se fosse um filtro, com o uso de 
@@ -62,9 +63,9 @@ de gestão e controle de processos complicados como a própria matrícula em dis
  disponibilidade de informação, é possível obter uma melhor gestão e organização tanto para a escolha de disciplinas 
  por parte do estudante quanto, quanto para a análise de dados por parte da coordenação ou pelos próprios professores. </p>
  
- ## 3. <a name="3">Descrição dos Usuários e Envolvidos</a>
+ ## 3. <a name="3">Descrição dos usuários e envolvidos</a>
  
- ### 3.1 <a name="3.1">Descrição dos Usuários</a>
+ ### 3.1 <a name="3.1">Descrição dos usuários</a>
  
 |**Nome**|**Descrição**|
 |:-|:-|
@@ -72,8 +73,53 @@ de gestão e controle de processos complicados como a própria matrícula em dis
 | Professores da UnB | Professores analisando as matérias ofertadas, verificando disponibilidade de salas ou quantidade de alunos matriculados em suas matérias. |
 | Outros | Indivíduos da parte de gestão ou coordenação da UnB visando uma organização melhor ou um atalho para análise de dados. |
 
-### 3.2 <a name="3.2">Descrição dos Envolvidos</a>
+### 3.2 <a name="3.2">Descrição dos envolvidos</a>
+|**Nome**|**Descrição**|**Responsabilidade**|
+|:-:|:-:|:-:|
+|Grupo de desenvolvimento| Estudantes de MDS |Projetar, desenvolver, testar, manter e gerir o software proposto e todos os documentos relacionados|
+|Grupo de avaliação| Professora e monitores de MDS |Ajudar o grupo de desenvolvimento com conselhos e feedback sobre o projeto|
 
+### 3.3 <a name="3.3">Principais necessidades dos usuários</a>
+|**Usuário**|**Necessidade**|**Solução Atual**|**Solução Proposta**|
+|:-:|:-:|:-:|:-:|
+| Estudantes da UnB | Compreender informações necessárias, porém não encontradas com facilidade, no SIGAA | Tentar entender como encontrar essas informações baseado na ajuda de colegas  | Tornar o próprio processo de adquirir a informação mais fácil, tornando o SIGAA um pouco mais user-friendly  |
+| Professores da UnB | Analisar informações relativas a disciplinas ofertadas no SIGAA  | ?  | Tornar o processo de adquirir a informação necessária mais fácil |
+| Outros |  ?| ?  | ? |
 
+### 3.4 <a name="3.4">Perfis dos envolvidos</a>
+#### 3.4.1 <a name="3.4.1">Grupo de desenvolvimento</a>
+Grupo 4:
+
+| Papel  |  Descrição  |
+| ----- | -------------------- |
+| Scrum Master | Mateus Vinícius Ferreira Franco |
+| Product Owner | Pedro Augusto Santos Siqueira |
+| Desenvolvedor | Guilherme dos Santos Araujo <br /> Thiago Oliveira Cunha <br /> João Paulo da Silva Freitas <br /> Arthur Taylor de Jesus Popov <br /> Thiago Vivan Bastos <br /> |
+
+Grupo 3:
+
+| Papel  |  Descrição  |
+| ----- | -------------------- |
+| Scrum Master | Matheus Pimentel Leal |
+| Product Owner | Adne Moretti Moreira |
+| Arquiteto de Software | Guilherme Barbosa Ferreira|
+| DevOps | Gabriel Mariano da Silva |
+| Desenvolvedor | Liander Medeiros Alves <br />  Gabriel Moretti de Souza |
+
+Grupo 1:
+
+| Papel  |  Descrição  |
+| ----- | -------------------- |
+| Scrum Master | Laura Pinos de Oliveira  |
+| Product Owner | Caio César Oliveira |
+| Arquiteto de Software | Lucas Henrique Lima de Queiroz |
+| DevOps |  Vitor Eduardo Kühl Rodrigues |
+| Desenvolvedor | Matheus Costa Gomes |
+| Designer | Letícia Assunção Aires Moreira |
+
+#### 3.4.2 <a name="3.4.2">Grupo de avaliação</a>
+|**Representantes**|**Tipo**|**Responsabilidade**|**Critério de Sucesso**|**Envolvimento**|
+|:---:|:-:|:-:|:-:|:-:|
+| Carla Rocha | Professora de MDS | Auxiliar o grupo de desenvolvimento com feedback e conselhos | Entrega do projeto dentro do prazo limite |Baixo
 
 
