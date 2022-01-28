@@ -122,4 +122,19 @@ Grupo 1:
 |:---:|:-:|:-:|:-:|:-:|
 | Carla Rocha | Professora de MDS | Auxiliar o grupo de desenvolvimento com feedback e conselhos | Entrega do projeto dentro do prazo limite |Baixo
 
+### 3.5 <a name="3.5">Perfis dos Usuários</a>
+#### 3.5.1 <a name="3.5.1">Estudantes da UnB</a>
+|**Representantes**|**tipo**|**Responsabilidade**|**Critério de sucesso**|**Envolvimento**|
+|:-:|:-:|:-:|:-:|:-:|
+| Interessados em adquirir informações necessárias, encontradas apenas no SIGAA, para cumprir demandas acadêmicas | Alunos da UnB | Desfrutar do produto, disponibilizando, também, feedback | Encontrar informações (outrora complicadas de se achar) com facilidade | Alto 
+
+#### 3.5.2 <a name="3.5.2">Professores da UnB</a>
+|**Representantes**|**tipo**|**Responsabilidade**|**Critério de sucesso**|**Envolvimento**|
+|:-:|:-:|:-:|:-:|:-:|
+| Responsáveis por disciplinas acadêmicas interessados em conseguir administrá-las com mais facilidade | Professores da UnB | Desfrutar do produto, disponibilizando, também, feedback| Encontrar informações (outrora complicadas de se achar) com facilidade | Baixo(?) 
+
+### 3.5.3  <a name="3.5.2">Outros</a>
+|**Representantes**|**tipo**|**Responsabilidade**|**Critério de sucesso**|**Envolvimento**|
+|:-:|:-:|:-:|:-:|:-:|
+| ? | Outros |  ?|  ?| ?
 
