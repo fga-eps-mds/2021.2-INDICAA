@@ -2,18 +2,19 @@
 
 |Data|Versão|Descrição|Autor|
 |-|-|-|-|
-|27/01/2022|0.1|Abertura Documento de Visão| Caio|
-|27/01/2022|0.2|Adição dos tópicos 1, 2 e 3| Caio|
+|27/01/2022|0.1|Abertura Documento de Visão|Caio|
+|27/01/2022|0.2|Adição dos tópicos 1, 2 e 3|Caio|
 |28/01/2022|0.3|Continuação do tópico 3|Lucas|
 |28/01/2022|0.4|Adição tópico 4 -Visão geral de produto|Matheus|
+|29/01/2022|0.5|Continuação do tópico 4|Letícia|
 
 ## 1. <a name="1">Introdução</a>
 
 ### 1.1 <a name ="1_1">Propósito</a>
 
-<p align="justify"> &emsp;&emsp; Esse documento de visão irá apresentar o produto,
- mostrando as suas características, tanto funcionais como não funcionais também.
- Além disso irá mostrar como foi o desenvolvimento, relatos dos envolvidos e
+<p align="justify"> &emsp;&emsp; O presente documento visa apresentar o produto,
+ mostrando suas características, tanto funcionais como não funcionais.
+ Além disso será mostrado como foi o desenvolvimento, relatos dos envolvidos e
  informações para melhor entendimento do projeto. </p>
 
 ### 1.2 <a name=1_3>Siglas e seus significados</a>
@@ -30,7 +31,7 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
 ### 1.3 <a name="1_2">Escopo</a>
 
 <p align="justify"> &emsp;&emsp; Ao entrar no SIGAA, os alunos, principalmente os calouros, podem 
-se assustar com a quantidade de informações lançadas na tela do computador, até para os mais experientes 
+se assustar com a quantidade de informações lançadas na tela do computador. Até para os mais experientes 
 ainda é difícil encontrar informações básicas como as disciplinas ofertadas. </p>
  
 <p align="justify"> &emsp;&emsp; O objetivo desse projeto, seria uma melhor organização das informações 
@@ -40,7 +41,7 @@ de salas disponíveis. </p>
 
 <p align="justify"> &emsp;&emsp; Por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento
 de informações será mais simples, ajudando tanto a parte estudantil da UnB, quanto a parte 
-de gestão e controle de processos complicados como a própria matrícula em disciplina. </p>
+de gestão e controle de processos como a própria matrícula em disciplina. </p>
   
 ## 2. <a name="2">Posicionamento</a>
 
@@ -60,7 +61,7 @@ de gestão e controle de processos complicados como a própria matrícula em dis
  ### 2.3 <a name="2_1">Oportunidade de negócio</a>
 
 <p align="justify">&emsp;&emsp; O produto possibilita que o aluno busque por matérias específicas para o 
- seu curso, evitando a confusão com matérias diversas aparecendo na tela ao mesmo tempo. Desta forma, com toda essa 
+ seu curso, evitando a confusão com outras disciplinas aparecendo na tela ao mesmo tempo. Desta forma, com toda essa 
  disponibilidade de informação, é possível obter uma melhor gestão e organização tanto para a escolha de disciplinas 
  por parte do estudante quanto, quanto para a análise de dados por parte da coordenação ou pelos próprios professores. </p>
  
@@ -139,6 +140,13 @@ Grupo 1:
 |:-:|:-:|:-:|:-:|:-:|
 | ? | Outros |  ?|  ?| ?|
 
-## 4. Visão geral do produto
+## 4. <a name="4">Visão Geral do Produto</a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O projeto é uma implementação para web que visa elaborar um painel com os indicadores da lista de ofertas do SIGAA, de forma que o usuário possa ter acesso a informações relativas a quantidade de: disciplinas ofertadas por curso; vagas ofertadas por curso; alunos matriculados por curso; salas disponíveis por curso.
+### 4.1.  <a name="4.1">Perspectivas</a>
+
+<p align="justify">&emsp;&emsp;O projeto tem como fito elaborar um painel com os indicadores da lista de ofertas do SIGAA, de forma a possibilitar, ao usuário, visualização facilitada referente à quantidade de: disciplinas ofertadas; contingente de vagas; alunos matriculados, bem como salas disponíveis por curso. Desse modo, viabilizando o acesso fácil e rápido à informações tanto para o corpo docente como discente e, assim, contribuindo para uma maior qualidade do site SIGAA e suas implicações.  
+
+### 4.2.  <a name="4.2">Resumo das Capacidades</a>
+
+<p align="justify">&emsp;&emsp;A aplicação proporcionará uma interface adaptada à experiência de usuário dos alunos e professores, por meio da utilização de filtros de busca com palavras-chave, dentros outros aspectos os quais influenciarão positivamente na tomada de decisão relativa matricula em disciplinas, análise de dados e gestão de processos.    
+
