@@ -8,6 +8,7 @@
 |28/01/2022|0.4|Adição tópico 4 -Visão geral de produto|Matheus|
 |29/01/2022|0.5|Continuação do tópico 4|Letícia|
 |30/01/2022|0.6|Adição do tópico 5|Vitor|
+|31/01/2022|0.7|Adição do tópico 6|Caio|
 
 ## 1. <a name="1">Introdução</a>
 
@@ -169,5 +170,11 @@ Grupo 1:
 ### 5.3.  <a name="5.3">Filtro</a>
 
 <p align="justify">&emsp;&emsp; A aplicação contará com um sistema de filtragem que dará ao usuário a informação buscada de forma interativa e de forma fácil.
+ 
+## 6. <a name="5">Referências</a>
+ 
+ RAFAEL E VITOR; et al. Documento de Visão - Anunbis. Disponível em: <https://fga-eps-mds.github.io/2020.2-Anunbis/documentacao/documento-de-visao/>. Acesso em: 31 jan 2022.
+ 
+ NOBRE, Amanda; et al. Documento de Visão - AlligaBot. Disponível em: <https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/08/04/documento-de-vis%C3%A3o/>. Acesso em: 31 jan 2022.
  
 
