@@ -87,7 +87,7 @@ de gestão e controle de processos como a própria matrícula em disciplina. </p
 |**Usuário**|**Necessidade**|**Solução Atual**|**Solução Proposta**|
 |:-:|:-:|:-:|:-:|
 | Estudantes da UnB | Compreender informações necessárias, porém não encontradas com facilidade, no SIGAA | Tentar entender como encontrar essas informações baseado na ajuda de colegas  | Tornar o próprio processo de adquirir a informação mais fácil, tornando o SIGAA um pouco mais user-friendly  |
-| Professores da UnB | Analisar informações relativas a disciplinas ofertadas no SIGAA  | ?  | Tornar o processo de adquirir a informação necessária mais fácil |
+| Professores da UnB | Analisar informações relativas a disciplinas ofertadas no SIGAA  | Caso precise, pedir ajuda para técnicos disponíveis  | Tornar o processo de adquirir a informação necessária mais fácil |
 
 ### 3.4 <a name="3.4">Perfis dos envolvidos</a>
 #### 3.4.1 <a name="3.4.1">Grupo de desenvolvimento</a>
@@ -135,11 +135,6 @@ Grupo 1:
 |**Representantes**|**tipo**|**Responsabilidade**|**Critério de sucesso**|**Envolvimento**|
 |:-:|:-:|:-:|:-:|:-:|
 | Responsáveis por disciplinas acadêmicas interessados em conseguir administrá-las com mais facilidade | Professores da UnB | Desfrutar do produto, disponibilizando, também, feedback| Encontrar informações (outrora complicadas de se achar) com facilidade | Baixo(?) 
-
-### 3.5.3  <a name="3.5.2">Outros</a>
-|**Representantes**|**tipo**|**Responsabilidade**|**Critério de sucesso**|**Envolvimento**|
-|:-:|:-:|:-:|:-:|:-:|
-| ? | Outros |  ?|  ?| ?|
 
 ## 4. <a name="4">Visão Geral do Produto</a>
 
