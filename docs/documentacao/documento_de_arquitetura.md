@@ -3,6 +3,7 @@
 |Data|Versão|Descrição|Autor|
 |-|-|-|-|
 |30/01/2022|0.1|Abertura Documento de Visão|Guilherme|
+|31/01/2022|0.2|Adicionado Tópico de Referências|Guilherme|
 
 ## 1. <a name="1">Introdução</a>
 
@@ -49,3 +50,11 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
 ### 3.2 <a name="3.2">Restrições da Arquitetura</a>
 
 <p align="justify">&emsp;&emsp; (estabelecer os riscos e restrições do projeto) </p>
+
+ 
+## 4. <a name="4">Referências</a>
+ 
+ MATHEUS, Davi; et al. Documento de Arquitetura - Cheery Up. Disponível em: <https://fga-eps-mds.github.io/2020.2-CheeryUP/#/./wiki/Documents/Documento_de_Arquitetura?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
+ 
+ CARVALHO, Durval; et al. Documento de Arquitetura - Acácia. Disponível em: <https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
+ 
