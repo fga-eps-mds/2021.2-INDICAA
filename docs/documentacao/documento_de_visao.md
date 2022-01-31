@@ -88,7 +88,6 @@ de gestão e controle de processos como a própria matrícula em disciplina. </p
 |:-:|:-:|:-:|:-:|
 | Estudantes da UnB | Compreender informações necessárias, porém não encontradas com facilidade, no SIGAA | Tentar entender como encontrar essas informações baseado na ajuda de colegas  | Tornar o próprio processo de adquirir a informação mais fácil, tornando o SIGAA um pouco mais user-friendly  |
 | Professores da UnB | Analisar informações relativas a disciplinas ofertadas no SIGAA  | ?  | Tornar o processo de adquirir a informação necessária mais fácil |
-| Outros |  ?| ?  | ? |
 
 ### 3.4 <a name="3.4">Perfis dos envolvidos</a>
 #### 3.4.1 <a name="3.4.1">Grupo de desenvolvimento</a>
