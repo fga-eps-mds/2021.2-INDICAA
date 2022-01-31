@@ -7,6 +7,7 @@
 |28/01/2022|0.3|Continuação do tópico 3|Lucas|
 |28/01/2022|0.4|Adição tópico 4 -Visão geral de produto|Matheus|
 |29/01/2022|0.5|Continuação do tópico 4|Letícia|
+|30/01/2022|0.6|Adição do tópico 5|Vitor|
 
 ## 1. <a name="1">Introdução</a>
 
@@ -148,5 +149,25 @@ Grupo 1:
 
 ### 4.2.  <a name="4.2">Resumo das Capacidades</a>
 
-<p align="justify">&emsp;&emsp;A aplicação proporcionará uma interface adaptada à experiência de usuário dos alunos e professores, por meio da utilização de filtros de busca com palavras-chave, dentros outros aspectos os quais influenciarão positivamente na tomada de decisão relativa matricula em disciplinas, análise de dados e gestão de processos.    
+<p align="justify">&emsp;&emsp;A aplicação proporcionará uma interface adaptada à experiência de usuário dos alunos e professores, por meio da utilização de filtros de busca com palavras-chave, dentre outros aspectos os quais influenciarão positivamente na tomada de decisão relativa matricula em disciplinas, análise de dados e gestão de processos.  
+ 
+## 5. <a name="5">Recursos do Produto</a>
+
+### 5.1.  <a name="5.1">Recursos dos discentes</a>
+
+<p align="justify">&emsp;&emsp; O discente poderá ter acesso aos seguintes recursos quando realizar o login:
+ * Verificar disciplinas ofertadas.
+ * Visualizar os horários das disciplinas de forma fácil.
+ * Visualizar salas disponiveis por curso.
+ 
+### 5.2.  <a name="5.2">Recursos dos docentes</a>
+
+<p align="justify">&emsp;&emsp; O docente poderá ter acesso aos seguintes recursos quando realizar o login:
+ * Verificar disponibilidade de salas.
+ * Verificar a quantidade de alunos matriculados em suas matérias.
+ 
+### 5.3.  <a name="5.3">Filtro</a>
+
+<p align="justify">&emsp;&emsp; A aplicação contará com um sistema de filtragem que dará ao usuário a informação buscada de forma interativa e de forma fácil.
+ 
 
