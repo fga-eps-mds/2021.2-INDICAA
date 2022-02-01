@@ -6,6 +6,7 @@
 |31/01/2022|0.2|Adicionado Tópico de Referências|Guilherme|
 |01/02/2022|0.3|Listagem das restrições da arquitetura|Arthur|
 |01/02/2022|0.4|Definição do Escopo do Projeto|Guilherme|
+|01/02/2022|0.5|Definição de Metas da Arquitetura|Thiago O. e Pedro|
 
 ## 1. <a name="1">Introdução</a>
 
@@ -48,6 +49,14 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
  ### 3.1 <a name="3.1">Metas</a>
  
 <p align="justify">&emsp;&emsp; (estabelecer as metas do projeto) </p>
+<p align="justify">&emsp;&emsp; Este projeto tem como meta, fazer um painel com o intuito de mostrar os respectivos indicadores da lista de oferta do SIGAA, listados a seguir:  </p>
+<p align="justify">&emsp;&emsp; •	Quantidade de disciplinas ofertadas por curso </p>
+<p align="justify">&emsp;&emsp; •	Quantidade de vagas ofertadas por curso </p>
+<p align="justify">&emsp;&emsp; •	Quantidade de alunos matriculados por curso </p>
+<p align="justify">&emsp;&emsp; •	Quantidade de salas disponíveis por curso </p>
+<p align="justify">&emsp;&emsp; Para cumprir tais metas, sera necessário a utilização de um Webcrawler com o intuito de retirar tais informações do site SIGAA, salvar tais informações em um banco de dados, e utilizar ferramentas de BI(Business Intelligence)  para a amostragem desses dados. </p>
+
+
 
 ### 3.2 <a name="3.2">Restrições da Arquitetura</a>
 
