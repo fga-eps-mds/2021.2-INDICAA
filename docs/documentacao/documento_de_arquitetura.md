@@ -5,6 +5,7 @@
 |30/01/2022|0.1|Abertura Documento de Visão|Guilherme|
 |31/01/2022|0.2|Adicionado Tópico de Referências|Guilherme|
 |01/02/2022|0.3|Listagem das restrições da arquitetura|Arthur|
+|01/02/2022|0.4|Definição do Escopo do Projeto|Guilherme|
 
 ## 1. <a name="1">Introdução</a>
 
@@ -14,7 +15,8 @@
 
 ### 1.2 <a name="1_2">Escopo</a>
 
-<p align="justify"> &emsp;&emsp; (Texto do escopo do projeto [clientes])  </p>
+<p align="justify"> &emsp;&emsp; Esse documento aplica-se ao projeto INDICAA, um sistema que agrupa diversas informações importantes para organização dos alunos e professoraes da UNB. Esse projeto será desenvolvido pelos alunos das disciplinas Métodos de Desenvolvimento de Software, da Universidade de Brasília - Campus Gama.
+     Os alunos terão a possibilidade de visualizar a quantidade de disciplinas por curso, a quantidade de vagas ofertadas, a quantidade de alunos matriculados e a quantidade de salas disponíveis. E, por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento de informações será mais simples, ajudando tanto a parte estudantil da UnB, quanto a parte de gestão e controle de processos como a própria matrícula em disciplina. </p>
 
 ### 1.3 <a name=1_3>Siglas e seus significados</a>
 
