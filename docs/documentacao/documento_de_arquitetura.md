@@ -49,7 +49,10 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
 
 ### 3.2 <a name="3.2">Restrições da Arquitetura</a>
 
-<p align="justify">&emsp;&emsp; (estabelecer os riscos e restrições do projeto) </p>
+<p align="justify">&emsp;&emsp; Nescessidade de acesso à internet </p>
+<p align="justify">&emsp;&emsp; Instabilidade da plataforma (SIGAA) </p>
+<p align="justify">&emsp;&emsp; Demora para atualização das informações no SIGAA </p>
+<p align="justify">&emsp;&emsp; Extensão pode ser incompatível com alguns navegadores </p>
 
  
 ## 4. <a name="4">Referências</a>
