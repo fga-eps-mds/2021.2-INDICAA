@@ -11,7 +11,7 @@
 
 ### 1.1 <a name ="1_1">Objetivo</a>
 
-<p align="justify"> &emsp;&emsp; (Texto do objetivo do documento de arquitetura) </p>
+<p align="justify"> &emsp;&emsp; O objetivo deste documento é oferecer, de modo claro, as diversas visões as quais os modelos arquiteturais que vinculam o sistema INDICAA vem a possuir, trazendo consigo as características necessárias para os controles de suas atividades arquiteturais, assim moldando todo procedimento para o desenvolvimento do sistema.  </p>
 
 ### 1.2 <a name="1_2">Escopo</a>
 
