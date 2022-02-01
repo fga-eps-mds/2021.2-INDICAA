@@ -5,33 +5,34 @@
 **Data** | **Versão** | **Descrição** | **Autor(es/as)**
 --- | --- | --- | --- 
 28/01/2022 | 0.1 | Versão Inicial | Matheus Pimentel Leal, Gabriel Mariano da Silva e Guilherme Barbosa Ferreira
-??/??/???? | x.x | Lorem Ipsum | Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-??/??/???? | x.x | Lorem Ipsum | Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+??/??/???? | x.x | Lorem Ipsum | **A preencher.** Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+??/??/???? | x.x | Lorem Ipsum | **A preencher.** Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
 
 ### Siglas
 **Sigla** | **Descrição**
 --- | ---
 SIGAA | Sistema Integrado de Gestão de Atividades Acadêmicas
+INDICAA | Nome **provisório** dado ao projeto relativo aos indicadores do SIGAA
 UnB | Universidade de Brasília
 FGA | Faculdade do Gama
 COVID-19 | Doença infecciosa causada pelo vírus SARS-CoV-2
 H3N2 | É um subtipo de Influenzavirus A
 
 ## 1. Introdução
-Este documento visa informar as principais características do projeto, de forma concisa e clara para a leitura de todos os interessados no projeto e nas suas etapas de execução e decisão. Abaixo serão tratados os seguintes tópicos relacionados à este projeto: descrição, propósito e justificativa, objetivos, partes interessadas (usuários e envolvidos no desenvolvimento), requisitos de alto nível, análise de riscos, requisitos para a aprovação seguindo a definition of done estabelecida e estratégias de comunicação.
+Este documento visa informar as principais características do projeto **INDICAA** de forma concisa e clara para a leitura de todos os interessados no projeto e nas suas etapas de execução e decisão. Abaixo serão tratados os seguintes tópicos relacionados à este projeto: descrição, propósito e justificativa, objetivos, partes interessadas (usuários e envolvidos no desenvolvimento), requisitos de alto nível, análise de riscos, requisitos para a aprovação seguindo a definition of done estabelecida e estratégias de comunicação.
 
 ## 2. Descrição
-O projeto "_nome do projeto_" foi proposto pela profª Carla Silva Rocha Aguiar e consiste em realizar a criação de uma aplicação para facilitar a busca por informações no site SIGAA que é utilizado por alunos e professores da UnB. As informações relacionadas à cada curso, que serão disponibilizadas são:
+O projeto **INDICAA** foi proposto pela profª Carla Silva Rocha Aguiar e consiste em realizar a criação de uma aplicação para facilitar a busca por informações no site SIGAA que é utilizado por alunos e professores da UnB. As informações relacionadas à cada curso, que serão disponibilizadas são:
 * Quantidade de disciplinas
 * Quantidade de vagas ofertadas
 * Quantidade de alunos matriculados
 * Quantidade de salas disponíveis
 
 ## 3. Propósito e justificativa
-Tendo em vista que o contexto pandêmico trouxe uma nova forma de comunicação e interação, dificuldades de manejo das tecnologias são constantemente encontradas por seus usuários no mundo todo. A comunidade acadêmica da UnB não é exceção. Com isso, o "_projeto_" visa trazer uma forma facilitada e intuitiva de busca por informações no SIGAA.
+Tendo em vista que o contexto pandêmico trouxe uma nova forma de comunicação e interação, dificuldades de manejo das tecnologias são constantemente encontradas por seus usuários no mundo todo. A comunidade acadêmica da UnB não é exceção. Com isso, o **INDICAA** visa trazer uma forma facilitada e intuitiva de busca por informações no SIGAA.
 
 ## 4. Objetivos
-O objetivo do "_projeto_" é ofertar um painel com os dados da lista de oferta de disciplinas do SIGAA dispostos de maneira intuitiva, de modo a facilitar a visualização das informações necessárias dos cursos, como a quantidade de disciplinas ofertadas, a quantidade de vagas disponíveis, a quantidade de alunos matriculados e a quantidade de salas disponíveis.
+O objetivo do **INDICAA** é ofertar um painel com os dados da lista de oferta de disciplinas do SIGAA dispostos de maneira intuitiva, de modo a facilitar a visualização das informações necessárias dos cursos, como a quantidade de disciplinas ofertadas, a quantidade de vagas disponíveis, a quantidade de alunos matriculados e a quantidade de salas disponíveis.
 Atualmente, a lista de ofertas do SIGAA é composta por uma grande quantidade de dados dispostos separadamente. O _software_ desenvolvido facilitaria o entendimento destes dados e auxiliaria na tomada de decisões com base nas informações disponibilizadas.
 
 ## 5. Partes interessadas
@@ -53,7 +54,7 @@ _Product Owner_ | Responsável por aumentar o valor do produto a ser desenvolvid
 Arquiteto de Software | Atua na decisão das melhores tecnologias a serem utilizadas pelo grupo durante o desenvolvimento do projeto. Atua em suporte ao DevOps.
 DevOps | Atua na configuração do ambiente de desenvolvimento e homologação do produto. Visa também automatizar processos, como os testes. Visa atuar para que o projeto forneça uma entrega contínua.
 Desenvolvedor | Atua no desenvolvimento e teste do produto, criando o _Sprint Backlog_ e adaptando seu plano de modo a atingir o objetivo definido ao final da _Sprint_.
-_Designer_ | "_Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat._"
+_Designer_ | **A preencher.** _Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat._
 
 #### Grupo 1
 **Usuário** | **Descrição**
@@ -82,6 +83,7 @@ _Product Owner_ | Pedro Augusto Santos Siqueira
 Desenvolvedor | Guilherme dos Santos Araújo <br  /> Thiago Oliveira Cunha <br  /> João Paulo da Silva Freitas <br  /> Arthur Taylor de Jesus Popov <br  /> Thiago Vivian Bastos
 
 ## 6. Requisitos de alto nível
+**A preencher.**
 _Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum._
 
 ## 7. Riscos
@@ -107,8 +109,3 @@ Para comunicação com os demais grupos utilizamos, além das ferramentas citada
 **AlligaBot - Termo de Abertura do Projeto**. Brasil, 2021. Disponível em: <https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/08/02/termo-de-abertura-do-projeto/> <br />
 "**O guia do SCRUM**" por Ken Schwaber, Jeff Sutherland. Novembro de 2020. Disponível em: <https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Portuguese-European.pdf> <br />
 Issue #6, **Documentações**. Disponível em: <https://github.com/fga-eps-mds/Projeto01/issues/6#issuecomment-1022324492> <br />
-
-
-
-
-
