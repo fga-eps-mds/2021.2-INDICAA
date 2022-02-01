@@ -48,7 +48,6 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
  
  ### 3.1 <a name="3.1">Metas</a>
  
-<p align="justify">&emsp;&emsp; (estabelecer as metas do projeto) </p>
 <p align="justify">&emsp;&emsp; Este projeto tem como meta, fazer um painel com o intuito de mostrar os respectivos indicadores da lista de oferta do SIGAA, listados a seguir:  </p>
 <p align="justify">&emsp;&emsp; •	Quantidade de disciplinas ofertadas por curso </p>
 <p align="justify">&emsp;&emsp; •	Quantidade de vagas ofertadas por curso </p>
