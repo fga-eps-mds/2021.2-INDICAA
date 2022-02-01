@@ -5,7 +5,7 @@
 **Data** | **Versão** | **Descrição** | **Autor(es/as)**
 --- | --- | --- | --- 
 28/01/2022 | 0.1 | Versão Inicial | Matheus Pimentel Leal, Gabriel Mariano da Silva e Guilherme Barbosa Ferreira
-??/??/???? | x.x | Lorem Ipsum | **A preencher.** Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+31/01/2022 | 0.2 | Pequenas Correções | Gabriel Mariano da Silva
 ??/??/???? | x.x | Lorem Ipsum | **A preencher.** Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
 
 ### Siglas
@@ -15,8 +15,6 @@ SIGAA | Sistema Integrado de Gestão de Atividades Acadêmicas
 INDICAA | Nome **provisório** dado ao projeto relativo aos indicadores do SIGAA
 UnB | Universidade de Brasília
 FGA | Faculdade do Gama
-COVID-19 | Doença infecciosa causada pelo vírus SARS-CoV-2
-H3N2 | É um subtipo de Influenzavirus A
 
 ## 1. Introdução
 Este documento visa informar as principais características do projeto **INDICAA** de forma concisa e clara para a leitura de todos os interessados no projeto e nas suas etapas de execução e decisão. Abaixo serão tratados os seguintes tópicos relacionados à este projeto: descrição, propósito e justificativa, objetivos, partes interessadas (usuários e envolvidos no desenvolvimento), requisitos de alto nível, análise de riscos, requisitos para a aprovação seguindo a definition of done estabelecida e estratégias de comunicação.
