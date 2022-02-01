@@ -102,8 +102,8 @@ Para comunicação interna foram utilizadas as seguintes ferramentas: **Discord*
 Para comunicação com os demais grupos utilizamos, além das ferramentas citadas anteriormente, o **GitHub**.
 
 ## 10. Referências
-**CheeryUP - Termo de Abertura do Projeto**. Brasil, 2021. Disponível em: <https://fga-eps-mds.github.io/2020.2-CheeryUP/#/./wiki/TAP?id=5---riscos> <br />
-**Acácia - Termo de Abertura do Projeto**. Brasil, 2019. Disponível em: <https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/08/02/termo-de-abertura-do-projeto/> <br />
-**AlligaBot - Termo de Abertura do Projeto**. Brasil, 2021. Disponível em: <https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/08/02/termo-de-abertura-do-projeto/> <br />
-"**O guia do SCRUM**" por Ken Schwaber, Jeff Sutherland. Novembro de 2020. Disponível em: <https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Portuguese-European.pdf> <br />
-Issue #6, **Documentações**. Disponível em: <https://github.com/fga-eps-mds/Projeto01/issues/6#issuecomment-1022324492> <br />
+UNIVERSIDADE DE BRASÍLIA (Brasil). **CheeryUP. Termo de abertura do projeto.** [S. l.], 2021. Disponível em: <https://fga-eps-mds.github.io/2020.2-CheeryUP/#/./wiki/TAP?id=5---riscos>. Acesso em: 28 jan. 2022. <br />
+UNIVERSIDADE DE BRASÍLIA (Brasil). **Acácia. Termo de abertura do projeto.** [S. l.], 2019. Disponível em: <https://fga-eps-mds.github.io/2019.2-Acacia/#/project_charter>. Acesso em: 28 jan. 2022. <br />
+UNIVERSIDADE DE BRASÍLIA (Brasil). **AlligaBot. Termo de abertura do projeto.** [S. l.], 2021. Disponível em: <https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/08/02/termo-de-abertura-do-projeto/>. Acesso em: 28 jan. 2022. <br />
+SCHWABER, Ken; SUTHERLAND, Jeff. **O Guia do Scrum**. [S. l.], 2020. Disponível em: <https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Portuguese-European.pdf>. Acesso em: 28 jan. 2022. <br />
+MORETTI, Gabriel. **Issue #6 - Pesquisas - Documentação**. [S. l.], 2022. Disponível em: <https://github.com/fga-eps-mds/Projeto01/issues/6#issuecomment-1022324492>. Acesso em: 28 jan. 2022. <br />
