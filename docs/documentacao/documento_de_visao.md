@@ -9,6 +9,7 @@
 |29/01/2022|0.5|Continuação do tópico 4|Letícia|
 |30/01/2022|0.6|Adição do tópico 5|Vitor|
 |31/01/2022|0.7|Adição do tópico 6|Caio|
+|31/01/2022|0.8|Correção de erros|Letícia|
 
 ## 1. <a name="1">Introdução</a>
 
@@ -36,7 +37,7 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
 se assustar com a quantidade de informações lançadas na tela do computador. Até para os mais experientes 
 ainda é difícil encontrar informações básicas como as disciplinas ofertadas. </p>
  
-<p align="justify"> &emsp;&emsp; O objetivo desse projeto, seria uma melhor organização das informações 
+<p align="justify"> &emsp;&emsp; O objetivo desse projeto é uma melhor organização das informações 
 disponíveis no nosso site acadêmico. Sendo assim, os alunos terão a possibilidade de visualizar a quantidade 
 de disciplinas por curso, a quantidade de vagas ofertadas, a quantidade de alunos matriculados e a quantidade 
 de salas disponíveis. </p>
@@ -65,7 +66,7 @@ de gestão e controle de processos como a própria matrícula em disciplina. </p
 <p align="justify">&emsp;&emsp; O produto possibilita que o aluno busque por matérias específicas para o 
  seu curso, evitando a confusão com outras disciplinas aparecendo na tela ao mesmo tempo. Desta forma, com toda essa 
  disponibilidade de informação, é possível obter uma melhor gestão e organização tanto para a escolha de disciplinas 
- por parte do estudante quanto, quanto para a análise de dados por parte da coordenação ou pelos próprios professores. </p>
+ por parte do estudante, quanto para a análise de dados por parte da coordenação ou pelos próprios professores. </p>
  
  ## 3. <a name="3">Descrição dos usuários e envolvidos</a>
  
@@ -136,6 +137,14 @@ Grupo 1:
 |:-:|:-:|:-:|:-:|:-:|
 | Responsáveis por disciplinas acadêmicas interessados em conseguir administrá-las com mais facilidade | Professores da UnB | Desfrutar do produto, disponibilizando, também, feedback| Encontrar informações (outrora complicadas de se achar) com facilidade | Baixo(?) 
 
+#### 3.5.3 <a name="3.5.3">Outros</a>
+|**Representantes**|**tipo**|**Responsabilidade**|**Critério de sucesso**|**Envolvimento**|
+|:-:|:-:|:-:|:-:|:-:|
+| Responsáveis da parte de gestão visando uma organização melhor ou um atalho para análise de dados. | coordenação da UnB e gestores | Desfrutar do produto, disponibilizando, também, feedback| Encontrar informações (outrora complicadas de se achar) com facilidade | Baixo(?) 
+
+
+
+
 ## 4. <a name="4">Visão Geral do Produto</a>
 
 ### 4.1.  <a name="4.1">Perspectivas</a>
@@ -144,22 +153,24 @@ Grupo 1:
 
 ### 4.2.  <a name="4.2">Resumo das Capacidades</a>
 
-<p align="justify">&emsp;&emsp;A aplicação proporcionará uma interface adaptada à experiência de usuário dos alunos e professores, por meio da utilização de filtros de busca com palavras-chave, dentre outros aspectos os quais influenciarão positivamente na tomada de decisão relativa matricula em disciplinas, análise de dados e gestão de processos.  
+<p align="justify">&emsp;&emsp;A aplicação proporcionará uma interface adaptada à experiência de usuário dos alunos e professores, por meio da utilização de filtros de busca com palavras-chave, dentre outros aspectos os quais influenciarão positivamente na tomada de decisão relativa matrícula em disciplinas, análise de dados e gestão de processos.  
  
 ## 5. <a name="5">Recursos do Produto</a>
 
 ### 5.1.  <a name="5.1">Recursos dos discentes</a>
 
 <p align="justify">&emsp;&emsp; O discente poderá ter acesso aos seguintes recursos quando realizar o login:
- * Verificar disciplinas ofertadas.
- * Visualizar os horários das disciplinas de forma fácil.
- * Visualizar salas disponiveis por curso.
+ 
+ - Verificar disciplinas ofertadas.
+ - Visualizar os horários das disciplinas de forma fácil.
+ - Visualizar salas disponíveis por curso.
  
 ### 5.2.  <a name="5.2">Recursos dos docentes</a>
 
 <p align="justify">&emsp;&emsp; O docente poderá ter acesso aos seguintes recursos quando realizar o login:
- * Verificar disponibilidade de salas.
- * Verificar a quantidade de alunos matriculados em suas matérias.
+ 
+ - Verificar disponibilidade de salas.
+ - Verificar a quantidade de alunos matriculados em suas matérias.
  
 ### 5.3.  <a name="5.3">Filtro</a>
 
