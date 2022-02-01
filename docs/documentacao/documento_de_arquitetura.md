@@ -4,7 +4,7 @@
 |-|-|-|-|
 |30/01/2022|0.1|Abertura Documento de Visão|Guilherme|
 |31/01/2022|0.2|Adicionado Tópico de Referências|Guilherme|
-|01/02/2022|0.3|Listagem das restrições de arquitetura|Arthur|
+|01/02/2022|0.3|Listagem das restrições da arquitetura|Arthur|
 
 ## 1. <a name="1">Introdução</a>
 
