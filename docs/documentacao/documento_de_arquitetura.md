@@ -12,11 +12,11 @@
 
 ### 1.1 <a name ="1_1">Objetivo</a>
 
-<p align="justify"> &emsp;&emsp; O objetivo deste documento é oferecer, de modo claro, as diversas visões as quais os modelos arquiteturais que vinculam o sistema INDICAA vem a possuir, trazendo consigo as características necessárias para os controles de suas atividades arquiteturais, assim moldando todo procedimento para o desenvolvimento do sistema.  </p>
+<p align="justify"> &emsp;&emsp; O objetivo deste documento é oferecer, de modo claro e geral, a visão aquitetural do projeto INDICAA, trazendo consigo as características necessárias para os controles de suas atividades arquiteturais, moldando, assim, todo procedimento para o desenvolvimento do sistema. Esse documento também se dispõe a elucidar quais foram as motivações que levaram a equipe a tomar decisões a respeito dessa arquitetura.  </p>
 
 ### 1.2 <a name="1_2">Escopo</a>
 
-<p align="justify"> &emsp;&emsp; Esse documento aplica-se ao projeto INDICAA, um sistema que agrupa diversas informações importantes para organização dos alunos e professoraes da UNB. Os alunos terão a possibilidade de visualizar a quantidade de disciplinas por curso, a quantidade de vagas ofertadas, a quantidade de alunos matriculados e a quantidade de salas disponíveis. E, por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento de informações será mais simples, ajudando tanto a parte estudantil da UnB, quanto a parte de gestão e controle de processos como a própria matrícula em disciplina. Esse projeto será desenvolvido pelos alunos das disciplinas Métodos de Desenvolvimento de Software, da Universidade de Brasília - Campus Gama</p>
+<p align="justify"> &emsp;&emsp; Esse documento aplica-se ao projeto INDICAA, um sistema que agrupa diversas informações importantes para organização dos alunos e professoraes da UNB. Os alunos terão a possibilidade de visualizar a quantidade de disciplinas por curso, a quantidade de vagas ofertadas, a quantidade de alunos matriculados e a quantidade de salas disponíveis. E, por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento de informações será mais simples, ajudando tanto a parte estudantil da UnB, quanto a parte de gestão e controle de processos como a própria matrícula em disciplina. Esse projeto será desenvolvido pelos alunos da disciplina de Métodos de Desenvolvimento de Software da Universidade de Brasília - Campus Gama</p>
 
 ### 1.3 <a name=1_3>Siglas e seus significados</a>
 
@@ -48,24 +48,29 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
  
  ### 3.1 <a name="3.1">Metas</a>
  
-<p align="justify">&emsp;&emsp; Este projeto tem como meta, fazer um painel com o intuito de mostrar os respectivos indicadores da lista de oferta do SIGAA, listados a seguir:  </p>
+<p align="justify">&emsp;&emsp; Este projeto tem como meta fazer um painel com o intuito de mostrar os respectivos indicadores da lista de oferta do SIGAA listados a seguir:  </p>
 <p align="justify">&emsp;&emsp; •	Quantidade de disciplinas ofertadas por curso </p>
 <p align="justify">&emsp;&emsp; •	Quantidade de vagas ofertadas por curso </p>
 <p align="justify">&emsp;&emsp; •	Quantidade de alunos matriculados por curso </p>
 <p align="justify">&emsp;&emsp; •	Quantidade de salas disponíveis por curso </p>
-<p align="justify">&emsp;&emsp; Para cumprir tais metas, sera necessário a utilização de um Webcrawler com o intuito de retirar tais informações do site SIGAA, salvar tais informações em um banco de dados, e utilizar ferramentas de BI(Business Intelligence)  para a amostragem desses dados. </p>
+<p align="justify">&emsp;&emsp; Para cumprir tais metas, será necessário a utilização de um Webcrawler com o intuito de retirar as informações do SIGAA, salvá-las em um banco de dados e utilizar ferramentas de BI (Business Intelligence) para a amostragem dos indicadores. </p>
 
 
 
 ### 3.2 <a name="3.2">Restrições da Arquitetura</a>
 
-<p align="justify">&emsp;&emsp; Nescessidade de acesso à internet </p>
-<p align="justify">&emsp;&emsp; Instabilidade da plataforma (SIGAA) </p>
-<p align="justify">&emsp;&emsp; Demora para atualização das informações no SIGAA </p>
-<p align="justify">&emsp;&emsp; Extensão pode ser incompatível com alguns navegadores </p>
+<p align="justify">&emsp;&emsp; • Nescessidade de acesso à internet </p>
+<p align="justify">&emsp;&emsp; • Instabilidade da plataforma (SIGAA) </p>
+<p align="justify">&emsp;&emsp; • Demora para atualização das informações no SIGAA </p>
+<p align="justify">&emsp;&emsp; • Extensão pode ser incompatível com alguns navegadores </p>
 
- 
-## 4. <a name="4">Referências</a>
+## 4. <a name="4">Visão de Casos de Uso</a>
+(o que é possível fazer com o software?)
+
+(fazer topicalizado)
+
+
+## 5. <a name="4">Referências</a>
  
  MATHEUS, Davi; et al. Documento de Arquitetura - Cheery Up. Disponível em: <https://fga-eps-mds.github.io/2020.2-CheeryUP/#/./wiki/Documents/Documento_de_Arquitetura?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
  
