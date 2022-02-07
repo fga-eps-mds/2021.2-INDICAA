@@ -7,6 +7,7 @@
 |01/02/2022|0.3|Listagem das restrições da arquitetura|Arthur|
 |01/02/2022|0.4|Definição do Escopo do Projeto|Guilherme|
 |01/02/2022|0.5|Definição de Metas da Arquitetura|Thiago O. e Pedro|
+|07/02/2022|0.6|Adicionado Tópico de Visão Geral do projeto|João Paulo|
 
 ## 1. <a name="1">Introdução</a>
 
@@ -29,7 +30,20 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
 |**MDS**| Métodos de Desenvolvimento de Software
 |**SIGAA**| Sistema Integrado de Gestão das Atividades Acadêmicas
 
-  
+### 1.4 <a name=1_4>Visão Geral</a>
+
+<p align="justify"> &emsp;&emsp; Este documento está dividído em 6 grandes tópicos, com subdivisões, com o objetivo final de detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações:</p>
+
+| |Tópico |Descrição |
+|-|-|-|
+|**1**|**Introdução**| Fornece ao leitor uma visão geral do conteúdo abordado no documento
+|**2**|**Representação Arquitetural**| Detalha a arquitetura utilizada no projeto e como ela está organizada
+|**3**|**Metas e Restrições da Arquitetura**| Descreve os objetivos do projeto, bem como suas restrições, do ponto de vista arquitetural
+|**4**|**Visão dos Casos de Uso**| Descreve as partes significativas do ponto de vista da arquitetura do modelo de casos de uso
+|**5**|**Visão Lógica**| Descreve as partes significativas do ponto de vista da arquitetura do modelo de design
+|**6**|**Tamanho e Desempenho**| Descreve as características de desempenho do Software, bem como as restrições estabelecidas e possíveis falhas
+
+
 ## 2. <a name="2">Represetanção de Arquitetura</a>
 
 ### 2.1 <a name="2_1">Padrão Arquitetural</a>
@@ -76,3 +90,4 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
  
  CARVALHO, Durval; et al. Documento de Arquitetura - Acácia. Disponível em: <https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
  
+EDUARDO, Victor; et al. Documento de Arquitetura - AlligaBot. Disponível em: <https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/08/03/documento-de-arquitetura/>. Acesso em: 07/02/2022.
