@@ -58,7 +58,7 @@ desenvolvimento em Linux
     <td align="center"><a href="https://github.com/vitorekr"><img src="https://avatars.githubusercontent.com/u/56610229?v=4" width="100px;" alt=""/><br /><sub><b>Vitor Khül</b></sub></a><br /><a href="https://github.com/vitorekr"></a></td>
     <td align="center"><a href="https://github.com/OCaioOliveira"><img src="https://avatars.githubusercontent.com/u/54439337?v=4" width="100px;" alt=""/><br /><sub><b>Caio César</b></sub></a><br /><a href="https://github.com/OCaioOliveira"></a></td>
     <td align="center"><a href="https://github.com/guigudf"><img src="https://avatars.githubusercontent.com/u/78756768?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Araujo</b></sub></a><br /><a href="https://github.com/guigudf"></a></td>
-    <td align="center"><a href="https://github.com/joaopaulob3"><img src="https://avatars.githubusercontent.com/u/87615410?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Araujo</b></sub></a><br /><a href="https://github.com/joaopaulob3"></a></td>
+    <td align="center"><a href="https://github.com/joaopaulob3"><img src="https://avatars.githubusercontent.com/u/87615410?v=4" width="100px;" alt=""/><br /><sub><b>João Paulo</b></sub></a><br /><a href="https://github.com/joaopaulob3"></a></td>
 	</tr>
 </table>
 
