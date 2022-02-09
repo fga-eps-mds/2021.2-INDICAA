@@ -15,7 +15,7 @@
  ![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
  
 ## 💻 Objetivos do Projeto
-Apresentar um painel com os indicadores do SIGAA para:
+Apresentar um painel com os indicadores do SIGAA para facilitar a visualização da:
 
   - Quantidade de disciplinas ofertadas por curso
   - Quantidade de vagas ofertadas por curso
