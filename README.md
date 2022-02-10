@@ -15,8 +15,10 @@
  ![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
  
 ## 💻 Objetivos do Projeto
-Apresentar um painel com os indicadores do SIGAA para facilitar a visualização da:
 
+Com o retorno as atividades presenciais se aproximando, faz se necessário a volta da divisão de sala para cada professor, relacionando o número de alunos matriculados; as vagas ofertadas pelas matérias; e as salas disponíveis. Tendo em vista essa atividade e a alta demanda de tempo para buscar essa informações no site do Sigaa, decidimos criar um software capaz apresentar um painel com os indicadores do SIGAA, de modo a facilitar a visualização dessas informações e o trabalho da secretaria na organização da volta das aulas presenciais.  
+
+Dentre os requisitos estabelecidos, encontram-se dispostos no painel:
   - Quantidade de disciplinas ofertadas por curso
   - Quantidade de vagas ofertadas por curso
   - Quantidade de alunos matriculados por curso
@@ -28,7 +30,7 @@ Apresentar um painel com os indicadores do SIGAA para facilitar a visualização
   
 ## ⚙️ Fluxo Organizacional
   Para melhor desenvolvimento do projeto e gestão das atividades foi usado uma metodologia ágil hibrida de Scrum e Kanban.
-  Workflow organizado e controlado através do ZenHub
+  Workflow organizado e controlado através do ZenHub, com o uso de roadmaps e planning poker.
 
 ## ✏ Como executar o projeto
 
@@ -37,28 +39,60 @@ Apresentar um painel com os indicadores do SIGAA para facilitar a visualização
 Esse projeto usa algumas ferramentas para o seu desenvolvimento:
 - [Ubuntu](https://ubuntu.com/download) para 
 desenvolvimento em Linux
+- [TBD]
 
 ### 💿 Instalação 
 
 ## 🤝 Contribuição Livre
 
+[Guia de Contribuição (WIP)]
+
+[Código de Conduta (WIP)]
+
+[Políticas de Commits (WIP)]
+
+[Template para criação de issues](docs/templates/IssueTemplate.md)
+
+[Template para criação de pull requests](docs/templates/pull_request_template.md)
+
 ## 🤓 Desenvolvedores
+
+### Grupo 1
+
 <table>
-	<tr>
-		<td align="center"><a href="https://github.com/Matheuspleal"><img src="https://avatars.githubusercontent.com/u/62526025?v=4" width="100px;" alt=""/><br /><sub><b>Matheus Pimentel Leal</b></sub></a><br /><a href="https://github.com/Matheuspleal"></a></td>
-    <td align="center"><a href="https://github.com/AdneMoretti"><img src="https://avatars.githubusercontent.com/u/64036847?v=4" width="100px;" alt=""/><br /><sub><b>Adne Moretti</b></sub></a><br /><a href="https://github.com/AdneMoretti"></a></td>
-    <td align="center"><a href="https://github.com/gabrielm2q"><img src="https://avatars.githubusercontent.com/u/72149063?v=4" width="100px;" alt=""/><br /><sub><b>Gabriel Mariano</b></sub></a><br /><a href="https://github.com/gabrielm2q"></a></td>
-    <td align="center"><a href="https://github.com/PedroSiq"><img src="https://avatars.githubusercontent.com/u/86636146?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Siqueira</b></sub></a><br /><a href="https://github.com/PedroSiq"></a></td>
-    <td align="center"><a href="https://github.com/LeticiaAires"><img src="https://avatars.githubusercontent.com/u/72623771?v=4" width="100px;" alt=""/><br /><sub><b>Leticia Aires</b></sub></a><br /><a href="https://github.com/LeticiaAires"></a></td>
-    <td align="center"><a href="https://github.com/MorettiGS"><img src="https://avatars.githubusercontent.com/u/78612945?v=4" width="100px;" alt=""/><br /><sub><b>Gabriel Moretti</b></sub></a><br /><a href="https://github.com/MorettiGS"></a></td>
-    <td align="center"><a href="https://github.com/guibrbs"><img src="https://avatars.githubusercontent.com/u/88190414?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Barbosa</b></sub></a><br /><a href="https://github.com/guibrbs"></a></td>
+	<tr>    
+    <td align="center"><a href="https://github.com/LeticiaAires"><img src="https://avatars.githubusercontent.com/u/72623771?v=4" width="100px;" alt=""/><br /><sub><b>Leticia Aires</b></sub></a><br /><a href="https://github.com/LeticiaAires"></a></td>    
     <td align="center"><a href="https://github.com/lucasqueiroz23"><img src="https://avatars.githubusercontent.com/u/86672557?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Henrique</b></sub></a><br /><a href="https://github.com/lucasqueiroz23"></a></td>
     <td align="center"><a href="https://github.com/mc-gomes"><img src="https://avatars.githubusercontent.com/u/72279998?v=4" width="100px;" alt=""/><br /><sub><b>Matheus Costa Gomes</b></sub></a><br /><a href="https://github.com/mc-gomes"></a></td>
     <td align="center"><a href="https://github.com/laurapinos"><img src="https://avatars.githubusercontent.com/u/62102447?v=4" width="100px;" alt=""/><br /><sub><b>Laura Pinos </b></sub></a><br /><a href="https://github.com/laurapinos"></a></td>
     <td align="center"><a href="https://github.com/vitorekr"><img src="https://avatars.githubusercontent.com/u/56610229?v=4" width="100px;" alt=""/><br /><sub><b>Vitor Khül</b></sub></a><br /><a href="https://github.com/vitorekr"></a></td>
     <td align="center"><a href="https://github.com/OCaioOliveira"><img src="https://avatars.githubusercontent.com/u/54439337?v=4" width="100px;" alt=""/><br /><sub><b>Caio César</b></sub></a><br /><a href="https://github.com/OCaioOliveira"></a></td>
-    <td align="center"><a href="https://github.com/guigudf"><img src="https://avatars.githubusercontent.com/u/78756768?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Araujo</b></sub></a><br /><a href="https://github.com/guigudf"></a></td>
-    <td align="center"><a href="https://github.com/joaopaulob3"><img src="https://avatars.githubusercontent.com/u/87615410?v=4" width="100px;" alt=""/><br /><sub><b>João Paulo</b></sub></a><br /><a href="https://github.com/joaopaulob3"></a></td>
+	</tr>
+</table>
+
+### Grupo 3
+
+<table>
+	<tr>
+		<td align="center"><a href="https://github.com/Matheuspleal"><img src="https://avatars.githubusercontent.com/u/62526025?v=4" width="100px;" alt=""/><br /><sub><b>Matheus Pimentel Leal</b></sub></a><br /><a href="https://github.com/Matheuspleal"></a></td>
+		<td align="center"><a href="https://github.com/AdneMoretti"><img src="https://avatars.githubusercontent.com/u/64036847?v=4" width="100px;" alt=""/><br /><sub><b>Adne Moretti</b></sub></a><br /><a href="https://github.com/AdneMoretti"></a></td>
+		<td align="center"><a href="https://github.com/MorettiGS"><img src="https://avatars.githubusercontent.com/u/78612945?v=4" width="100px;" alt=""/><br /><sub><b>Gabriel Moretti</b></sub></a><br /><a href="https://github.com/MorettiGS"></a></td>
+    		<td align="center"><a href="https://github.com/gabrielm2q"><img src="https://avatars.githubusercontent.com/u/72149063?v=4" width="100px;" alt=""/><br /><sub><b>Gabriel Mariano</b></sub></a><br /><a href="https://github.com/gabrielm2q"></a></td>
+		<td align="center"><a href="https://github.com/guibrbs"><img src="https://avatars.githubusercontent.com/u/88190414?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Barbosa</b></sub></a><br /><a href="https://github.com/guibrbs"></a></td>	
+	</tr>
+</table>
+
+### Grupo 4	
+
+<table>
+	<tr>
+		<td align="center"><a href="https://github.com/guigudf"><img src="https://avatars.githubusercontent.com/u/78756768?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Araujo</b></sub></a><br /><a href="https://github.com/guigudf"></a></td>
+		<td align="center"><a href="https://github.com/PedroSiq"><img src="https://avatars.githubusercontent.com/u/86636146?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Augusto</b></sub></a><br /><a href="https://github.com/PedroSiq"></a></td>
+    		<td align="center"><a href="https://github.com/joaopaulob3"><img src="https://avatars.githubusercontent.com/u/87615410?v=4" width="100px;" alt=""/><br /><sub><b>João Paulo</b></sub></a><br /><a href="https://github.com/joaopaulob3"></a></td>
+    		<td align="center"><a href="https://github.com/thiago-vivan"><img src="https://avatars.githubusercontent.com/u/80918128?v=4" width="100px;" alt=""/><br /><sub><b>Thiago Vivian</b></sub></a><br /><a href="https://github.com/thiago-vivan"></a></td>
+    		<td align="center"><a href="https://github.com/Eruel6"><img src="https://avatars.githubusercontent.com/u/71983159?v=4" width="100px;" alt=""/><br /><sub><b>Arthur Taylor</b></sub></a><br /><a href="https://github.com/Eruel6"></a></td>
+    		<td align="center"><a href="https://github.com/mateusvff"><img src="https://avatars.githubusercontent.com/u/71900095?v=4" width="100px;" alt=""/><br /><sub><b>Mateus Franco</b></sub></a><br /><a href="https://github.com/mateusvff"></a></td>
+    		<td align="center"><a href="https://github.com/Thiab394"><img src="https://avatars.githubusercontent.com/u/71983200?v=4" width="100px;" alt=""/><br /><sub><b>Thiago Oliveira</b></sub></a><br /><a href="https://github.com/Thiab394"></a></td>
 	</tr>
 </table>
 
