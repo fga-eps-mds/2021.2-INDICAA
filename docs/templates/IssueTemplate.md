@@ -31,4 +31,4 @@ A issue deve estar indicada corretamente para a sprint que antevia sua execuçã
 A issue deve ter uma estimativa de dificuldade gerada pelo time.
 
 # Epics
-A issue deve estar relacionada a um épico de modo a facilitar o controle de tempo das tarefas e a decisão de prioridades
+A issue deve estar relacionada a um épico de modo a facilitar o controle de tempo das tarefas e a decisão de prioridades.
