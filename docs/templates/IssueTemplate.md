@@ -8,8 +8,8 @@ Espaço destinado à descrição da tarefa (issue) a ser criada e desenvolvida, 
 Nesse espaço deve estar detalhado o(s) passo(s) a serem seguidos e completados, como por exemplo:
 - [ ] Ligar fogo baixo na panela.
 - [ ] Adicionar manteiga na panela.
-- [ ] Quebrar um ovo.
-- [ ] Mexer esse ovo em fogo baixo.
+- [ ] Quebrar o ovo.
+- [ ] Mexer o ovo em fogo baixo.
 - [ ] Comer.
 
 # Critérios de aceitação
