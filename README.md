@@ -16,7 +16,7 @@
  
 ## 💻 Objetivos do Projeto
 
-Com o retorno as atividades presenciais se aproximando, faz se necessário a volta da divisão de sala para cada professor, relacionando o número de alunos matriculados; as vagas ofertadas pelas matérias; e as salas disponíveis. Tendo em vista essa atividade e a alta demanda de tempo para buscar essa informações no site do Sigaa, decidimos criar um software capaz apresentar um painel com os indicadores do SIGAA, de modo a facilitar a visualização dessas informações e o trabalho da secretaria na organização da volta das aulas presenciais.  
+Com o retorno às atividades presenciais, faz-se necessária a volta da divisão de sala para cada professor, relacionando o número de alunos matriculados; as vagas ofertadas pelas matérias; e as salas disponíveis. Tendo em vista essa atividade e a alta demanda de tempo para buscar as informações no site do Sigaa, foi proposto um projeto com a ideia de criar um software capaz apresentar um painel com os indicadores do SIGAA, de modo a facilitar a visualização dessas informações e o trabalho da secretaria na organização da volta das aulas presenciais.  
 
 Dentre os requisitos estabelecidos, encontram-se dispostos no painel:
   - Quantidade de disciplinas ofertadas por curso
