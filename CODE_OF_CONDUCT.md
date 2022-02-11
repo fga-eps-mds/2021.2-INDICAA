@@ -37,17 +37,12 @@ Examples of unacceptable behavior include:
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
-## Enforcement Responsibilities
+## Nossas responsabilidades
 
-Community leaders are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate, threatening, offensive,
-or harmful.
+Os membros do projeto são os responsáveis por esclarecer e reforçar os padrões de comportamentos aceitáveis, e estes devem adotar ações corretivas apropriadas para a ação em resposta a comportamentos inapropriados, ameaçadores, prejudiciais e ofensivos.
 
-Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will communicate reasons for moderation
-decisions when appropriate.
+Também são os membros responsáveis por remover, editar ou rejeitar comentários, commits, pull requests, isuues e qualquer outro tipo de contribuição que viole este Código de Conduta e comunicar as decisões após análise do comportamento.
+
 
 ## Scope
 
@@ -57,15 +52,13 @@ Examples of representing our community include using an official e-mail address,
 posting via an official social media account, or acting as an appointed
 representative at an online or offline event.
 
-## Enforcement
+## Execução
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-[INSERT CONTACT METHOD].
-All complaints will be reviewed and investigated promptly and fairly.
+Qualquer instância de comportamento abusivo, assediador ou inaceitável conforme os termos acima, podem ser reportados para a equipe responsável pelo projeto por meio do email rocha.carla@gmail.com. 
 
-All community leaders are obligated to respect the privacy and security of the
-reporter of any incident.
+Todos os acontecimentos relatados vão ser analisados e investigados de forma justa para que seja tomada uma decisão baseada no contexto e nas circustâncias. A equipe do projeto deve respeitar a confidencialidade em relação às informações do redator do incidente.
+
+Os membros do projeto que não seguirem o que está descrito neste Código de Conduta poderão enfrentar algumas ações corretivas, que podem ser de caráter temporário ou permanente, conforme determinado por membros pertencentes a liderança do projeto.
 
 ## Enforcement Guidelines
 
