@@ -13,29 +13,23 @@ identity and orientation.
 We pledge to act and interact in ways that contribute to an open, welcoming,
 diverse, inclusive, and healthy community.
 
-## Our Standards
+## Nossos Padrões
 
-Examples of behavior that contributes to a positive environment for our
-community include:
+Exemplos de conduta que contribuem para um ambiente acolhedor para nossa comunidade:
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
-  and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the overall
-  community
+* Ser empático com outros indivíduos
+* Respeitar opiniões e pontos de vista diferentes
+* Aceitar e fornecer _feedbacks_ construtivos
+* Se responsabilizar pelos próprios atos e se desculpar pelos erros cometidos
+* Fazer o melhor para toda a comunidade
 
-Examples of unacceptable behavior include:
+Exemplos de conduta inapropriada na comunidade:
 
-* The use of sexualized language or imagery, and sexual attention or advances of
-  any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email address,
-  without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+* Comunicação verbal ou visual com teor sexual e avanços sexuais indesejados
+* Ataques, insultos e comentários depreciativos, sejam de cunho pessoal ou político
+* Assédio, seja público ou privado
+* Postagem de informações pessoais privadas sem o consentimento do indivíduo e _doxxing_
+* Quaisquer outras condutas inapropriadas em um ambiente profissional
 
 ## Enforcement Responsibilities
 
