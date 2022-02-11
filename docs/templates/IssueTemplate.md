@@ -19,7 +19,7 @@ Nesse espaço deve estar detalhado o(s) passo(s) a serem seguidos e completados,
 - [ ] Descrição da qualidade da comida.
 
 # Assignees
-A issue deve ser indicada para, pelo menos, um integrante do time.
+A issue deve ser indicada para, pelo menos, um integrante do time realizar a tarefa.
 
 # Labels
 A issue deve ser classificada por meio de tags, para melhor organização e busca no projeto. Caso não exista uma tag condizente com o assunto em questão deve ser criada uma nova tag.
