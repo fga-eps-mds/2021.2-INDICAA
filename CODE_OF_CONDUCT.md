@@ -1,17 +1,11 @@
 
 # Contributor Covenant Code of Conduct
 
-## Our Pledge
+## Nosso compromisso
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, caste, color, religion, or sexual
-identity and orientation.
+Nós, como colaboradores e mantenedores, comprometemo-nos em tornar a participação na nossa comunidade e no nosso projeto uma experiência livre de assédio para todos, independentemente da idade, do tamanho do corpo, deficiência, etnia, características sexuais, identidade e expressão de gênero, nível de experiência, educação, status socioeconômico, nacionalidade, pessoal aparência, raça, religião ou identidade e orientação sexual.
 
-We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+Portanto, comprometemo-nos a agir e interagir de modo a contribuir para uma comunidade aberta, acolhedora, diversa, inclusiva e saudável.
 
 ## Nossos Padrões
 
