@@ -1,15 +1,15 @@
 
 # Contributor Covenant Code of Conduct
 
-## Nosso compromisso
+## Nosso compromisso e propósito
 
-Nós, como colaboradores e mantenedores, comprometemo-nos em tornar a participação na nossa comunidade e no nosso projeto uma experiência livre de assédio para todos, independentemente da idade, do tamanho do corpo, deficiência, etnia, características sexuais, identidade e expressão de gênero, nível de experiência, educação, status socioeconômico, nacionalidade, pessoal aparência, raça, religião ou identidade e orientação sexual.
+O projeto é gerenciado por estudantes durante a execução da disciplina de Métodos de Desenvolvimento de Software da Universidade de Brasília. Nós, como colaboradores e mantenedores, comprometemo-nos em tornar a participação na nossa comunidade e no nosso projeto uma experiência livre de assédio para todos, independentemente de idade, deficiência, nível de experiência, educação, status socioeconômico, nacionalidade, cor, raça, etnia, credo ou identidade e orientação sexual.
 
 Portanto, comprometemo-nos a agir e interagir de modo a contribuir para uma comunidade aberta, acolhedora, diversa, inclusiva e saudável.
 
 ## Nossos Padrões
 
-Exemplos de conduta que contribuem para um ambiente acolhedor para nossa comunidade:
+### Exemplos de conduta que contribuem para um ambiente acolhedor para nossa comunidade:
 
 * Ser empático com outros indivíduos
 * Respeitar opiniões e pontos de vista diferentes
@@ -17,7 +17,7 @@ Exemplos de conduta que contribuem para um ambiente acolhedor para nossa comunid
 * Se responsabilizar pelos próprios atos e se desculpar pelos erros cometidos
 * Fazer o melhor para toda a comunidade
 
-Exemplos de conduta inapropriada na comunidade:
+### Exemplos de conduta inapropriada na comunidade:
 
 * Comunicação verbal ou visual com teor sexual e avanços sexuais indesejados
 * Ataques, insultos e comentários depreciativos, sejam de cunho pessoal ou político
@@ -29,14 +29,12 @@ Exemplos de conduta inapropriada na comunidade:
 
 Os membros do projeto são os responsáveis por esclarecer e reforçar os padrões de comportamentos aceitáveis, e estes devem adotar ações corretivas apropriadas para a ação em resposta a comportamentos inapropriados, ameaçadores, prejudiciais e ofensivos.
 
-Também são os membros responsáveis por remover, editar ou rejeitar comentários, commits, pull requests, isuues e qualquer outro tipo de contribuição que viole este Código de Conduta e comunicar as decisões após análise do comportamento.
-
+Os membros do projeto também são responsáveis por remover, editar ou rejeitar comentários, commits, pull requests, isuues e qualquer outro tipo de contribuição que viole este Código de Conduta e comunicar as decisões após análise do comportamento. Por fim, fica a creitério dos membros banir temporariamente ou permanentemente qualquer contribuidor por comportamentos que considerem inadequados, ameaçadores, ofensivos ou prejudiciais.
 
 ## Escopo
 
-Este código de conduta se aplica à todos os espaços comuns deste projeto
-e também é aplicável quando uma pessoa está representando o projeto oficialmente.
-Por exemplo, em eventos presenciais ou online que envolvam assuntos oficiais do projeto.
+Este código de conduta se aplica à todos os espaços comuns deste projeto e também é aplicável quando uma pessoa está representando o projeto oficialmente.
+Por exemplo, em eventos e comunicações presenciais ou online que envolvam assuntos oficiais do projeto.
 
 ## Execução
 
