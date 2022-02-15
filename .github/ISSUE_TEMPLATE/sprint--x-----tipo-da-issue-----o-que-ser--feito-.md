@@ -2,9 +2,9 @@
 name: Sprint "X" - "Tipo da issue" - "O que será feito"
 about: 'Espaço destinado à descrição da tarefa (issue) a ser criada e desenvolvida,
   como por exemplo: "Fazer um ovo mexido".'
-title: ''
-labels: ''
-assignees: ''
+title: 'Descrição clara e sucinta sobre a issue'
+labels: 'Descrição nos tópicos abaixo'
+assignees: 'Descrição nos tópicos abaixo'
 
 ---
 
