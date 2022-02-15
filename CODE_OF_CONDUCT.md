@@ -33,7 +33,7 @@ Os membros do projeto também são responsáveis por remover, editar ou rejeitar
 
 ## Escopo
 
-Este código de conduta se aplica à todos os espaços comuns deste projeto e também é aplicável quando uma pessoa está representando o projeto oficialmente.
+Este código de conduta visa definir o padrão comportamental que será exigido. Ele se aplica à todos os espaços comuns deste projeto e também é aplicável quando uma pessoa está representando o projeto oficialmente.
 Por exemplo, em eventos e comunicações presenciais ou online que envolvam assuntos oficiais do projeto.
 
 ## Execução
