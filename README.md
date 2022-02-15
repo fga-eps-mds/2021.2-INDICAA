@@ -27,6 +27,7 @@ Dentre os requisitos estabelecidos, encontram-se dispostos no painel:
 ## 📚 Releases
  
  1.0 - Planejado para 08/03/2022 
+ 
  2.0 - Planejado para 26/04/2022
   
 ## ⚙️ Fluxo Organizacional
