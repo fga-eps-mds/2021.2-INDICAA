@@ -29,7 +29,7 @@ Portanto, comprometemo-nos a agir e interagir de modo a contribuir para uma comu
 
 Os membros do projeto são os responsáveis por esclarecer e reforçar os padrões de comportamentos aceitáveis, e estes devem adotar ações corretivas apropriadas para a ação em resposta a comportamentos inapropriados, ameaçadores, prejudiciais e ofensivos.
 
-Os membros do projeto também são responsáveis por remover, editar ou rejeitar comentários, commits, pull requests, isuues e qualquer outro tipo de contribuição que viole este Código de Conduta e comunicar as decisões após análise do comportamento. Por fim, fica a creitério dos membros banir temporariamente ou permanentemente qualquer contribuidor por comportamentos que considerem inadequados, ameaçadores, ofensivos ou prejudiciais.
+Os membros do projeto também são responsáveis por remover, editar ou rejeitar comentários, commits, pull requests, isuues e qualquer outro tipo de contribuição que viole este Código de Conduta e comunicar as decisões após análise do comportamento. Por fim, fica a critério dos membros banir temporariamente ou permanentemente qualquer contribuidor por comportamentos que considerem inadequados, ameaçadores, ofensivos ou prejudiciais.
 
 ## Escopo
 
