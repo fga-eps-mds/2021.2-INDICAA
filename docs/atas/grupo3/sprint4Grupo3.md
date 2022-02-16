@@ -47,7 +47,7 @@ Tal layout é apenas um exemplo e pode vir a ser alterado a qualquer momento!
 _O trabalho entregue foi satisfatório em relação aos objetivos da sprint, conforme revisão._
 
 ## Velocity
-_inserir imagem com a velocidade de execução da sprint em comparação às outras_
+![Velocity](https://i.ibb.co/M7nL6h6/Screenshot-from-2022-02-16-13-43-15.png)
 
 # Retrospectiva
 
@@ -68,7 +68,7 @@ _inserir imagem com a velocidade de execução da sprint em comparação às out
 
 # Quadro de Conhecimento
 
-_inserir print da tabela com o gráfico de conhecimento_
+![Conhecimentos](https://i.ibb.co/8mH1j2s/Screenshot-from-2022-02-16-13-54-25.png)
 
 # Análise do Scrum Master
 _Num geral, esta foi a sprint na qual o grupo sentiu maior avanço em relação aos objetivos finais do projeto. Tendo isso em vista, devemos aproveitar o momento de alto engajamento para concluir mais tarefas. Com a ressalva de revisitar sempre os pontos de melhoria citados neste documento._
