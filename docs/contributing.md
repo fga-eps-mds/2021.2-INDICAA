@@ -9,6 +9,7 @@ e a [política de commits](https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 13/02/2022 |    0.1   | Envio inicial | [Mateus Franco](https://github.com/Mateusvff)|
+| 15/02/2022 |    0.2   | Mudança nas estimativas | [Guilherme Santos](https://github.com/guigudf)|
 
 
 
@@ -34,9 +35,10 @@ Pontuação | Critérios
 1 | Tarefa bem simples, é possível ser feita em até 1h 
 2 | Tarefa simples que leva algumas horas
 3 | Tarefa que pode levar algumas horas e necessita de alguma pesquisa
-5 | Tarefa não tão simples, precisa de pesquisa e deve levar alguns dias
-8 | Tarefa complexa, pode durar a semana toda
-13 | Tarefa muito complexa, provavelmente levará mais que uma sprint, melhor rever e dividir em mais de uma issue
+5 | Tarefa tabalhosa, precisa de pesquisa e deve levar o dia todo
+8 | Tarefa não tão simples, precisa de pesquisa e deve levar alguns dias
+13 | Tarefa complexa, pode durar a semana toda
+21 | Tarefa muito complexa, provavelmente levará mais que uma sprint, melhor rever e dividir em mais de uma issue
 
 A pontuação da issue deverá ser levada a votação utilizando a ferramenta de planning poker do zenhub.
 
