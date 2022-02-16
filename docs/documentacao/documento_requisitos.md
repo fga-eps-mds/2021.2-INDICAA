@@ -8,10 +8,10 @@
 ## 1. Introdução
 Este documento conterá as descrições sucintas dos requisitos funcionais e não funcionais do sistema, sem especificação de prioridade.<br /> O documento está passível à futuras alterações, caso seja identificada a necessidade.
 
-# 2. Especificação de requisitos
+## 2. Especificação de requisitos
 Requisitos de software são atribuições que o mesmo deve executar, de modo a se tornarem objetivos e métricas de sucesso para o projeto.<br /> Ou seja, um dos critérios para avaliar se o software foi bem sucedido é o quão fiel ele foi aos seus requisitos pré-definidos. Segue abaixo os Requisitos Funcionais e Não Funcionais: 
 
-## 2.1. Funcionais
+### 2.1. Funcionais
 | **Número**| **Especificação**                                                                                             |
 |-----------|---------------------------------------------------------------------------------------------------------------|
 | RF1 	   	| O sistema deve buscar os cursos e apresentar as matérias                                                      |
@@ -29,7 +29,7 @@ Requisitos de software são atribuições que o mesmo deve executar, de modo a s
 | RF13     	| O sistema deve filtrar as disciplinas ofertadas de acordo com a modalidade (Presencial/Remoto/Semipresencial) |
 | RF14    	| O sistema deve permitir que o usuário altere a forma de exibição do horário                                   |
 
-## 2.2. Não Funcionais
+### 2.2. Não Funcionais
 | **Número**| **Especificação**                                                                                             |
 |-----------|---------------------------------------------------------------------------------------------------------------|
 | RNF1 	   	| O sistema deve atualizar as informações em tempo real conforme o SIGAA                                        |
