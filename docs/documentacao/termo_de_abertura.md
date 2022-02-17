@@ -6,7 +6,7 @@
 --- | --- | --- | --- 
 28/01/2022 | 0.1 | Versão Inicial | Matheus Pimentel Leal, Gabriel Mariano da Silva e Guilherme Barbosa Ferreira
 31/01/2022 | 0.2 | Pequenas Correções | Gabriel Mariano da Silva
-??/??/???? | x.x | Lorem Ipsum | **A preencher.** Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+17/02/2022 | 0.3 | Inserção dos Requisitos de Alto Nível | Gabriel Moretti de Souza e Matheus Pimentel Leal
 
 ### Siglas
 **Sigla** | **Descrição**
@@ -71,7 +71,7 @@ _Scrum Master_ | Matheus Pimentel Leal
 _Product Owner_ | Adne Moretti Moreira
 Arquiteto de Software | Guilherme Barbosa Ferreira
 DevOps | Gabriel Mariano da Silva
-Desenvolvedor | Liander Medeiros Alves <br />Gabriel Moretti de Souza
+Desenvolvedor | Gabriel Moretti de Souza
 
 #### Grupo 4
 **Usuário** | **Descrição**
@@ -81,8 +81,12 @@ _Product Owner_ | Pedro Augusto Santos Siqueira
 Desenvolvedor | Guilherme dos Santos Araújo <br  /> Thiago Oliveira Cunha <br  /> João Paulo da Silva Freitas <br  /> Arthur Taylor de Jesus Popov <br  /> Thiago Vivian Bastos
 
 ## 6. Requisitos de alto nível
-**A preencher.**
-_Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum._
+**Nome** | **Descrição**
+--- | --- 
+Visualização dos dados | Os dados, por curso, que deverão ser visualizados são: Quantidade de disciplinas, Vagas ofertadas, Alunos matriculados e Salas disponíveis.
+Monitoramento de vagas | A ocupação do departamento selecionado deverá ser exibida via gráfico. 
+Filtros de exibição | Deverá ser possível filtrar as disciplinas de acordo com a modalidade (Presencial/Remoto/Semipresencial), e também de modo a exibir as que possuem vagas disponíveis.
+Interatividade com o usuário | As mensagens do sistema para o usuário devem ser claras, e o usuário deve poder buscar pelos cursos e matérias que desejar.
 
 ## 7. Riscos
 **Risco** | **Prevenção** | **Ação**
