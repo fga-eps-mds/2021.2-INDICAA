@@ -8,8 +8,9 @@
 |28/01/2022|0.4|Adição tópico 4 -Visão geral de produto|Matheus|
 |29/01/2022|0.5|Continuação do tópico 4|Letícia|
 |30/01/2022|0.6|Adição do tópico 5|Vitor|
-|31/01/2022|0.7|Adição do tópico 6|Caio|
+|31/01/2022|0.7|Adição do tópico 7|Caio|
 |31/01/2022|0.8|Correção de erros|Letícia|
+|17/02/2022|0.9|Adição do Tópico 6 sobre Requisitos|Caio|
 
 ## 1. <a name="1">Introdução</a>
 
@@ -30,6 +31,8 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
 |**FGA**| Faculdade do Gama 
 |**MDS**| Métodos de Desenvolvimento de Software
 |**SIGAA**| Sistema Integrado de Gestão das Atividades Acadêmicas
+|**RF**| Requisitos Funcionais
+|**RNF**| Requisitos Não Funcionais
 
 ### 1.3 <a name="1_2">Escopo</a>
 
@@ -176,7 +179,42 @@ Grupo 1:
 
 <p align="justify">&emsp;&emsp; A aplicação contará com um sistema de filtragem que dará ao usuário a informação buscada de forma interativa e de forma fácil.
  
-## 6. <a name="5">Referências</a>
+ ## 6. Especificação de requisitos
+<p align="justify">&emsp;&emsp; Requisitos de software são atribuições que o mesmo deve executar, funcionam como características de um sistema, de modo a se tornarem objetivos e métricas de sucesso para o projeto.
+<p align="justify">&emsp;&emsp; Ou seja, um dos critérios para avaliar se o software foi bem sucedido é o quão fiel ele foi aos seus requisitos pré-definidos. Segue abaixo os Requisitos Funcionais e Não Funcionais: 
+
+### 6.1. Funcionais
+| **Número**| **Especificação**                                                                                             |
+|-----------|---------------------------------------------------------------------------------------------------------------|
+| RF1 	   	| O sistema deve buscar os cursos e apresentar as matérias                                                      |
+|	RF2      	| O sistema deve visualizar a quantidade de disciplinas ofertadas por curso                                     |
+| RF3      	| O sistema deve visualizar a quantidade de vagas ofertadas por curso                                           |
+| RF4     	| O sistema deve visualizar a quantidade de alunos matriculados por curso                                       |
+| RF5     	| O sistema deve visualizar a quantidade de salas disponíveis por curso                                         |
+| RF6      	| O sistema deve verificar se a entrada de pesquisa existe, caso não exista, deve exibir uma mensagem de erro   |
+| RF7      	| Deve ser possível selecionar qual campus que se deseja visualizar as informações                              |
+| RF8      	| O sistema deve mostrar as informações por meio de painéis                                                     |
+| RF9      	| O sistema deve sugerir os cursos que possuem as mesmas iniciais do curso preterido no campo de busca          |
+| RF10     	| O sistema deve ser claro ao fornecer feedbacks e mensagens de erro ou aviso aos usuários                      |
+| RF11    	| O sistema deve ser capaz de filtrar as disciplinas de modo a exibir as que possuem vagas disponíveis          |
+| RF12    	| O sistema deve exibir, via gráfico, a porcentagem de ocupação do departamento selecionado                     |
+| RF13     	| O sistema deve filtrar as disciplinas ofertadas de acordo com a modalidade (Presencial/Remoto/Semipresencial) |
+| RF14    	| O sistema deve permitir que o usuário altere a forma de exibição do horário                                   |
+
+### 6.2. Não Funcionais
+| **Número**| **Especificação**                                                                                             |
+|-----------|---------------------------------------------------------------------------------------------------------------|
+| RNF1 	   	| O sistema deve atualizar as informações em tempo real conforme o SIGAA                                        |
+|	RNF2    	| A parte de Back-End do sistema deve ser desenvolvido em Python/Django REST/Selenium                           |
+| RNF3     	| A parte de Front-End do sistema deve ser desenvolvido em React                                                |
+| RNF4     	| O sistema deve ser desenvolvido em orientação a objetos                                                       |
+| RNF5     	| O sistema deverá ser resistente a falhas de software                                                          |
+| RNF6     	| O sistema deverá ter baixo acoplamento e alta coesão                                                          |
+| RNF7     	| O sistema deve ser multiplataforma: Windows, distribuições Linux e MAC                                        |
+| RNF8     	| O sistema deve ser responsivo                                                                                 |
+| RNF9     	| O sistema deve armazenar dados em um banco de dados                                                           |
+ 
+## 7. <a name="5">Referências</a>
  
  RAFAEL E VITOR; et al. Documento de Visão - Anunbis. Disponível em: <https://fga-eps-mds.github.io/2020.2-Anunbis/documentacao/documento-de-visao/>. Acesso em: 31 jan 2022.
  
