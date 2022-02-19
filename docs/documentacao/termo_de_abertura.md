@@ -7,6 +7,7 @@
 28/01/2022 | 0.1 | Versão Inicial | Matheus Pimentel Leal, Gabriel Mariano da Silva e Guilherme Barbosa Ferreira
 31/01/2022 | 0.2 | Pequenas Correções | Gabriel Mariano da Silva
 17/02/2022 | 0.3 | Inserção dos Requisitos de Alto Nível | Gabriel Moretti de Souza e Matheus Pimentel Leal
+18/02/2022 | 0.3.1 | Pequenas Correções e Adição da descrição ao papel do Designer | Gabriel Moretti de Souza
 
 ### Siglas
 **Sigla** | **Descrição**
@@ -17,10 +18,10 @@ UnB | Universidade de Brasília
 FGA | Faculdade do Gama
 
 ## 1. Introdução
-Este documento visa informar as principais características do projeto **INDICAA** de forma concisa e clara para a leitura de todos os interessados no projeto e nas suas etapas de execução e decisão. Abaixo serão tratados os seguintes tópicos relacionados à este projeto: descrição, propósito e justificativa, objetivos, partes interessadas (usuários e envolvidos no desenvolvimento), requisitos de alto nível, análise de riscos, requisitos para a aprovação seguindo a definition of done estabelecida e estratégias de comunicação.
+Este documento visa informar as principais características do projeto **INDICAA** de forma concisa e clara para a leitura de todos os interessados no projeto e nas suas etapas de execução e decisão. Abaixo serão tratados os seguintes tópicos relacionados a este projeto: descrição, propósito e justificativa, objetivos, partes interessadas (usuários e envolvidos no desenvolvimento), requisitos de alto nível, análise de riscos, requisitos para a aprovação seguindo a definition of done estabelecida e estratégias de comunicação.
 
 ## 2. Descrição
-O projeto **INDICAA** foi proposto pela profª Carla Silva Rocha Aguiar e consiste em realizar a criação de uma aplicação para facilitar a busca por informações no site SIGAA que é utilizado por alunos e professores da UnB. As informações relacionadas à cada curso, que serão disponibilizadas são:
+O projeto **INDICAA** foi proposto pela profª Carla Silva Rocha Aguiar e consiste em realizar a criação de uma aplicação para facilitar a busca por informações no site SIGAA que é utilizado por alunos e professores da UnB. As informações relacionadas a cada curso, que serão disponibilizadas são:
 * Quantidade de disciplinas
 * Quantidade de vagas ofertadas
 * Quantidade de alunos matriculados
@@ -52,7 +53,7 @@ _Product Owner_ | Responsável por aumentar o valor do produto a ser desenvolvid
 Arquiteto de Software | Atua na decisão das melhores tecnologias a serem utilizadas pelo grupo durante o desenvolvimento do projeto. Atua em suporte ao DevOps.
 DevOps | Atua na configuração do ambiente de desenvolvimento e homologação do produto. Visa também automatizar processos, como os testes. Visa atuar para que o projeto forneça uma entrega contínua.
 Desenvolvedor | Atua no desenvolvimento e teste do produto, criando o _Sprint Backlog_ e adaptando seu plano de modo a atingir o objetivo definido ao final da _Sprint_.
-_Designer_ | **A preencher.** _Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat._
+_Designer_ | Atua nas responsabilidades, operações, atributos e relacionamentos de elementos do _design_ do produto, assegurando também que esse esteja consistente com a arquitetura do software.
 
 #### Grupo 1
 **Usuário** | **Descrição**
@@ -99,7 +100,7 @@ Mudanças no escopo do projeto | Realizar _reviews_ do projeto e validar se ocor
 
 ## 8. Requisitos para a aprovação
 * Validação pela professora Dr. Carla Rocha Aguiar.
-* Atender as expectativas prévias do projeto.
+* Atender às expectativas prévias do projeto.
 
 ## 9. Estratégias de comunicação
 Para comunicação interna foram utilizadas as seguintes ferramentas: **Discord** e **Telegram**.<br />
