@@ -30,6 +30,8 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
 |**FGA**| Faculdade do Gama 
 |**MDS**| Métodos de Desenvolvimento de Software
 |**SIGAA**| Sistema Integrado de Gestão das Atividades Acadêmicas
+|**RF**| Requisito Funcional
+|**RNF**| Requisito Não Funcional
 
 ### 1.4 <a name=1_4>Referências</a>
  MATHEUS, Davi; et al. Documento de Arquitetura - Cheery Up. Disponível em: <https://fga-eps-mds.github.io/2020.2-CheeryUP/#/./wiki/Documents/Documento_de_Arquitetura?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
