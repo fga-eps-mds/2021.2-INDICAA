@@ -28,7 +28,7 @@ A issue deve ser classificada por meio de tags, para melhor organização e busc
 A issue deve estar indicada corretamente para a sprint que antevia sua execução.
 
 # Estimate
-A issue deve ter uma estimativa de dificuldade gerada pelo time.
+A issue deve ter uma estimativa de dificuldade gerada pelo time. Olhe a nossa [tabela de orientação.](https://github.com/fga-eps-mds/Projeto01/blob/main/docs/contributing.md#:~:text=Deve%2Dse%20definir%20uma%20estimativa%20de%20dificuldade%20(pontua%C3%A7%C3%A3o)%20%C3%A0%20issue%20em%20quest%C3%A3o%2C%20levando%20em%20considera%C3%A7%C3%A3o%20os%20seguintes%20crit%C3%A9rios%3A)
 
 # Epics
 A issue deve estar relacionada a um épico de modo a facilitar o controle de tempo das tarefas e a decisão de prioridades.
