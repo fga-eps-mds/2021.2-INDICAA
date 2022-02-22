@@ -14,7 +14,7 @@
 |-------|-----------|
 |  UnB  | Universidade de Brasília |
 |  FGA  | Faculdade do Gama |
-|  MVP  | Minimum Viable Product |
+|  *MVP*  | *Minimum Viable Product* (Mínimo Produto Viável) |
 
 ## 1. Introdução
 Este documento visa ilustrar, em formato de diagrama, as atividades necessárias para a entrega do _MVP_. No diagrama são apresentadas as atividades tocantes ao escopo e à gerência do projeto, além da infraestrutura e das características do produto a ser desenvolvido.
