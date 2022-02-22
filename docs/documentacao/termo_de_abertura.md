@@ -13,7 +13,7 @@
 **Sigla** | **Descrição**
 --- | ---
 SIGAA | Sistema Integrado de Gestão de Atividades Acadêmicas
-INDICAA | Nome **provisório** dado ao projeto relativo aos indicadores do SIGAA
+INDICAA | Nome dado ao projeto relativo aos indicadores do SIGAA
 UnB | Universidade de Brasília
 FGA | Faculdade do Gama
 
@@ -36,12 +36,12 @@ Atualmente, a lista de ofertas do SIGAA é composta por uma grande quantidade de
 
 ## 5. Partes interessadas
 ### 5.1 Usuários
-O público-alvo consiste na comunidade da Universidade de Brasília, isto é, estudantes, professores e coordenadores, basicamente.
+O público-alvo consiste na comunidade da Universidade de Brasília, isto é, coordenadores, professores e estudantes, basicamente.
 **Usuário** | **Descrição**
 --- | ---
-Estudantes | Comunidade de discentes da UnB que buscam informações relativas às disciplinas, como a quantidade de vagas disponíveis e as respectivas salas.
-Professores | Comunidade de docentes da UnB que visa obter informações sobre as matérias ofertadas, as salas disponíveis e a quantidade de alunos matriculados em suas matérias.
 Coordenadores | Comunidade administrativa da UnB que visa, através dos dados disponibilizados dos cursos, tomar decisões que melhorem a organização destes.
+Professores | Comunidade de docentes da UnB que visa obter informações sobre as matérias ofertadas, as salas disponíveis e a quantidade de alunos matriculados em suas matérias.
+Estudantes | Comunidade de discentes da UnB que buscam informações relativas às disciplinas, como a quantidade de vagas disponíveis e as respectivas salas.
 Outros | Quaisquer indivíduos que optarem por acessar dados relativos aos cursos da UnB.
 
 ### 5.2 Equipes e papéis
@@ -51,7 +51,7 @@ Outros | Quaisquer indivíduos que optarem por acessar dados relativos aos curso
 _Scrum Master_ | É o responsável pela eficiência do grupo, auxiliando a todos no entendimento do _framework Scrum_ e atuando na gestão do grupo.
 _Product Owner_ | Responsável por aumentar o valor do produto a ser desenvolvido e na gestão do _Product Backlog_, comunicando com o time sobre o objetivo a ser atingido.
 Arquiteto de Software | Atua na decisão das melhores tecnologias a serem utilizadas pelo grupo durante o desenvolvimento do projeto. Atua em suporte ao DevOps.
-DevOps | Atua na configuração do ambiente de desenvolvimento e homologação do produto. Visa também automatizar processos, como os testes. Visa atuar para que o projeto forneça uma entrega contínua.
+DevOps | Atua na configuração do ambiente de desenvolvimento e homologação do produto. Visa também automatizar processos, como os testes. Visa atuar para que o projeto forneça uma entrega e integração contínuas.
 Desenvolvedor | Atua no desenvolvimento e teste do produto, criando o _Sprint Backlog_ e adaptando seu plano de modo a atingir o objetivo definido ao final da _Sprint_.
 _Designer_ | Atua nas responsabilidades, operações, atributos e relacionamentos de elementos do _design_ do produto, assegurando também que esse esteja consistente com a arquitetura do software.
 
@@ -104,7 +104,8 @@ Mudanças no escopo do projeto | Realizar _reviews_ do projeto e validar se ocor
 
 ## 9. Estratégias de comunicação
 Para comunicação interna foram utilizadas as seguintes ferramentas: **Discord** e **Telegram**.<br />
-Para comunicação com os demais grupos utilizamos, além das ferramentas citadas anteriormente, o **GitHub**.
+Para comunicação com os demais grupos utilizamos, além das ferramentas citadas anteriormente, o **GitHub**.<br />
+Para aulas e treinamentos com a professora e monitores, também foi utilizada a ferramenta do **Jitsi Meet**.
 
 ## 10. Referências
 UNIVERSIDADE DE BRASÍLIA (Brasil). **CheeryUP. Termo de abertura do projeto.** [S. l.], 2021. Disponível em: <https://fga-eps-mds.github.io/2020.2-CheeryUP/#/./wiki/TAP?id=5---riscos>. Acesso em: 28 jan. 2022. <br />
