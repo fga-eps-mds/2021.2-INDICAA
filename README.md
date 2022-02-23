@@ -55,7 +55,7 @@ desenvolvimento em Linux
 
 [Template para criação de issues](docs/templates/IssueTemplate.md)
 
-[Template para criação de pull requests](docs/templates/pull_request_template.md)
+[Template para criação de pull requests](https://github.com/fga-eps-mds/2021.2-INDICAA/blob/main/.github/pull_request_template.md)
 
 ## 🤓 Desenvolvedores
 
