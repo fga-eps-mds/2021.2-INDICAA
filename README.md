@@ -47,9 +47,9 @@ desenvolvimento em Linux
 
 ## 🤝 Contribuição Livre
 
-[Guia de Contribuição (WIP)]
+[Guia de Contribuição](https://github.com/fga-eps-mds/2021.2-INDICAA/blob/main/docs/contributing.md)
 
-[Código de Conduta (WIP)]
+[Código de Conduta](https://github.com/fga-eps-mds/2021.2-INDICAA/blob/main/CODE_OF_CONDUCT.md)
 
 [Políticas de Commits](https://github.com/fga-eps-mds/2021.2-INDICAA)
 
