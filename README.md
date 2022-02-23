@@ -51,7 +51,7 @@ desenvolvimento em Linux
 
 [Código de Conduta (WIP)]
 
-[Políticas de Commits (WIP)]
+[Políticas de Commits](https://github.com/fga-eps-mds/2021.2-INDICAA)
 
 [Template para criação de issues](docs/templates/IssueTemplate.md)
 
