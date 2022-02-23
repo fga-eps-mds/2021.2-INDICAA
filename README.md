@@ -51,7 +51,7 @@ desenvolvimento em Linux
 
 [Código de Conduta](https://github.com/fga-eps-mds/2021.2-INDICAA/blob/main/CODE_OF_CONDUCT.md)
 
-[Políticas de Commits](https://github.com/fga-eps-mds/2021.2-INDICAA)
+[Políticas de Commits](https://github.com/fga-eps-mds/2021.2-INDICAA/blob/main/docs/templates/commit_Template.md)
 
 [Template para criação de issues](docs/templates/IssueTemplate.md)
 
