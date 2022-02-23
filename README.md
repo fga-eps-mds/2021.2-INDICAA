@@ -1,9 +1,9 @@
 # **INDICAA**
 
 <p align="center">
-  <img width="300" src="docs/assets/img/logo.png">
+  <img width="500" src="docs/assets/img/logo.png">
 </p>
-<h1 align="center">INDICAA</h1>
+
 
  ![GitHub issues](https://img.shields.io/github/issues/fga-eps-mds/Projeto01?color=red)
  ![GitHub closed issues](https://img.shields.io/github/issues-closed/fga-eps-mds/Projeto01?color=green)
