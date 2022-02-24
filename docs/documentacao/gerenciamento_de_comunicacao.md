@@ -6,6 +6,7 @@
 |24/02/2022|0.2|Adição do tópico "Rituais"|Caio César e Lucas Queiroz|
 |24/02/2022|0.3|Adição do tópico "Gerenciamento de comunicação"|Caio César e Lucas Queiroz|
 |24/02/2022|0.4|Adição do tópico "Ferramentas"|Caio César e Lucas Queiroz|
+|24/02/2022|0.5|Complementação do tópico "Ferramentas"|Caio César e Lucas Queiroz|
 
 ## Gerenciamento de comunicação
 <p align="justify"> &emsp;&emsp;Este documento visa relatar os meios de comunicação utilizados pelos membros da equipe. Serão utilizadas estratégias de comunicação que a tornem fácil, organizada e clara entre os projetistas. O objetivo final é facilitar e agilizar os processos de produção durante o desenvolvimento do projeto.
@@ -22,6 +23,11 @@
   - Revisar a sprint e discutir pontos importantes nela (15 min);
   
 ## Ferramentas
+  ### Telegram
+  - Principal meio de comunicação interequipes;
+  - Grupo principal é utilizado para definir estratégias de desenvolvimento do projeto como um todo;
+  - Subgrupos são criados esporadicamente para definir estratégias de desenvolvimento de issues específicas.
+  
   ### GitHub
   - Documentação de todas as áreas do projeto;
   - Código do projeto;
@@ -35,3 +41,12 @@
   
   ### Jitsi
   - Reuniões entre a equipe e professor para acompanhamento do projeto e concluir issues específicas.
+
+  ### Whatsapp
+  - Utilizado para comunicação intraequipes;
+  - Função principal de realizar a organização em issues específicas para aquela equipe.
+
+  ### Discord
+  - Principal meio utilizado para realizar as reuniões semanais;
+  - Utilizado para reuniões com o objetivo de concluir issues específicas.
+  
