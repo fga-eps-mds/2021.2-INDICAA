@@ -111,7 +111,7 @@ Grupo 3:
 | Product Owner | Adne Moretti Moreira |
 | Arquiteto de Software | Guilherme Barbosa Ferreira|
 | DevOps | Gabriel Mariano da Silva |
-| Desenvolvedor | Liander Medeiros Alves <br />  Gabriel Moretti de Souza |
+| Desenvolvedor | Gabriel Moretti de Souza |
 
 Grupo 1:
 
