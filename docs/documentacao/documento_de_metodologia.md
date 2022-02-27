@@ -6,6 +6,7 @@
 | :--: | :----: | :-------: | :-------: |
 | 26/02/2022 | 0.1 | Criação do Documento | Gabriel Mariano, Gabriel Moretti, Mateus Franco |
 | 27/02/2022 | 0.1.1 | Adição das Referências e Planning Poker | João Paulo |
+| 27/02/2022 | 0.1.2 | Alteração dos conceitos e atribuições das personas do Scrum| João Paulo |
 
 ## 1. Introdução
 [//]: <> (Moretti)
@@ -25,48 +26,43 @@ Artefato que contém as funcionalidade desejadas, sendo este passível de modifi
 
 #### 2.1.2 Pápeis 
 [//]: <> (Mateus)
-- Developers: Development Team ou time de desenvolvimento, em português, são os profissionais responsáveis por desenvolver e testar as funcionalidades do produto de software.
-- Product Owner: É o responsável por manter em foco o valor agregado do produto de software sob o olhar dos stakeholders. Decide prioridades de implementação com base nos interessados (stakeholders).
-- Scrum Master: É o responsável por líderar a equipe durante o processo de desenvolvimento do produto de software. Cuida para que toda equipe siga-os, pré definidos, processos e metodologias e que esses estejam adaptados as necessidades da equipe. 
- 
- Nossa equipe utilizara os papéis do Scrum acrescentando mais dois papéis. São estes:
- - DevOps: Responsável por manter o projeto nas diretrizes da cultura devops e tomar decisoes que garatem que o ambiente desevolvimento esteja também sob essas diretrizes.
- - Architect: Responsável por desenhar a arquitetura do projeto e definir as tecnologias que melhor se amplicam ao nosso contexto.
+- __Scrum Master:__ Responsável por remover impedimentos relacionados ao desenvolvimento; Minimizar riscos do projeto; Garantir a disseminação de contéudo entre os membros da equipe; Monitorar e aperfeiçoar a produtividade da equipe utilizando métricas bem definidas; Garantir que a metodologia seja aplicada.
+- __Product Owner:__ Responsável por trazer a visão de produto às decisões do time; Analisar e priorizar os pontos mais valiosos, do ponto de vista dos stakeholders; E Definir critérios de aceitação considerando visão do cliente.
+ - __DevOps:__ Responsável por manter o projeto nas diretrizes da cultura devops e tomar decisoes que garatem que o ambiente desevolvimento esteja também sob essas diretrizes.
+ - __Arquiteto:__ Responsável por modelar a arquitetura do sistema e garantir que ela está sendo seguida no desenvolvimento; E monitorar qualidade do código.
+ - __Desenvolvedor:__ Responsável por programar as histórias de usuário; Seguir técnicas de programação; E realizar testes no código produzido.
 
 #### 2.1.3 Sprints
 [//]: <> (Mariano)
-- Sprint: No Scrum "sprint" é como chamamos uma iteração no processo de desenvolvimento. Geralmente tem duração de uma semana ou no máximo um mês, podendo ser adaptável as necessidades da equipe.
-- Sprint Backlog: Artefato gerado sempre no início de uma nova iteração. Contém as tarefas que serão realizadas durante esta nova iteração.
-- Sprint Planning: Reunião onde é feito o planejamento estrátegico e a definição dos objetivos de uma nova sprint, ou seja, de uma nova iteração, nela é criado o artefato sprint backlog citado à cima.
-- Sprint Review: Realizada no final de cada sprint para mostrar o que foi alcançado e avaliar a relação entre o que está sendo desenvolvido e os objetivos da sprint.
-- Sprint Retrospective: Ocorre ao final de cada sprint, assim como a sprint review. Tem objetivo de cumprir manter o pilar de inspeção do scrum, nela são avaliados os pontos positivos e negativos da sprint que se finalizou. As informações coletadas norteiam a equipe para um melhoramento de seu processo de desenvolvimento.
+- __Sprint:__ No Scrum "sprint" é como chamamos uma iteração no processo de desenvolvimento. Geralmente tem duração de uma semana ou no máximo um mês, podendo ser adaptável as necessidades da equipe.
+- __Sprint Backlog:__ Artefato gerado sempre no início de uma nova iteração. Contém as tarefas que serão realizadas durante esta nova iteração.
+- __Sprint Planning:__ Reunião onde é feito o planejamento estrátegico e a definição dos objetivos de uma nova sprint, ou seja, de uma nova iteração, nela é criado o artefato sprint backlog citado à cima.
+- __Sprint Review:__ Realizada no final de cada sprint para mostrar o que foi alcançado e avaliar a relação entre o que está sendo desenvolvido e os objetivos da sprint.
+- __Sprint Retrospective:__ Ocorre ao final de cada sprint, assim como a sprint review. Tem objetivo de cumprir manter o pilar de inspeção do scrum, nela são avaliados os pontos positivos e negativos da sprint que se finalizou. As informações coletadas norteiam a equipe para um melhoramento de seu processo de desenvolvimento.
 
 #### 2.1.4 Time-Box
 [//]: <> (Moretti)
 > "É um conceito que diz que a quantidade de tempo (horas ou dias, o que depende das unidades sendo utilizadas para um determinado projeto) é imutável, ou seja, a quantidade de horas não poderá aumentar caso algum problema ou novo requisito seja identificado." [PortalEducação, 2019](https://www.portaleducacao.com.br/conteudo/artigos/informatica/timebox-projeto-scrum/40658)
 
-Está descrito abaixo o time-box definido pela equipe desenvolvimento deste projeto:
-- Daily - 15 minutos
-- Sprint - 1 semana. 
-   - Inicio: Segunda
-   - Fim: Sábado
-- Sprint Planning - 2hrs, considerando a proporção de tempo recomendado para equipes com sprints de 4 semana que é de 8hrs.
-- Sprint Review e Sprint Retrospective: 30 minutos cada uma.
-
-Obs.: O time-box pode ser modificado a qualquer momento para atender as necessidades da equipe.
+__Sprints:__
+  Duração de 7 dias : Início no domingo e término no sábado da outra semana.Poderão ser menores devido as releases : Mais curtas ou longas, conforme decisão do Scrum Master.
+- __Daily Meeting:__ As dailies da equipe serão realizadas diariamente por meio do telegram, prioritariamente no período da manhã. Todos os membros têm como obrigação informar a respeito do andamento das suas atividades.
+- __Sprint Review:__ Ocorrerão aos sábados, iniciando às 14h.
+- __Sprint Restropective:__ Ocorrerá aos sábados, iniciando às 15:30h.
+- __Sprint Planning:__ Será realizado nas reuniões de sábado.
 
 ### 2.2 Kanban
 [//]: <> (Mateus)
 "Em administração da produção, kanban é um cartão de sinalização que controla os fluxos de produção ou transportes em uma indústria."[Wikipédia, 2019](https://pt.wikipedia.org/wiki/Kanban#Scrum_e_Kanban)
 
 Para nós, o kanban será um cartão de sinalização que possuirá os seguintes quadros:
-- Project Backlog: Lista de todas as funcionalidades do projeto.
-- Sprint Backlog: Lista das funcionalidade que serão implemntadas na sprint atual.
-- To Do: Lista de funcionalidades que devem ser feitas.
-- In Progress: Lista de funcionalidade que estão sendo desenvolvidas.
-- Review: Lista de funcionalidades que devem ser revisadas.
-- In Test: Lista de funcionalidades que devem ser testadas.
-- Done: Lista de funcionalidades já desenvolvidas.
+- __Project Backlog:__ Lista de todas as funcionalidades do projeto.
+- __Sprint Backlog:__ Lista das funcionalidade que serão implemntadas na sprint atual.
+- __To Do:__ Lista de funcionalidades que devem ser feitas.
+- __In Progress:__ Lista de funcionalidade que estão sendo desenvolvidas.
+- __Review:__ Lista de funcionalidades que devem ser revisadas.
+- __In Test:__ Lista de funcionalidades que devem ser testadas.
+- __Done:__ Lista de funcionalidades já desenvolvidas.
 
 ### 2.3 eXtreme Programming
 [//]: <> (Mariano)
