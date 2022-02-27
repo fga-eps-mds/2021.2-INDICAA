@@ -23,19 +23,6 @@ Zenhub não criado no momento dessa sprint
 
 ## 1.4 Retrospectiva 
 
-### Grupo 1
-
-| Membro | Pontos Positivos | Pontos Negativos | Sugestão de Melhoria | Pontuação das Histórias |
-| --------  | :----:   | :----:   | :----:   | :----:   |
-
-### Grupo 3
-
-| Membro | Pontos Positivos | Pontos Negativos | Sugestão de Melhoria | Pontuação das Histórias |
-| --------  | :----:   | :----:   | :----:   | :----:   |
-
-
-### Grupo 4
-
 | Membro | Pontos Positivos | Pontos Negativos | Sugestão de Melhoria | Pontuação das Histórias |
 | --------  | :----:   | :----:   | :----:   | :----:   |
 | Guilherme S. | Boa apresentação da matéria  | Não tínhamos tema e estávamos perdidos com relação ao escopo e ferramentas | Não se aplica | OK |
@@ -50,11 +37,4 @@ Zenhub não criado no momento dessa sprint
 
 ## 1.6 Quadro de conhecimento
 
-### Grupo 1
-
-
-### Grupo 3
-
-![](../../docs/assets/sprints/grupo_3/quadro_conhecimento_sprint0.png)
-
-### Grupo 4
+![](https://raw.githubusercontent.com/fga-eps-mds/2021.2-INDICAA/main/docs/atas/grupo4/img_conhecimento/quadro_conhecimento_sprint0.png)

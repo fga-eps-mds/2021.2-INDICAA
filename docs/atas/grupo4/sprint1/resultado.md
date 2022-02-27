@@ -28,18 +28,7 @@ Zenhub não criado no momento dessa sprint
 
 ## 1.4 Retrospectiva 
 
-### Grupo 1
 
-| Membro | Pontos Positivos | Pontos Negativos | Sugestão de Melhoria | Pontuação das Histórias |
-| --------  | :----:   | :----:   | :----:   | :----:   |
-
-
-### Grupo 3
-
-| Membro | Pontos Positivos | Pontos Negativos | Sugestão de Melhoria | Pontuação das Histórias |
-| --------  | :----:   | :----:   | :----:   | :----:   |
-
-### Grupo 4
 
 | Membro | Pontos Positivos | Pontos Negativos | Sugestão de Melhoria | Pontuação das Histórias |
 | --------  | :----:   | :----:   | :----:   | :----:   |
@@ -53,14 +42,8 @@ Zenhub não criado no momento dessa sprint
 
 
 ## 1.6 Quadro de conhecimento
-### Grupo 1
 
-
-### Grupo 3
-
-![](../../docs/assets/sprints/grupo_3/quadro_conhecimento_sprint1.png)
-
-### Grupo 4
+![](https://raw.githubusercontent.com/fga-eps-mds/2021.2-INDICAA/main/docs/atas/grupo4/img_conhecimento/quadro_conhecimento_sprint1.png)
 
 
 # 2. Visão do Tech Leader
