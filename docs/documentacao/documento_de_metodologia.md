@@ -9,17 +9,16 @@
 | 27/02/2022 | 0.1.2 | Alteração dos conceitos e atribuições das personas do Scrum| João Paulo |
 | 28/02/2022 | 0.1.3 | Descrição das metodologias e das sprints | Gabriel Mariano |
 | 28/02/2022 | 0.1.4 | Descrição do extreme programming e das interações | Gabriel Mariano |
+| 28/02/2022 | 0.1.5 | Introdução ao documento e ao Scrum | Gabriel Moretti |
 
 ## 1. Introdução
-[//]: <> (Moretti)
-Esse documento é responsável por elicitar e descrever todas as metodologias e processos que serão utilizadas ao longo da execução do projeto.
+Esse documento visa informar todas as metodologias, processos e práticas que serão utilizadas ao longo da execução do projeto do INDICAA, as descrevendo e detalhando como necessário.
 
 ## 2. Metodologias
 Para a viabilização e o efetivo desenvolvimento do projeto serão utilizadas metodologias baseadas majoritariamente no Manifesto Ágil, de modo a promover alterações constantes e que sigam um planejamento com constantes mudanças. Um dos pilares do [Manifesto Ágil](https://agilemanifesto.org/iso/ptbr/manifesto.html) é a maior valorização de indivíduos e interações em detrimento a processos e ferramentas, fator que será de grande importância para o processo de desenvolvimento de software e para a consequente aprendizagem por parte de todos os indivíduos envolvidos mo projeto. Dentre as metodologias a serem utilizadas, estão o Scrum, o Kanban, o Extreme Programming (XP) e o Planning Poker.
 
 ### 2.1 Scrum
-[//]: <> (Moretti)
-> "É um  framework no qual as pessoas podem lidar com problemas complexos e, ao mesmo tempo, fornecer produtos de maneira mais criativa e produtiva."[ScrumGuides, 2019](https://scrumguides.org/scrum-guide.html)
+> "A estrutura do Scrum procura aproveitar a maneira como as equipes de fato trabalham, fornecendo ferramentas para se auto-organizarem e otimizarem em pouco tempo a rapidez e a qualidade do trabalho." Scrum: a arte de fazer o dobro do trabalho na metade do tempo, 2016
 
 #### 2.1.1 Product Backlog
 [//]: <> (Mateus)
@@ -113,6 +112,8 @@ Manifesto Ágil. Disponível em: <https://agilemanifesto.org/iso/ptbr/manifesto.
 "Extreme Programming (XP): o que é, valores e benefícios". Disponível em: <https://www.objective.com.br/insights/extreme-programming-xp-o-que-e-e-beneficios/>.
 
 "Extreme Programming – Conceitos e Práticas", por Manoel. Disponível em: <https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498#Releases>.
+
+SUTHERLAND, Jeff: Scrum. A Arte de Fazer o Dobro do Trabalho na Metade do Tempo. Editora LeYa, 2016.
 
 
 [//]: <> (A partir daqui estão as referências utilizadas anteriormente pela equipe do Acácia)
