@@ -7,6 +7,8 @@
 | 26/02/2022 | 0.1 | Criação do Documento | Gabriel Mariano, Gabriel Moretti, Mateus Franco |
 | 27/02/2022 | 0.1.1 | Adição das Referências e Planning Poker | João Paulo |
 | 27/02/2022 | 0.1.2 | Alteração dos conceitos e atribuições das personas do Scrum| João Paulo |
+| 28/02/2022 | 0.1.3 | Descrição das metodologias e das sprints | Gabriel Mariano |
+| 28/02/2022 | 0.1.4 | Descrição do extreme programming e das interações | Gabriel Mariano |
 
 ## 1. Introdução
 [//]: <> (Moretti)
@@ -62,16 +64,19 @@ Para nós, o kanban será um cartão de sinalização que possuirá os seguintes
 - __In Test:__ Lista de funcionalidades que devem ser testadas.
 - __Done:__ Lista de funcionalidades já desenvolvidas.
 
-### 2.3 eXtreme Programming
-[//]: <> (Mariano)
-> "Extreme Programming (XP) é uma estrutura de desenvolvimento de software ágil que visa produzir software de maior qualidade e maior qualidade de vida para a equipe de desenvolvimento."[Agile Aliance]( https://www.agilealliance.org)
+### 2.3 Extreme Programming (XP)
+> "XP é um apelido carinhoso de uma nova metodologia de desenvolvimento designada Extreme Programming, com foco em agilidade de equipes e qualidade de projetos, apoiada em valores como simplicidade, comunicação, feedback e coragem [...]". [DevMedia](https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498)
 
-Serão utilizados pela equipe as seguintes práticas:
-- Small Realeases - Pequenas entregas.
-- Testing - Cobertura de código testado de 90%.
-- Refactoing - Existência de uma sprint de refatoração a cada 3 sprints.
-- Pair Programing - Programação em pares com rotatividades para gestão do conhecimento.
-- Coding Standard: Padronização do código com folha de estilo.
+O Extreme Programming (XP) é uma metodologia ágil que visa o desenvolvimento de sistemas que entreguem o que é pedido pelo cliente, melhorando também o ambiente de trabalho dos desenvolvedores, de modo a propiciar a realização de trabalhos simples e de qualidade.
+Dentre os pilares do XP, estão a **simplicidade**, a **comunicação**, o **feedback**, **respeito** e a **coragem** (de dizer NÃO).
+
+Poderão ser utilizadas pelas equipes as seguintes práticas:
+- **Small Releases** (Pequenas Entregas).
+- **Acceptance Tests** (Testes de Aceitação).
+- **CI/CD** (Integração Contínua/Entrega Contínua).
+- **Pair Programing** (Programação em Pares).
+- **Simple Design** (Simplicidade de Projeto).
+- **Coding Standards** (Padronização do Código).
 
 ### 2.4 Planning Poker
 [//]: <> (Moretti)
@@ -88,17 +93,13 @@ O Plano de Comunicação vem para assegurar que exista uma comunicação transpa
  - Github- armazenamento de código fonte, transparência na realização de tarefas,documentação de iterações.
 
 ## 4. Interação entre Membros e Treinamentos
-[//]: <> (Mariano)
-> "Gamificação é a utilização de técnicas de design de jogos para incentivar produtividade e/ou mudanças de comportamento."
+A interação entre os membros dos grupos envolvidos no projeto **INDICAA** se dará através de grupos em plataformas digitais, como o _Telegram_ e o _Discord_, além da eventual comunicação nos comentários das _issues_ do GitHub.
 
-Visando manter a produtividade, o Colaborativismo e a melhoria continua da relação entre membros a equipe utilizará de tecnicas de gamificação, tais como:
+O compartilhamento de informações e o apoio em eventuais dúvidas e dificuldades é fortemente incentivado por todos os membros do projeto, atuando como pilar de uma "cultura" das equipes. Além disso, a proatividade e a interação entre membros de diferentes equipes são fatores importantes no desenvolvimento do projeto.
 
-- Sharing Knowledge: Incentivar compartilhamento de conhecimento.
-- Certificates: Reconhecimento atráves de certificados, medalhas e etc.
+O incentivo à tais práticas parte, principalmente, dos(as) gestores(as) das equipes (Scrum Masters e Product Owners), todavia pode ser executado por quaisquer membros à disposição.
 
-Vale lembrar que algumas dessas tecnicas serão intrisicamente aplicadas pela equipe gestora.
-
-Obs.: As técnicas foram escolhidas com base no perfil que foi traçado da equipe. Essa informação pode ser encontrada [aqui](https://docs.google.com/spreadsheets/d/1temwG93TrqvCTuy1u52Qbi-JIHFtpjNwILdbRSehMHg/edit?usp=sharing).
+Durante a execução do projeto serão criadas issues para pesquisa de novas tecnologias e práticas de desenvolvimento, de modo a incentivar os membros à pesquisar e compartilhar conhecimento. Alem disso, aqueles(as) que possuem conhecimento prévio em determinadas tecnologias podem se voluntariar a instruir os outros em treinamentos, que serão realizados preferencialmente de maneira síncrona e podem ser disponibilizados para consulta posterior.
 
 ## 5. Referências
 [//]: <> (Todos)
@@ -109,11 +110,14 @@ Manifesto Ágil. Disponível em: <https://agilemanifesto.org/iso/ptbr/manifesto.
 
 "O Guia Definitivo para o Scrum: As Regras do Jogo", por Ken Schwaber e Jeff Sutherland. Disponível em: <https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR.pdf>.
 
-[//]: <> (A partir daqui estão as referências utilizadas anteriormente)
+"Extreme Programming (XP): o que é, valores e benefícios". Disponível em: <https://www.objective.com.br/insights/extreme-programming-xp-o-que-e-e-beneficios/>.
+
+"Extreme Programming – Conceitos e Práticas", por Manoel. Disponível em: <https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498#Releases>.
+
+
+[//]: <> (A partir daqui estão as referências utilizadas anteriormente pela equipe do Acácia)
 
 Metodologia Scrum. Disponível em: https://www.desenvolvimentoagil.com.br
-
-Scrum Guides. Disponível em: https://scrumguides.org/scrum-guide.html
 
 Bartle, R. a. (1999). Players Who Suit MUDs. Retrieved March 22, 2015, from http://mud.co.uk/richard/hcds.htm
 
