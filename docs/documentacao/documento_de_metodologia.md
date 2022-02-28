@@ -13,8 +13,7 @@
 Esse documento é responsável por elicitar e descrever todas as metodologias e processos que serão utilizadas ao longo da execução do projeto.
 
 ## 2. Metodologias
-[//]: <> (Mariano)
-A combinação das metodologias aqui presentes tem como objetivo construir um processo de desenvolvimento de software consistente e ágil. Estando atentos ao manifesto Ágil - "Indivíduos e interações mais que processos e ferramentas" [Manifesto Ágil](https://www.manifestoagil.com.br) - o nosso plano não busca seguir metodologias à risca, e sim se valer de adaptações que melhor de adequam a equipe.
+Para a viabilização e o efetivo desenvolvimento do projeto serão utilizadas metodologias baseadas majoritariamente no Manifesto Ágil, de modo a promover alterações constantes e que sigam um planejamento com constantes mudanças. Um dos pilares do [Manifesto Ágil](https://agilemanifesto.org/iso/ptbr/manifesto.html) é a maior valorização de indivíduos e interações em detrimento a processos e ferramentas, fator que será de grande importância para o processo de desenvolvimento de software e para a consequente aprendizagem por parte de todos os indivíduos envolvidos mo projeto. Dentre as metodologias a serem utilizadas, estão o Scrum, o Kanban, o Extreme Programming (XP) e o Planning Poker.
 
 ### 2.1 Scrum
 [//]: <> (Moretti)
@@ -33,12 +32,11 @@ Artefato que contém as funcionalidade desejadas, sendo este passível de modifi
  - __Desenvolvedor:__ Responsável por programar as histórias de usuário; Seguir técnicas de programação; E realizar testes no código produzido.
 
 #### 2.1.3 Sprints
-[//]: <> (Mariano)
-- __Sprint:__ No Scrum "sprint" é como chamamos uma iteração no processo de desenvolvimento. Geralmente tem duração de uma semana ou no máximo um mês, podendo ser adaptável as necessidades da equipe.
-- __Sprint Backlog:__ Artefato gerado sempre no início de uma nova iteração. Contém as tarefas que serão realizadas durante esta nova iteração.
-- __Sprint Planning:__ Reunião onde é feito o planejamento estrátegico e a definição dos objetivos de uma nova sprint, ou seja, de uma nova iteração, nela é criado o artefato sprint backlog citado à cima.
-- __Sprint Review:__ Realizada no final de cada sprint para mostrar o que foi alcançado e avaliar a relação entre o que está sendo desenvolvido e os objetivos da sprint.
-- __Sprint Retrospective:__ Ocorre ao final de cada sprint, assim como a sprint review. Tem objetivo de cumprir manter o pilar de inspeção do scrum, nela são avaliados os pontos positivos e negativos da sprint que se finalizou. As informações coletadas norteiam a equipe para um melhoramento de seu processo de desenvolvimento.
+- __Sprint:__ Sprints são os eventos principais do Scrum, tendo duração previamente projetada e constante durante todo o projeto. Uma sprint pode ter duração igual ou menor a um mês, sendo utilizado neste projeto o período fixado de uma semana. Na sprint são desenvolvidas todas as atividades do projeto conforme o planejado ao início desta.
+- __Sprint Planning:__ O Sprint Planning é o evento que inicia a sprint, reunindo os membros da equipe para a definição do Sprint Backlog, um artefato que define as metas e atividades que devem ser executadas ao decorrer da sprint.
+- __Sprint Backlog:__ O Sprint Backlog é um artefato gerado no Sprint Planning, conforme descrito no tópico anterior. Nele estão contidos os itens do product backlog a serem realizados pelos desenvolvedores.
+- __Sprint Review:__ Realizada no final de cada sprint, o objetivo do Sprint Review é verificar o trabalho realizado durante a sprint e debater as mudanças que ocorreram no projeto.
+- __Sprint Retrospective:__ A Sprint Retrospective é o último evento da sprint, tendo o objetivo de levantar pontos positivos e negativos do decorrer da sprint e debater como a produtividade e a qualidade do produto desenvolvido podem ser incrementadas. Basicamente a Sprint Retrospective busca avaliar o que foi bom ou ruim durante a sprint e agir para que os pontos positivos sejam mantidos e os pontos negativos sofram alterações.
 
 #### 2.1.4 Time-Box
 [//]: <> (Moretti)
@@ -105,7 +103,13 @@ Obs.: As técnicas foram escolhidas com base no perfil que foi traçado da equip
 ## 5. Referências
 [//]: <> (Todos)
 
-Manifesto Ágil. Disponível em: https://www.manifestoagil.com.br/
+"Metodologia Ágil e Scrum". Disponível em: <https://metodologiaagil.com/>.
+
+Manifesto Ágil. Disponível em: <https://agilemanifesto.org/iso/ptbr/manifesto.html>.
+
+"O Guia Definitivo para o Scrum: As Regras do Jogo", por Ken Schwaber e Jeff Sutherland. Disponível em: <https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR.pdf>.
+
+[//]: <> (A partir daqui estão as referências utilizadas anteriormente)
 
 Metodologia Scrum. Disponível em: https://www.desenvolvimentoagil.com.br
 
