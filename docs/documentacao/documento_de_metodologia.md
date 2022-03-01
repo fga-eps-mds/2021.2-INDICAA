@@ -10,6 +10,7 @@
 | 28/02/2022 | 0.1.3 | Descrição das metodologias e das sprints | Gabriel Mariano |
 | 28/02/2022 | 0.1.4 | Descrição do extreme programming e das interações | Gabriel Mariano |
 | 28/02/2022 | 0.1.5 | Introdução ao documento e ao Scrum | Gabriel Moretti |
+| 01/03/2022 | 0.1.6 | Alteração da descrição do Timebox | Gabriel Moretti |
 
 ## 1. Introdução
 Esse documento visa informar todas as metodologias, processos e práticas que serão utilizadas ao longo da execução do projeto do INDICAA, as descrevendo e detalhando como necessário.
@@ -40,15 +41,16 @@ Artefato que contém as funcionalidade desejadas, sendo este passível de modifi
 - __Sprint Retrospective:__ A Sprint Retrospective é o último evento da sprint, tendo o objetivo de levantar pontos positivos e negativos do decorrer da sprint e debater como a produtividade e a qualidade do produto desenvolvido podem ser incrementadas. Basicamente a Sprint Retrospective busca avaliar o que foi bom ou ruim durante a sprint e agir para que os pontos positivos sejam mantidos e os pontos negativos sofram alterações.
 
 #### 2.1.4 Time-Box
-[//]: <> (Moretti)
-> "É um conceito que diz que a quantidade de tempo (horas ou dias, o que depende das unidades sendo utilizadas para um determinado projeto) é imutável, ou seja, a quantidade de horas não poderá aumentar caso algum problema ou novo requisito seja identificado." [PortalEducação, 2019](https://www.portaleducacao.com.br/conteudo/artigos/informatica/timebox-projeto-scrum/40658)
+> "O Timebox é uma estratégia de gestão do tempo baseada em metas que ajuda a aumentar a produtividade e a reduzir a procrastinação. Quando se cria uma “caixa de tempo”, em tradução livre, também se define uma meta para que uma determinada tarefa seja realizada dentro de um intervalo predefinido." [Asana, 2021](https://asana.com/pt/resources/what-is-timeboxing)
 
 __Sprints:__
-  Duração de 7 dias : Início no domingo e término no sábado da outra semana.Poderão ser menores devido as releases : Mais curtas ou longas, conforme decisão do Scrum Master.
-- __Daily Meeting:__ As dailies da equipe serão realizadas diariamente por meio do telegram, prioritariamente no período da manhã. Todos os membros têm como obrigação informar a respeito do andamento das suas atividades.
-- __Sprint Review:__ Ocorrerão aos sábados, iniciando às 14h.
-- __Sprint Restropective:__ Ocorrerá aos sábados, iniciando às 15:30h.
-- __Sprint Planning:__ Será realizado nas reuniões de sábado.
+  Duração de 7 dias : Início na terça e término na segunda da outra semana. Poderão ser menores devido as releases : Mais curtas ou longas, conforme decisão do Scrum Master.
+- __Daily Meeting:__ As dailies da equipe serão realizadas diariamente por meio do telegram, prioritariamente no período da manhã. Todos os membros têm como obrigação informar a respeito do andamento das suas atividades. Têm duração de 15 minutos.
+- __Sprint Review:__ Ocorrerá ao final das sprints, na segunda ou no início da terça-feira, com duração de 30 minutos.
+- __Sprint Retrospective:__ Ocorrerá ao final das sprints, na segunda ou no início da terça-feira, com duração de 30 minutos.
+- __Sprint Planning:__ Será realizado ao início da sprint, na terça-feira, com duração de 2 horas.
+
+Obs.: Por motivos externos ou decisão dos Scrum Masters, os processos citados no Time-Box podem ter sua duração ou horários alterados.
 
 ### 2.2 Kanban
 [//]: <> (Mateus)
@@ -78,7 +80,6 @@ Poderão ser utilizadas pelas equipes as seguintes práticas:
 - **Coding Standards** (Padronização do Código).
 
 ### 2.4 Planning Poker
-[//]: <> (Moretti)
 "O Planning Poker é uma técnica gamificada baseada em consenso para estimativa, usada principalmente para timeboxing em princípios ágeis. No pôquer de planejamento, os membros do grupo fazem estimativas jogando cartas numeradas viradas para baixo na mesa, em vez de pronunciá-las em voz alta. As cartas são reveladas e as estimativas são então discutidas. Ao ocultar os números dessa maneira, o grupo pode evitar o viés cognitivo da ancoragem , onde o primeiro número falado em voz alta abre um precedente para estimativas subsequentes." [Wikipédia, 2022](https://en.wikipedia.org/wiki/Planning_poker)
 
 No nosso projeto utilizamos como referência a sequência de Fibonacci.
@@ -114,6 +115,8 @@ Manifesto Ágil. Disponível em: <https://agilemanifesto.org/iso/ptbr/manifesto.
 "Extreme Programming – Conceitos e Práticas", por Manoel. Disponível em: <https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498#Releases>.
 
 SUTHERLAND, Jeff: Scrum. A Arte de Fazer o Dobro do Trabalho na Metade do Tempo. Editora LeYa, 2016.
+
+"O que é Timebox? 14 exemplos e casos de uso.". Disponível em <https://asana.com/pt/resources/what-is-timeboxing>.
 
 
 [//]: <> (A partir daqui estão as referências utilizadas anteriormente pela equipe do Acácia)
