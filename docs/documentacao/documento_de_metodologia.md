@@ -10,7 +10,8 @@
 | 28/02/2022 | 0.1.3 | Descrição das metodologias e das sprints | Gabriel Mariano |
 | 28/02/2022 | 0.1.4 | Descrição do extreme programming e das interações | Gabriel Mariano |
 | 28/02/2022 | 0.1.5 | Introdução ao documento e ao Scrum | Gabriel Moretti |
-| 01/03/2022 | 0.1.6 | Descrição do Product Backlog, papéis no Scrum e Kanbam | Mateus Franco |
+| 01/03/2022 | 0.1.6 | Alteração da descrição do Timebox | Gabriel Moretti |
+| 01/03/2022 | 0.1.7 | Descrição do Product Backlog, papéis no Scrum e Kanban | Mateus Franco |
 
 ## 1. Introdução
 Esse documento visa informar todas as metodologias, processos e práticas que serão utilizadas ao longo da execução do projeto do INDICAA, as descrevendo e detalhando como necessário.
@@ -40,14 +41,17 @@ Lista emergente e ordenada do que é necessário para o desenvolvimento e melhor
 - __Sprint Retrospective:__ A Sprint Retrospective é o último evento da sprint, tendo o objetivo de levantar pontos positivos e negativos do decorrer da sprint e debater como a produtividade e a qualidade do produto desenvolvido podem ser incrementadas. Basicamente a Sprint Retrospective busca avaliar o que foi bom ou ruim durante a sprint e agir para que os pontos positivos sejam mantidos e os pontos negativos sofram alterações.
 
 #### 2.1.4 Time-Box
-[//]: <> (Moretti)
-> "É um conceito que diz que a quantidade de tempo (horas ou dias, o que depende das unidades sendo utilizadas para um determinado projeto) é imutável, ou seja, a quantidade de horas não poderá aumentar caso algum problema ou novo requisito seja identificado." [PortalEducação, 2019](https://www.portaleducacao.com.br/conteudo/artigos/informatica/timebox-projeto-scrum/40658)
-__Sprints:__
-  Duração de 7 dias : Início no domingo e término no sábado da outra semana.Poderão ser menores devido as releases : Mais curtas ou longas, conforme decisão do Scrum Master.
-- __Daily Meeting:__ As dailies da equipe serão realizadas diariamente por meio do telegram, prioritariamente no período da manhã. Todos os membros têm como obrigação informar a respeito do andamento das suas atividades.
-- __Sprint Review:__ Ocorrerão aos sábados, iniciando às 14h.
-- __Sprint Restropective:__ Ocorrerá aos sábados, iniciando às 15:30h.
-- __Sprint Planning:__ Será realizado nas reuniões de sábado.
+> "O Timebox é uma estratégia de gestão do tempo baseada em metas que ajuda a aumentar a produtividade e a reduzir a procrastinação. Quando se cria uma “caixa de tempo”, em tradução livre, também se define uma meta para que uma determinada tarefa seja realizada dentro de um intervalo predefinido." [Asana, 2021](https://asana.com/pt/resources/what-is-timeboxing)
+
+ __Sprints:__
+  
+  Duração de 7 dias : Início na terça e término na segunda da outra semana. Poderão ser menores devido às releases : Mais curtas ou longas, conforme decisão do Scrum Master.
+- __Daily Meeting:__ As dailies da equipe serão realizadas diariamente por meio do telegram, prioritariamente no período da manhã. Todos os membros têm como obrigação informar a respeito do andamento das suas atividades. Têm duração de 15 minutos.
+- __Sprint Review:__ Ocorrerá ao final das sprints, na segunda ou no início da terça-feira, com duração de 30 minutos.
+- __Sprint Retrospective:__ Ocorrerá ao final das sprints, na segunda ou no início da terça-feira, com duração de 30 minutos.
+- __Sprint Planning:__ Será realizado ao início da sprint, na terça-feira, com duração de 2 horas.
+
+Obs.: Por motivos externos ou decisão dos Scrum Masters, os processos citados no Time-Box podem ter sua duração ou horários alterados.
 
 ### 2.2 Kanban
 > "A palavra japonesa “kanban”, que significa "placa visual". "
@@ -64,6 +68,7 @@ Utilizaremos quadros Kanban para visualização do progresso do trabalho com as 
 - __Done:__ Lista de funcionalidades já desenvolvidas.
 ### 2.3 Extreme Programming (XP)
 > "XP é um apelido carinhoso de uma nova metodologia de desenvolvimento designada Extreme Programming, com foco em agilidade de equipes e qualidade de projetos, apoiada em valores como simplicidade, comunicação, feedback e coragem [...]". [DevMedia](https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498)
+
 O Extreme Programming (XP) é uma metodologia ágil que visa o desenvolvimento de sistemas que entreguem o que é pedido pelo cliente, melhorando também o ambiente de trabalho dos desenvolvedores, de modo a propiciar a realização de trabalhos simples e de qualidade.
 Dentre os pilares do XP, estão a **simplicidade**, a **comunicação**, o **feedback**, **respeito** e a **coragem** (de dizer NÃO).
 
@@ -76,8 +81,7 @@ Poderão ser utilizadas pelas equipes as seguintes práticas:
 - **Coding Standards** (Padronização do Código).
 
 ### 2.4 Planning Poker
-[//]: <> (Moretti)
-"O Planning Poker é uma técnica gamificada baseada em consenso para estimativa, usada principalmente para timeboxing em princípios ágeis. No pôquer de planejamento, os membros do grupo fazem estimativas jogando cartas numeradas viradas para baixo na mesa, em vez de pronunciá-las em voz alta. As cartas são reveladas e as estimativas são então discutidas. Ao ocultar os números dessa maneira, o grupo pode evitar o viés cognitivo da ancoragem , onde o primeiro número falado em voz alta abre um precedente para estimativas subsequentes." [Wikipédia, 2022](https://en.wikipedia.org/wiki/Planning_poker)
+> "O Planning Poker é uma técnica gamificada baseada em consenso para estimativa, usada principalmente para timeboxing em princípios ágeis. No pôquer de planejamento, os membros do grupo fazem estimativas jogando cartas numeradas viradas para baixo na mesa, em vez de pronunciá-las em voz alta. As cartas são reveladas e as estimativas são então discutidas. Ao ocultar os números dessa maneira, o grupo pode evitar o viés cognitivo da ancoragem , onde o primeiro número falado em voz alta abre um precedente para estimativas subsequentes." [Wikipédia, 2022](https://en.wikipedia.org/wiki/Planning_poker)
 
 No nosso projeto utilizamos como referência a sequência de Fibonacci.
 
@@ -92,12 +96,11 @@ A interação entre os membros dos grupos envolvidos no projeto **INDICAA** se d
 
 O compartilhamento de informações e o apoio em eventuais dúvidas e dificuldades é fortemente incentivado por todos os membros do projeto, atuando como pilar de uma "cultura" das equipes. Além disso, a proatividade e a interação entre membros de diferentes equipes são fatores importantes no desenvolvimento do projeto.
 
-O incentivo à tais práticas parte, principalmente, dos(as) gestores(as) das equipes (Scrum Masters e Product Owners), todavia pode ser executado por quaisquer membros à disposição.
+O incentivo a tais práticas parte, principalmente, dos(as) gestores(as) das equipes (Scrum Masters e Product Owners), todavia pode ser executado por quaisquer membros à disposição.
 
-Durante a execução do projeto serão criadas issues para pesquisa de novas tecnologias e práticas de desenvolvimento, de modo a incentivar os membros à pesquisar e compartilhar conhecimento. Alem disso, aqueles(as) que possuem conhecimento prévio em determinadas tecnologias podem se voluntariar a instruir os outros em treinamentos, que serão realizados preferencialmente de maneira síncrona e podem ser disponibilizados para consulta posterior.
+Durante a execução do projeto serão criadas issues para pesquisa de novas tecnologias e práticas de desenvolvimento, de modo a incentivar os membros a pesquisar e compartilhar conhecimento. Alem disso, aqueles(as) que possuem conhecimento prévio em determinadas tecnologias podem se voluntariar a instruir os outros em treinamentos, que serão realizados preferencialmente de maneira síncrona e podem ser disponibilizados para consulta posterior.
 
 ## 5. Referências
-[//]: <> (Todos)
 
 "Metodologia Ágil e Scrum". Disponível em: <https://metodologiaagil.com/>.
 
@@ -111,26 +114,10 @@ Manifesto Ágil. Disponível em: <https://agilemanifesto.org/iso/ptbr/manifesto.
 
 SUTHERLAND, Jeff: Scrum. A Arte de Fazer o Dobro do Trabalho na Metade do Tempo. Editora LeYa, 2016.
 
-
-[//]: <> (A partir daqui estão as referências utilizadas anteriormente pela equipe do Acácia)
-
-Metodologia Scrum. Disponível em: https://www.desenvolvimentoagil.com.br
-
-Bartle, R. a. (1999). Players Who Suit MUDs. Retrieved March 22, 2015, from http://mud.co.uk/richard/hcds.htm
-
-Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. The American Psychologist, 55, 68–78. http://doi.org/10.1037/0003-066X.55.1.68
-
-Pink, D. H. (2009). Drive: The surprising truth about what motivates us. Distribution (p. 256). Canongate. Most of the icons are available at game-icons.net. For more information, check the icons accreditation info here.
-
-Sigmund, K., & Hauert, C. (2002). Altruism. Current Biology. https://doi.org/10.1016/S0960-9822(02)00797-2
-
-Extreme Programing Glossary. Disponível em: https://www.agilealliance.org
-
-When should Extreme Programming be Used?. Disponível em: http://www.extremeprogramming.org
-
-What is Extreme Programming?. Disponível em: https://ronjeffries.com/xprog/what-is-extreme-programming/
+"O que é Timebox? 14 exemplos e casos de uso.". Disponível em <https://asana.com/pt/resources/what-is-timeboxing>.
 
 Planning Poker. Disponível em: https://en.wikipedia.org/wiki/Planning_poker
+
 © 2022 GitHub, Inc.
 Terms
 Privacy
