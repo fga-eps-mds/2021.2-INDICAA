@@ -12,6 +12,7 @@
 | 28/02/2022 | 0.1.5 | Introdução ao documento e ao Scrum | Gabriel Moretti |
 | 01/03/2022 | 0.1.6 | Alteração da descrição do Timebox | Gabriel Moretti |
 | 01/03/2022 | 0.1.7 | Descrição do Product Backlog, papéis no Scrum e Kanban | Mateus Franco |
+| 01/03/2022 | 0.2 | Pequenas Correções e Finalização do Documento | Gabriel Mariano |
 
 ## 1. Introdução
 Esse documento visa informar todas as metodologias, processos e práticas que serão utilizadas ao longo da execução do projeto do INDICAA, as descrevendo e detalhando como necessário.
@@ -54,7 +55,7 @@ Lista emergente e ordenada do que é necessário para o desenvolvimento e melhor
 Obs.: Por motivos externos ou decisão dos Scrum Masters, os processos citados no Time-Box podem ter sua duração ou horários alterados.
 
 ### 2.2 Kanban
-> "A palavra japonesa “kanban”, que significa "placa visual". "
+> "A palavra japonesa 'kanban', que significa 'placa visual'."
 
 Utilizaremos como um método de gerenciamento de fluxo de trabalho para definir, gerenciar e melhorar processos que fornecem trabalho de conhecimento, objetivando a visualização rápida do trabalho à ser realizado e a maximização da eficiência e produtividade.
 
@@ -67,10 +68,10 @@ Utilizaremos quadros Kanban para visualização do progresso do trabalho com as 
 - __In Test:__ Lista de funcionalidades que devem ser testadas.
 - __Done:__ Lista de funcionalidades já desenvolvidas.
 ### 2.3 Extreme Programming (XP)
-> "XP é um apelido carinhoso de uma nova metodologia de desenvolvimento designada Extreme Programming, com foco em agilidade de equipes e qualidade de projetos, apoiada em valores como simplicidade, comunicação, feedback e coragem [...]". [DevMedia](https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498)
+> "XP é um apelido carinhoso de uma nova metodologia de desenvolvimento designada Extreme Programming, com foco em agilidade de equipes e qualidade de projetos, apoiada em valores como simplicidade, comunicação, feedback e coragem [...]".  [DevMedia](https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498)
 
 O Extreme Programming (XP) é uma metodologia ágil que visa o desenvolvimento de sistemas que entreguem o que é pedido pelo cliente, melhorando também o ambiente de trabalho dos desenvolvedores, de modo a propiciar a realização de trabalhos simples e de qualidade.
-Dentre os pilares do XP, estão a **simplicidade**, a **comunicação**, o **feedback**, **respeito** e a **coragem** (de dizer NÃO).
+Dentre os pilares do XP, estão a **simplicidade**, a **comunicação**, o **feedback**, **respeito** e a **coragem** (de dizer "não").
 
 Poderão ser utilizadas pelas equipes as seguintes práticas:
 - **Small Releases** (Pequenas Entregas).
@@ -92,7 +93,7 @@ O Plano de Comunicação vem para assegurar que exista uma comunicação transpa
  - Github - armazenamento de código fonte, transparência na realização de tarefas e documentação de iterações.
 
 ## 4. Interação entre Membros e Treinamentos
-A interação entre os membros dos grupos envolvidos no projeto **INDICAA** se dará através de grupos em plataformas digitais, como o _Telegram_ e o _Discord_, além da eventual comunicação nos comentários das _issues_ do GitHub.
+A interação entre os membros dos grupos envolvidos no projeto **INDICAA** se dará através de grupos em plataformas digitais, como o **Telegram** e o **Discord**, além da eventual comunicação nos comentários das **issues** do GitHub.
 
 O compartilhamento de informações e o apoio em eventuais dúvidas e dificuldades é fortemente incentivado por todos os membros do projeto, atuando como pilar de uma "cultura" das equipes. Além disso, a proatividade e a interação entre membros de diferentes equipes são fatores importantes no desenvolvimento do projeto.
 
@@ -116,11 +117,4 @@ SUTHERLAND, Jeff: Scrum. A Arte de Fazer o Dobro do Trabalho na Metade do Tempo.
 
 "O que é Timebox? 14 exemplos e casos de uso.". Disponível em <https://asana.com/pt/resources/what-is-timeboxing>.
 
-Planning Poker. Disponível em: https://en.wikipedia.org/wiki/Planning_poker
-
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
+Planning Poker. Disponível em: <https://en.wikipedia.org/wiki/Planning_poker>
