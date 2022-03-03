@@ -24,7 +24,7 @@ Ao criar issues atente-se as seguintes questões:
 - Adicione as Labels adequadas
 - Adicione a milestone referente a sprint em que o problema será trabalhado
 - Adicione um Estimate segundo as definições descritas nesse documento
-- Utilize o [_issue template_](https://github.com/fga-eps-mds/Projeto01/blob/main/.github/ISSUE_TEMPLATE/sprint--x-----tipo-da-issue-----o-que-ser--feito-.md) no momento da criação
+- Utilize o [_issue template_](https://github.com/fga-eps-mds/2021.2-INDICAA/blob/main/docs/templates/IssueTemplate.md) no momento da criação
 
 ## Definição de Estimate
 

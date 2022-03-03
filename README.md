@@ -1,7 +1,7 @@
 # **INDICAA**
 
 <p align="center">
-  <img width="500" src="docs/assets/img/logo.png">
+  <img width="500" src="docs/assets/logo/logo.png">
 </p>
 
 
