@@ -9,6 +9,7 @@
 |01/02/2022|0.5|Definição de Metas da Arquitetura|Thiago O. e Pedro|
 |07/02/2022|0.6|Adicionado Tópico de Visão Geral do projeto|João Paulo|
 |15/02/2022|0.7|Adicionado Tópicos faltantes: Visão de Casos de Uso, Visão Lógica, Tamanho e Desempenho. Tópicos 3 e 4 alimentados com novas informações. Pequenos erros corrigidos.|João Paulo|
+|02/03/2022|0.8|Adicionado o Diagrama de Pacotes | Guilherme Barbosa e Gabriel Mariano
 
 ## 1. <a name="1">Introdução</a>
 
@@ -122,5 +123,7 @@ EDUARDO, Victor; et al. Documento de Arquitetura - AlligaBot. Disponível em: <h
 ### 5.1 <a name="5_1">Visão Geral</a>
 
 ### 5.2 <a name="5_2">Diagrama de Pacotes</a>
+![Diagrama de Pacotes](https://user-images.githubusercontent.com/88190414/156471832-18df42d5-aa06-400b-8f3d-c9e683b89c16.png)
+
 
 ## 6. <a name="6">Tamanho e Desempenho</a>
