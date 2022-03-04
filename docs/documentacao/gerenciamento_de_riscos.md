@@ -6,9 +6,9 @@
 | 03/03/2022 | 1.0 | Criação da primeira versão do documento | Adne Moretti, Gabriel Moretti, Pedro Siqueira e Laura Pinos|
 
 ## 1. Introdução
-
+O documento em questão visa informar detalhadamente os riscos que podem afetar o projeto e aplicativo do INDICAA, assim categorizando e descrevendo os mesmos entre as respectivas responsabilidades e papéis e criando a estrutura analítica dos riscos.
 ## 2. Objetivo
-
+O Plano de Gerenciamento de Riscos tem como objetivo principal a documentação e avaliação dos possíveis riscos a serem encontrados no desenvolvimento do projeto, procurando assim guiar os usuários e desenvolvedores às ações diretas para contribuir na mitigação e contenção dos efeitos negativos dos mesmos.
 ## 3. Estrutura Analítica dos Riscos
 
 ### 3.1. Risco Técnico
@@ -51,3 +51,8 @@
 ### 5.3. Avaliação dos Riscos
 
 ## 6. Referências
+"Gerenciamento dos riscos: O que é, objetivo e processos". Disponível em https://escritoriodeprojetos.com.br/gerenciamento-dos-riscos-do-projeto
+
+BRASIL, Brasil; Ada - Plano de Gerenciamento de Riscos. Disponível em: https://fga-eps-mds.github.io/2019.1-ADA/#/docs/project/risk_management_plan
+
+VILARINS, Augusto; FRANÇA, Emanoel; SOARES, Ingrid. GamesBI - Riscos. Disponível em: https://fga-eps-mds.github.io/2018.2-GamesBI/viabilidade/riscos.html
