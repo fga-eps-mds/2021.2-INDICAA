@@ -8,6 +8,7 @@
 | 17/02/2022 | 0.5 | Adição de todo o Protótipo de Alta Fidelidade | Guilherme Barbosa Ferreira, Caio César Oliveira, Thiago Oliveira Cunha, Gabriel Moretti de Souza, Lucas Henrique Lima de Queiroz
 21/02/2022 | 0.6 | Revisão do Protótipo | Gabriel Mariano da Silva
 22/02/2022 | 0.7 | Correções em aspectos funcionais | Caio César Oliveira
+03/03/2022 | 0.8 | Adição da logo e alterações visuais | Guilherme Barbosa Ferreira e Gabriel Moretti de Souza
 
 ## 1. Introdução
 Este documento conterá as informações sobre o desenvolvimento do protótipo, abordando tanto o de baixa fidelidade, quanto o de alta fidelidade, para melhor visualização da ideia do projeto.
@@ -36,4 +37,4 @@ capaz de detalhar o resultado da sua pesquisa.
 
 ## 3.2 Definição do Protótipo
 
-[Protótipo de Alta Fidelidade](https://github.com/fga-eps-mds/2021.2-INDICAA/issues/34#issuecomment-1048259980)
+[Protótipo de Alta Fidelidade](https://github.com/fga-eps-mds/2021.2-INDICAA/issues/34#issuecomment-1058527589)
