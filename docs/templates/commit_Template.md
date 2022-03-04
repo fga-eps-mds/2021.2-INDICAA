@@ -32,19 +32,19 @@ Por ser um projeto voltado totalmente para um público brasileiro e por toda equ
 
 [***Lista de emojis disponíveis em markdown***](https://gist.github.com/rxaviers/7360908)
 
-- :bulb: quando adicionar nova funcionalidade
-- :repeat: quando alguma alteração for feita
-- :cool: quando melhorias de formato/estrutura do código
-- :racehorse: quando melhorar o desempenho
-- 🚱  quando resolver memory leaks
-- :pencil: quando escrever documentação
-- :bug: quando consertar um problema
-- :fire: quando remover código ou arquivos
-- :green_heart: quando consertar problemas de Integração Contínua
-- :white_check_mark: quando adicionar testes
-- :lock: quando lidar com segurança
-- :arrow_up: quando realizar o upgrade de dependências
-- :arrow_down: quando realizar downgrade de dependências
+- :bulb: quando adicionar nova funcionalidade ```:bulb:```
+- :repeat: quando alguma alteração for feita ```:repeat:```
+- :cool: quando melhorias de formato/estrutura do código ```:cool:```
+- :racehorse: quando melhorar o desempenho ```:racehorse:```
+- :x:  quando resolver memory leaks ```:x:```
+- :pencil: quando escrever documentação ```:pencil:```
+- :bug: quando consertar um problema ```:bug:```
+- :fire: quando remover código ou arquivos ```:fire:```
+- :green_heart: quando consertar problemas de Integração Contínua ```:green_heart:```
+- :white_check_mark: quando adicionar testes ```:white_check_mark:```
+- :lock: quando lidar com segurança ```:lock:```
+- :arrow_up: quando realizar o upgrade de dependências ```:arrow_up:```
+- :arrow_down: quando realizar downgrade de dependências ```:arrow_down:```
 
 #### Assunto:
 - Deve possuir no máximo 50 caracteres
