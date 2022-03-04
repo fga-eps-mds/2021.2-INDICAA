@@ -33,6 +33,8 @@ Por ser um projeto voltado totalmente para um público brasileiro e por toda equ
 [***Lista de emojis disponíveis em markdown***](https://gist.github.com/rxaviers/7360908)
 
 - :bulb: quando adicionar nova funcionalidade ```:bulb:```
+- :rocket: quando adicionar código do front-end ```:rocket:```
+- :floppy_disk: quando adicionar código do back-end ```:floppy_disk:```
 - :repeat: quando alguma alteração for feita ```:repeat:```
 - :cool: quando melhorias de formato/estrutura do código ```:cool:```
 - :racehorse: quando melhorar o desempenho ```:racehorse:```
