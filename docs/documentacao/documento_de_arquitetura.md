@@ -11,6 +11,7 @@
 |15/02/2022|0.7|Adicionado Tópicos faltantes: Visão de Casos de Uso, Visão Lógica, Tamanho e Desempenho. Tópicos 3 e 4 alimentados com novas informações. Pequenos erros corrigidos.|João Paulo|
 |02/03/2022|0.8|Adicionado o Diagrama de Pacotes | Guilherme Barbosa e Gabriel Mariano|
 |03/03/2022|0.9|Adicionado o Diagrama de Casos de Uso | Guilherme Santos|
+|05/03/2022|0.9.1| Revisão geral dos documentos do projeto | Adne Moretti e Matheus Pimentel Leal
 
 
 ## 1. <a name="1">Introdução</a>
@@ -21,7 +22,7 @@
 
 ### 1.2 <a name="1_2">Escopo</a>
 
-<p align="justify"> &emsp;&emsp; Esse documento aplica-se ao projeto INDICAA, um sistema que agrupa diversas informações importantes para organização dos alunos e professoraes da UNB. Os alunos terão a possibilidade de visualizar a quantidade de disciplinas por curso, a quantidade de vagas ofertadas, a quantidade de alunos matriculados e a quantidade de salas disponíveis. E, por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento de informações será mais simples, ajudando tanto a parte estudantil da UnB, quanto a parte de gestão e controle de processos como a própria matrícula em disciplina. Esse projeto será desenvolvido pelos alunos da disciplina de Métodos de Desenvolvimento de Software da Universidade de Brasília - Campus Gama</p>
+<p align="justify"> &emsp;&emsp; Esse documento aplica-se ao projeto INDICAA, um sistema que agrupa diversas informações importantes para organização dos coordenadores da UnB. Eles terão a possibilidade de visualizar a quantidade de disciplinas e vagas ofertadas, a quantidade de alunos matriculados e a quantidade de salas disponíveis. E por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento de informações será mais simples, ajudando tanto a parte estudantil da UnB, quanto a parte de gestão e controle de processos como a própria matrícula em disciplina. Esse projeto será desenvolvido pelos alunos da disciplina de Métodos de Desenvolvimento de Software da Universidade de Brasília - Campus Gama</p>
 
 ### 1.3 <a name=1_3>Definições, acrônimos e abreviações</a>
 
@@ -34,17 +35,11 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
 |**MDS**| Métodos de Desenvolvimento de Software
 |**SIGAA**| Sistema Integrado de Gestão das Atividades Acadêmicas
 |**FU**| Funcionalidade de Usuário
+|**BI**| Business Intelligence
 
-### 1.4 <a name=1_4>Referências</a>
- MATHEUS, Davi; et al. Documento de Arquitetura - Cheery Up. Disponível em: <https://fga-eps-mds.github.io/2020.2-CheeryUP/#/./wiki/Documents/Documento_de_Arquitetura?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
- 
- CARVALHO, Durval; et al. Documento de Arquitetura - Acácia. Disponível em: <https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
- 
-EDUARDO, Victor; et al. Documento de Arquitetura - AlligaBot. Disponível em: <https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/08/03/documento-de-arquitetura/>. Acesso em: 07/02/2022.
+### 1.4 <a name=1_4>Visão Geral</a>
 
-### 1.5 <a name=1_4>Visão Geral</a>
-
-<p align="justify"> &emsp;&emsp; Este documento está dividído em 6 grandes tópicos, com subdivisões, com o objetivo final de detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações:</p>
+<p align="justify"> &emsp;&emsp; Este documento está dividído em 6 grandes tópicos, com subdivisões, com o objetivo final de detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos podem ser encontrados a seguir:</p>
 
 | |Tópico |Descrição |
 |-|-|-|
@@ -54,6 +49,7 @@ EDUARDO, Victor; et al. Documento de Arquitetura - AlligaBot. Disponível em: <h
 |**4**|**Visão dos Casos de Uso**| Descreve as partes significativas do ponto de vista da arquitetura do modelo de casos de uso
 |**5**|**Visão Lógica**| Descreve as partes significativas do ponto de vista da arquitetura do modelo de design
 |**6**|**Desempenho e Qualidade**| Descreve as características de desempenho do Software, bem como as restrições estabelecidas e possíveis falhas
+|**7**|**Referências**| Fornece ao leitor uma visão geral das referência utilizadas durante a criação deste documento
 
 
 ## 2. <a name="2">Representação da Arquitetura</a>
@@ -73,7 +69,7 @@ EDUARDO, Victor; et al. Documento de Arquitetura - AlligaBot. Disponível em: <h
 <p align="justify">&emsp;&emsp; •	Quantidade de vagas ofertadas por curso </p>
 <p align="justify">&emsp;&emsp; •	Quantidade de alunos matriculados por curso </p>
 <p align="justify">&emsp;&emsp; •	Quantidade de salas disponíveis por curso </p>
-<p align="justify">&emsp;&emsp; Para cumprir tais metas, será necessário a utilização de um Webcrawler com o intuito de retirar as informações do SIGAA, salvá-las em um banco de dados e utilizar ferramentas de BI (Business Intelligence) para a amostragem dos indicadores. </p>
+<p align="justify">&emsp;&emsp; Para cumprir tais metas, será necessário a utilização de um Webcrawler com o intuito de retirar as informações do SIGAA, salvá-las em um banco de dados e utilizar ferramentas de BI para a amostragem dos indicadores. </p>
 
 ### 3.2 <a name="3_2">Restrições</a>
 
@@ -90,40 +86,40 @@ EDUARDO, Victor; et al. Documento de Arquitetura - AlligaBot. Disponível em: <h
 #### FU01 - Pesquisa
 |||
 ------|------
- **Descrição**| Esta funcionalidade permite o usuario pesquisar tanto por curso quanto por decanato a partir da seleção de um campus |
+ **Descrição**| Esta funcionalidade permite o usuário pesquisar tanto por decanato a partir da seleção de um campus |
  **Atores**| Usuário |
- **Pré-condições**| O usuario deve ter selecionado um campus e preencher o campo de pesquisa  |
- **Pós-condições**| O usuario deve ter conseguido realizado a pesquisa por um decanato ou curso |
- **Fluxo principal**|1. O usuario abre a aplicação <br> 2. O usuario seleciona um campus <br> 3. O usuario preenche o campo de pesquisa e seleciona o que deve ser pesquisado de acordo com as sugestoes <br> 4. A pesquisa é realizada e o usuario tem acesso ao [FU07] e ao [FU03] o que leva a todos os outros FU's |
- **Fluxo Alternativo**| **FA01 - Nao seleçao do campus pelo usuario** <br> Caso o usuario nao selecione um campus a pesquisa nao poderá ser realzada|
+ **Pré-condições**| O usuário deve ter selecionado um campus e preencher o campo de pesquisa  |
+ **Pós-condições**| O usuário deve ter conseguido realizado a pesquisa por um decanato |
+ **Fluxo principal**|1. O usuário abre a aplicação <br> 2. O usuário seleciona um campus <br> 3. O usuário preenche o campo de pesquisa e seleciona o que deve ser pesquisado de acordo com as sugestoes <br> 4. A pesquisa é realizada e o usuário tem acesso ao [FU07] e ao [FU03] o que leva a todos os outros FU's |
+ **Fluxo Alternativo**| **FA01 - Não seleção do campus pelo usuário** <br> Caso o usuário nao selecione um campus a pesquisa nao poderá ser realzada|
  **Fluxo de exceção**| **FE01 - Conexão** <br> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso|
- #### FU02 - Visualizar salas disponiveis
+ #### FU02 - Visualizar salas disponíveis
 |||
 ------|------
- **Descrição**| Esta funcionalidade permite o usuario visualizar as salas disponiveis de forma mais detalhado pela lista |
+ **Descrição**| Esta funcionalidade permite o usuário visualizar as salas disponíveis de forma mais detalhada pela lista |
  **Atores**| Usuário |
- **Pré-condições**| O usuario deve ter realizado a pesquisa e detalhado os graficos |
- **Pós-condições**| O usuario deve ter conseguido visualizar as salas disponiveis de forma detalhada |
- **Fluxo principal**|1. O usuario realiza uma pesquisa[FU01] <br> 2. O usuario clica em detalhar <br> 3. O usuario visualiza uma lista com as informaçoes |
+ **Pré-condições**| O usuário deve ter realizado a pesquisa e clicado para detalhar os gráficos |
+ **Pós-condições**| O usuário deve ter conseguido visualizar as salas disponíveis de forma detalhada |
+ **Fluxo principal**|1. O usuário realiza uma pesquisa[FU01] <br> 2. O usuário clica em detalhar <br> 3. O usuário visualiza uma lista com as informaçoes |
  **Fluxo de exceção**| **FE01 - Conexão** <br> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso|
  #### FU03 - Filtrar Pesquisa
 |||
 ------|------
- **Descrição**| Esta funcionalidade permite o usuario filtrar sua pesquisa a partir do [FU07] ou do [FU04] |
+ **Descrição**| Esta funcionalidade permite o usuário filtrar sua pesquisa a partir do [FU07] ou do [FU04] |
  **Atores**| Usuário |
- **Pré-condições**| O usuario deve ter realizado a pesquisa |
- **Pós-condições**| O usuario deve ter conseguido filtrar sua pesquisa tanto por modalidade quanto por disponibilidade |
- **Fluxo principal**|1. O usuario realiza uma pesquisa[FU01] <br> 2. O usuario visualiza as opçoes de filtragem á esquerda da pagina <br> |
+ **Pré-condições**| O usuário deve ter realizado a pesquisa |
+ **Pós-condições**| O usuário deve ter conseguido filtrar sua pesquisa tanto por modalidade quanto por disponibilidade |
+ **Fluxo principal**|1. O usuário realiza uma pesquisa[FU01] <br> 2. O usuário visualiza as opçoes de filtragem á esquerda da pagina <br> |
  **Fluxo de exceção**| **FE01 - Conexão** <br> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso|
 
-#### FU07 - Visualizar graficos
+#### FU07 - Visualizar gráficos
 |||
 ----- | ----- 
 **Descrição** | Este caso de uso se refere à funcionalidade que permite que o usuário visualize informações menos detalhadas sobre as vagas e salas ocupadas|
 **Atores** | Usuário |
 **Pré-condições** | O usuário deverá ter realizado a pesquisa [FU01] |
-**Pós-condições** | O Grafico sobre as vagas e salas ocupadas deverá estar apresentado na tela para o usuário |
-**Fluxo principal** | 1. O usuário realiza a pesquisa com os filtros desejados[FU01] <br> 2. O Grafico é apresentado na tela <br> 3. O filtro é apresentado a esquerda para o usuário[FU03]  
+**Pós-condições** | O gráfico sobre as vagas e salas ocupadas deverá estar apresentado na tela para o usuário |
+**Fluxo principal** | 1. O usuário realiza a pesquisa com os filtros desejados[FU01] <br> 2. O gráfico é apresentado na tela <br> 3. O filtro é apresentado a esquerda para o usuário[FU03]  
 **Fluxo de exceção** | **FE01 - Conexão** <br>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
 
 
@@ -131,10 +127,10 @@ EDUARDO, Victor; et al. Documento de Arquitetura - AlligaBot. Disponível em: <h
 
 |||
 ----- | ----- 
-**Descrição** | Este caso de uso se refere à funcionalidade que apresenta ao usuario como realizar uma pesquisa |
+**Descrição** | Este caso de uso se refere à funcionalidade que apresenta ao usuário como realizar uma pesquisa |
 **Atores** | Usuário |
 **Pré-condições** | O usuário deverá passar o cursor sobre o icone de ajuda na margem superior direita |
-**Pós-condições** | Será apresentado informações sobre como realizar uma pesquisa e quais as funcionalidades das ferramentas disponiveis |
+**Pós-condições** | Será apresentado informações sobre como realizar uma pesquisa e quais as funcionalidades das ferramentas disponíveis |
 **Fluxo principal** | 1. O usuário passar o cursor sobre o icone de ajuda  <br> 2. É Apresentado um popup com as infromações de uso 
 **Fluxo de exceção** | **FE01 - Conexão** <br>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
 
@@ -146,3 +142,10 @@ EDUARDO, Victor; et al. Documento de Arquitetura - AlligaBot. Disponível em: <h
 ![](https://user-images.githubusercontent.com/88190414/156471832-18df42d5-aa06-400b-8f3d-c9e683b89c16.png)
 
 ## 6. <a name="6">Desempenho e Qualidade</a>
+
+## 7 <a name=1_4>Referências</a>
+ MATHEUS, Davi; et al. Documento de Arquitetura - Cheery Up. Disponível em: <https://fga-eps-mds.github.io/2020.2-CheeryUP/#/./wiki/Documents/Documento_de_Arquitetura?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
+ 
+ CARVALHO, Durval; et al. Documento de Arquitetura - Acácia. Disponível em: <https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
+ 
+EDUARDO, Victor; et al. Documento de Arquitetura - AlligaBot. Disponível em: <https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/08/03/documento-de-arquitetura/>. Acesso em: 07/02/2022.

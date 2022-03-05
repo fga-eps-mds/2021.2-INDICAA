@@ -8,6 +8,7 @@
 31/01/2022 | 0.2 | Pequenas Correções | Gabriel Mariano da Silva
 17/02/2022 | 0.3 | Inserção dos Requisitos de Alto Nível | Gabriel Moretti de Souza e Matheus Pimentel Leal
 18/02/2022 | 0.3.1 | Pequenas Correções e Adição da descrição ao papel do Designer | Gabriel Moretti de Souza
+05/03/2022 | 0.4 | Revisão geral dos documentos do projeto | Adne Moretti e Matheus Pimentel Leal
 
 ### Siglas
 **Sigla** | **Descrição**
@@ -16,27 +17,28 @@ SIGAA | Sistema Integrado de Gestão de Atividades Acadêmicas
 INDICAA | Nome dado ao projeto relativo aos indicadores do SIGAA
 UnB | Universidade de Brasília
 FGA | Faculdade do Gama
+MVP | Minimum viable product
 
 ## 1. Introdução
 Este documento visa informar as principais características do projeto **INDICAA** de forma concisa e clara para a leitura de todos os interessados no projeto e nas suas etapas de execução e decisão. Abaixo serão tratados os seguintes tópicos relacionados a este projeto: descrição, propósito e justificativa, objetivos, partes interessadas (usuários e envolvidos no desenvolvimento), requisitos de alto nível, análise de riscos, requisitos para a aprovação seguindo a definition of done estabelecida e estratégias de comunicação.
 
 ## 2. Descrição
-O projeto **INDICAA** foi proposto pela profª Carla Silva Rocha Aguiar e consiste em realizar a criação de uma aplicação para facilitar a busca por informações no site SIGAA que é utilizado por alunos e professores da UnB. As informações relacionadas a cada curso, que serão disponibilizadas são:
+O projeto **INDICAA** foi proposto pela profª Carla Silva Rocha Aguiar e consiste em realizar a criação de uma aplicação para facilitar a busca por informações no site SIGAA, que é utilizado por alunos, professores e coordenadores da UnB. As informações que serão disponibilizadas na aplicação **INDICAA** são:
 * Quantidade de disciplinas
 * Quantidade de vagas ofertadas
 * Quantidade de alunos matriculados
 * Quantidade de salas disponíveis
 
 ## 3. Propósito e justificativa
-Tendo em vista que o contexto pandêmico trouxe uma nova forma de comunicação e interação, dificuldades de manejo das tecnologias são constantemente encontradas por seus usuários no mundo todo. A comunidade acadêmica da UnB não é exceção. Com isso, o **INDICAA** visa trazer uma forma facilitada e intuitiva de busca por informações no SIGAA.
+Tendo em vista que o contexto pandêmico trouxe uma nova forma de comunicação e interação, dificuldades de manejo das tecnologias são constantemente encontradas por seus usuários no mundo todo. A comunidade acadêmica da UnB não é exceção. Com isso, o **INDICAA** visa trazer uma forma facilitada e intuitiva de busca por informações no SIGAA, principalmente tendo em vista o eminente retorno das atividades presenciais na UnB.
 
 ## 4. Objetivos
-O objetivo do **INDICAA** é ofertar um painel com os dados da lista de oferta de disciplinas do SIGAA dispostos de maneira intuitiva, de modo a facilitar a visualização das informações necessárias dos cursos, como a quantidade de disciplinas ofertadas, a quantidade de vagas disponíveis, a quantidade de alunos matriculados e a quantidade de salas disponíveis.
-Atualmente, a lista de ofertas do SIGAA é composta por uma grande quantidade de dados dispostos separadamente. O _software_ desenvolvido facilitaria o entendimento destes dados e auxiliaria na tomada de decisões com base nas informações disponibilizadas.
+O objetivo do **INDICAA** é ofertar um painel com os dados da lista de oferta de disciplinas do SIGAA dispostos de maneira intuitiva, de modo a facilitar a visualização das informações por campus e departamentos da UnB, que foram citadas no tópico **2** deste documento.
+Atualmente, a lista de ofertas do SIGAA é composta por uma grande quantidade de dados dispostos separadamente. O _software_ desenvolvido facilitaria o entendimento destes dados e auxiliaria na tomada de decisões, por parte da coordenação, com base nas informações disponibilizadas.
 
 ## 5. Partes interessadas
 ### 5.1 Usuários
-O público-alvo consiste na comunidade da Universidade de Brasília, isto é, coordenadores, professores e estudantes, basicamente.
+O público-alvo consiste na comunidade da Universidade de Brasília, isto é: Coordenadores, professores e estudantes. Tendo como foco os cargos administrativos.
 **Usuário** | **Descrição**
 --- | ---
 Coordenadores | Comunidade administrativa da UnB que visa, através dos dados disponibilizados dos cursos, tomar decisões que melhorem a organização destes.
@@ -55,7 +57,7 @@ DevOps | Atua na configuração do ambiente de desenvolvimento e homologação d
 Desenvolvedor | Atua no desenvolvimento e teste do produto, criando o _Sprint Backlog_ e adaptando seu plano de modo a atingir o objetivo definido ao final da _Sprint_.
 _Designer_ | Atua nas responsabilidades, operações, atributos e relacionamentos de elementos do _design_ do produto, assegurando também que esse esteja consistente com a arquitetura do software.
 
-#### Grupo 1
+#### Grupo 1 (Cargos rotativos)
 **Usuário** | **Descrição**
 --- | ---
 _Scrum Master_ | Laura Pinos de Oliveira
@@ -77,9 +79,11 @@ Desenvolvedor | Gabriel Moretti de Souza
 #### Grupo 4
 **Usuário** | **Descrição**
 --- | ---
-_Scrum Master_ | Mateus Vinícius Ferreira Franco
+_Scrum Master_ | Guilherme dos Santos Araújo
 _Product Owner_ | Pedro Augusto Santos Siqueira
-Desenvolvedor | Guilherme dos Santos Araújo <br  /> Thiago Oliveira Cunha <br  /> João Paulo da Silva Freitas <br  /> Arthur Taylor de Jesus Popov <br  /> Thiago Vivian Bastos
+Arquiteto de software | Thiago Oliveira Cunha
+DevOps | Thiago Vivian Bastos
+Desenvolvedor | João Paulo da Silva Freitas <br  /> Arthur Taylor de Jesus Popov <br  />
 
 ## 6. Requisitos de alto nível
 **Nome** | **Descrição**
@@ -90,6 +94,7 @@ Filtros de exibição | Deverá ser possível filtrar as disciplinas de acordo c
 Interatividade com o usuário | As mensagens do sistema para o usuário devem ser claras, e o usuário deve poder buscar pelos cursos e matérias que desejar.
 
 ## 7. Riscos
+[Documento de gerenciamento de riscos](Link)
 **Risco** | **Prevenção** | **Ação**
 :---: | :---: | :---:
 Algum membro contrair COVID-19 | Estar previamente organizado entre os membros do grupo, para que alguém consiga assumir a função do membro em questão. | Organização com a equipe.
@@ -100,9 +105,12 @@ Mudanças no escopo do projeto | Realizar _reviews_ do projeto e validar se ocor
 
 ## 8. Requisitos para a aprovação
 * Validação pela professora Dr. Carla Rocha Aguiar.
-* Atender às expectativas prévias do projeto.
+* Atender às expectativas definidas pelo _**MVP**_.
+* Atender todos os requisitos definidos pelo [Documento de requisitos](link).
+* Entrega de todos os itens necessários na _Release 2 da disciplina de MDS_.
 
 ## 9. Estratégias de comunicação
+[Documento de gerenciamento de comunicação](link)
 Para comunicação interna foram utilizadas as seguintes ferramentas: **Discord** e **Telegram**.<br />
 Para comunicação com os demais grupos utilizamos, além das ferramentas citadas anteriormente, o **GitHub**.<br />
 Para aulas e treinamentos com a professora e monitores, também foi utilizada a ferramenta do **Jitsi Meet**.
