@@ -116,6 +116,28 @@ EDUARDO, Victor; et al. Documento de Arquitetura - AlligaBot. Disponível em: <h
  **Fluxo principal**|1. O usuario realiza uma pesquisa[FU01] <br> 2. O usuario visualiza as opçoes de filtragem á esquerda da pagina <br> |
  **Fluxo de exceção**| **FE01 - Conexão** <br> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso|
 
+#### FU07 - Visualizar graficos
+|||
+----- | ----- 
+**Descrição** | Este caso de uso se refere à funcionalidade que permite que o usuário visualize informações menos detalhadas sobre as vagas e salas ocupadas|
+**Atores** | Usuário |
+**Pré-condições** | O usuário deverá ter realizado a pesquisa [FU01] |
+**Pós-condições** | O Grafico sobre as vagas e salas ocupadas deverá estar apresentado na tela para o usuário |
+**Fluxo principal** | 1. O usuário realiza a pesquisa com os filtros desejados[FU01] <br> 2. O Grafico é apresentado na tela <br> 3. O filtro é apresentado a esquerda para o usuário[FU03]  
+**Fluxo de exceção** | **FE01 - Conexão** <br>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
+
+
+#### FU08 - Manual de Uso
+
+|||
+----- | ----- 
+**Descrição** | Este caso de uso se refere à funcionalidade que apresenta ao usuario como realizar uma pesquisa |
+**Atores** | Usuário |
+**Pré-condições** | O usuário deverá passar o cursor sobre o icone de ajuda na margem superior direita |
+**Pós-condições** | Será apresentado informações sobre como realizar uma pesquisa e quais as funcionalidades das ferramentas disponiveis |
+**Fluxo principal** | 1. O usuário passar o cursor sobre o icone de ajuda  <br> 2. É Apresentado um popup com as infromações de uso 
+**Fluxo de exceção** | **FE01 - Conexão** <br>Se houver algum problema de conexão, a operação pode não ser concluída com sucesso
+
 ## 5. <a name="5">Visão Lógica</a>
 
 ### 5.1 <a name="5_1">Visão Geral</a>
