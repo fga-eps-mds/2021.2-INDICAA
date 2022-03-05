@@ -12,6 +12,7 @@
 |31/01/2022|0.8|Correção de erros|Letícia|
 |17/02/2022|0.9|Adição do Tópico 6 sobre Requisitos|Caio|
 |05/03/2022|0.9.1|Correção do Documento|Gabriel Mariano|
+|05/03/2022|0.9.2|Correção do Documento|Letícia|
 
 ## 1. <a name="1">Introdução</a>
 
@@ -52,22 +53,20 @@ de gerenciamento e controle da disponibilização de disciplinas por parte dos c
 
 | O problema é | que afeta | cujo impacto é | uma boa solução seria |
 | ------------ | --------- | -------------- | ----------------------|
-| Dificuldade na busca por informações simples pelo SIGAA. | Principalmente estudantes. | A carência de informações necessárias para atividades acadêmicas | Organização das informações em uma aplicação de fácil entendimento. |
+| Dificuldade na busca por informações simples pelo SIGAA. | Coordenação acadêmica, alunos e professores | A carência de informações necessárias para atividades acadêmicas | Organização das informações em uma aplicação de fácil entendimento. |
 
 ### 2.2 <a name="2_3">Descrição do posicionamento do produto</a>
 
 <p align="justify">&emsp;&emsp; O produto final consistirá em uma aplicação, onde será possível visualizar 
- um painel com informações sobre os cursos ofertados. Funcionando como se fosse um filtro, com o uso de 
- palavras chaves para focar a busca por elementos específicos. Consequentemente procurar uma matéria para
- se matricular ou verificar as vagas desta seria uma tarefa simples. </p>
+ um painel com informações sobre os cursos ofertados. Funcionando como um filtro, com o uso de 
+ palavras chaves para focar a busca por elementos específicos. Consequentemente, a gestão por parte da coordenação acadêmica, assim como as atividades regulares de docentes e discentes se tornará uma tarefa simples. </p>
  
  ### 2.3 <a name="2_1">Oportunidade de negócio</a>
 
-<p align="justify">&emsp;&emsp; O produto possibilita que o aluno busque por matérias específicas para o 
- seu curso, evitando a confusão com outras disciplinas aparecendo na tela ao mesmo tempo. Desta forma, com toda essa 
+<p align="justify">&emsp;&emsp; O produto possibilita que o usuário busque por matérias específicas com relação ao curso em questão, evitando a confusão com outras disciplinas aparecendo na tela ao mesmo tempo. Desta forma, com toda essa 
  disponibilidade de informação, é possível obter uma melhor gestão e organização tanto para a escolha de disciplinas 
  por parte do estudante, quanto para a análise de dados por parte da coordenação ou pelos próprios professores. </p>
- 
+
  ## 3. <a name="3">Descrição dos usuários e envolvidos</a>
  
  ### 3.1 <a name="3.1">Descrição dos usuários</a>
@@ -162,7 +161,7 @@ Grupo 4:
 
 ### 4.2.  <a name="4.2">Resumo das Capacidades</a>
 
-<p align="justify">&emsp;&emsp;A aplicação proporcionará uma interface adaptada à experiência de usuário dos alunos e professores, por meio da utilização de filtros de busca com palavras-chave, dentre outros aspectos os quais influenciarão positivamente na tomada de decisão relativa matrícula em disciplinas, análise de dados e gestão de processos.  
+<p align="justify">&emsp;&emsp;A aplicação proporcionará uma interface adaptada à experiência de usuário dos gestores, alunos e professores, por meio da utilização de filtros de busca com palavras-chave, dentre outros aspectos os quais influenciarão positivamente na tomada de decisão relativa matrícula em disciplinas, análise de dados e gestão de processos.  
  
 ## 5. <a name="5">Recursos do Produto</a>
 
