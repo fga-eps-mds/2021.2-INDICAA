@@ -87,6 +87,34 @@ EDUARDO, Victor; et al. Documento de Arquitetura - AlligaBot. Disponível em: <h
 ![](https://raw.githubusercontent.com/fga-eps-mds/2021.2-INDICAA/main/docs/assets/Diagrama_casos_de_uso.png)
 
 ### 4.2 <a name="4_2">Descrição dos Casos de Uso</a>
+#### FU01 - Pesquisa
+|||
+------|------
+ **Descrição**| Esta funcionalidade permite o usuario pesquisar tanto por curso quanto por decanato a partir da seleção de um campus |
+ **Atores**| Usuário |
+ **Pré-condições**| O usuario deve ter selecionado um campus e preencher o campo de pesquisa  |
+ **Pós-condições**| O usuario deve ter conseguido realizado a pesquisa por um decanato ou curso |
+ **Fluxo principal**|1. O usuario abre a aplicação <br> 2. O usuario seleciona um campus <br> 3. O usuario preenche o campo de pesquisa e seleciona o que deve ser pesquisado de acordo com as sugestoes <br> 4. A pesquisa é realizada e o usuario tem acesso ao [FU07] e ao [FU03] o que leva a todos os outros FU's |
+ **Fluxo Alternativo**| **FA01 - Nao seleçao do campus pelo usuario** <br> Caso o usuario nao selecione um campus a pesquisa nao poderá ser realzada|
+ **Fluxo de exceção**| **FE01 - Conexão** <br> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso|
+ #### FU02 - Visualizar salas disponiveis
+|||
+------|------
+ **Descrição**| Esta funcionalidade permite o usuario visualizar as salas disponiveis de forma mais detalhado pela lista |
+ **Atores**| Usuário |
+ **Pré-condições**| O usuario deve ter realizado a pesquisa e detalhado os graficos |
+ **Pós-condições**| O usuario deve ter conseguido visualizar as salas disponiveis de forma detalhada |
+ **Fluxo principal**|1. O usuario realiza uma pesquisa[FU01] <br> 2. O usuario clica em detalhar <br> 3. O usuario visualiza uma lista com as informaçoes |
+ **Fluxo de exceção**| **FE01 - Conexão** <br> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso|
+ #### FU03 - Filtrar Pesquisa
+|||
+------|------
+ **Descrição**| Esta funcionalidade permite o usuario filtrar sua pesquisa a partir do [FU07] ou do [FU04] |
+ **Atores**| Usuário |
+ **Pré-condições**| O usuario deve ter realizado a pesquisa |
+ **Pós-condições**| O usuario deve ter conseguido filtrar sua pesquisa tanto por modalidade quanto por disponibilidade |
+ **Fluxo principal**|1. O usuario realiza uma pesquisa[FU01] <br> 2. O usuario visualiza as opçoes de filtragem á esquerda da pagina <br> |
+ **Fluxo de exceção**| **FE01 - Conexão** <br> Se houver algum problema de conexão, a operação pode não ser concluída com sucesso|
 
 ## 5. <a name="5">Visão Lógica</a>
 
