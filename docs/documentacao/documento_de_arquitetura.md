@@ -31,6 +31,7 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
 |**FGA**| Faculdade do Gama 
 |**MDS**| Métodos de Desenvolvimento de Software
 |**SIGAA**| Sistema Integrado de Gestão das Atividades Acadêmicas
+|**FU**| Funcionalidade de Usuário
 
 ### 1.4 <a name=1_4>Referências</a>
  MATHEUS, Davi; et al. Documento de Arquitetura - Cheery Up. Disponível em: <https://fga-eps-mds.github.io/2020.2-CheeryUP/#/./wiki/Documents/Documento_de_Arquitetura?id=documento-de-arquitetura>. Acesso em: 30 jan 2022.
@@ -125,5 +126,6 @@ EDUARDO, Victor; et al. Documento de Arquitetura - AlligaBot. Disponível em: <h
 ### 5.2 <a name="5_2">Diagrama de Pacotes</a>
 ![Diagrama de Pacotes](https://user-images.githubusercontent.com/88190414/156471832-18df42d5-aa06-400b-8f3d-c9e683b89c16.png)
 
+## 6. Funcionalidad de Usuário
 
-## 6. <a name="6">Tamanho e Desempenho</a>
+## 7. <a name="6">Tamanho e Desempenho</a>
