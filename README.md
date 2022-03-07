@@ -52,7 +52,7 @@ Também é necessário ter o Git instalado para clonar o repositório.
 **Back-end:**
 - Clonar o repositório:
 ```
-git clone https://github.com/fga-eps-mds/2019.2-Acacia.git
+git clone https://github.com/fga-eps-mds/2021.2-INDICAA
 ```
 - Execução do conteiner:
 ```
