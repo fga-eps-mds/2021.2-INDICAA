@@ -54,14 +54,6 @@ Também é necessário ter o Git instalado para clonar o repositório.
 ```
 git clone https://github.com/fga-eps-mds/2021.2-INDICAA
 ```
-- Execução do conteiner:
-```
-Docker-compose up
-```
-- Após esses passos a aplicação deverá estar acessível em:
-```
-localhost:8000
-```
 **Front-end:**
 - Para instalar a camada front-end da aplicação basta seguir os passos de instalação descritos [aqui](https://github.com/fga-eps-mds/2021.2-INDICAA-Front-end)
 
