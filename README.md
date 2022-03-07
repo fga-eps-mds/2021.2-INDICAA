@@ -41,9 +41,30 @@ Dentre os requisitos estabelecidos, encontram-se dispostos no painel:
 Esse projeto usa algumas ferramentas para o seu desenvolvimento:
 - [Ubuntu](https://ubuntu.com/download) para 
 desenvolvimento em Linux
-- [TBD]
+- [Docker](https://docs.docker.com/engine/install/ubuntu/) para Linux/Ubuntu
 
 ### 💿 Instalação 
+
+Essa aplicação tem seu ambiente configurado através de conteiners [Docker](https://www.docker.com), portanto, tem como pré-requisitos a instalação do [Docker](https://www.docker.com/get-started) e [Docker-compose](https://docs.docker.com/compose/install/).
+
+Também é necessário ter o Git instalado para clonar o repositório.
+
+**Back-end:**
+- Clonar o repositório:
+```
+git clone https://github.com/fga-eps-mds/2019.2-Acacia.git
+```
+- Execução do conteiner:
+```
+Docker-compose up
+```
+- Após esses passos a aplicação deverá estar acessível em:
+```
+localhost:8000
+```
+**Front-end:**
+- Para instalar a camada front-end da aplicação basta seguir os passos de instalação descritos [aqui](https://github.com/fga-eps-mds/2021.2-INDICAA-Front-end)
+
 
 ## 🤝 Contribuição Livre
 
