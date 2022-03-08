@@ -61,20 +61,20 @@ O Plano de Gerenciamento de Riscos tem como objetivo principal a documentação 
 | RN17 | Grande | Alta | 16 | Reuniões para analisar os erros e não cometer novamente | Reuniões constantes para resoluções de issues em conjunto
 
 ### 5.1. Tabela de Probabilidade
-| **Probabilidade** | **Intervalo** | **Peso** |
-| Muito Baixa | menor que 10% | 1 |
-| Baixa | de 10% a 25% | 2 |
-| Média | de 25% a 50% | 3 |
-| Alta | de 50% a 75% | 4 |
-| Muito Alta | maior que 75% | 5 |
+| **Probabilidade** | **Intervalo** | **Peso** 
+| Muito Baixa | menor que 10% | 1 
+| Baixa | de 10% a 25% | 2 
+| Média | de 25% a 50% | 3 
+| Alta | de 50% a 75% | 4 
+| Muito Alta | maior que 75% | 5 
 
 ### 5.2. Tabela de Impacto
-| **Impacto** | **Descrição** | **Peso** |
-| Insignificante | Impacto insignificante para o andamento do projeto | 1 |
-| Pequeno | Impacto com pouca influência no andamento do projeto | 2 |
-| Médio | Impacto notável para o andamento do projeto | 3 |
-| Grande | Impacto grave para o andamento do projeto | 4 |
-| Crítico | Impacto crítico para o andamento do projeto | 5 |
+| **Impacto** | **Descrição** | **Peso** 
+| Insignificante | Impacto insignificante para o andamento do projeto | 1 
+| Pequeno | Impacto com pouca influência no andamento do projeto | 2 
+| Médio | Impacto notável para o andamento do projeto | 3 
+| Grande | Impacto grave para o andamento do projeto | 4 
+| Crítico | Impacto crítico para o andamento do projeto | 5 
 
 
 ### 5.3. Avaliação dos Riscos
