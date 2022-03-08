@@ -20,7 +20,7 @@ O Plano de Gerenciamento de Riscos tem como objetivo principal a documentação 
 ### 3.4. Risco Externo
 
 ## 4. Identificação dos Riscos
-| **ID** | **Risco** | **Causa** | **Impacto** | **Categoria EAR** |
+| **ID** | **Se** | **Por Conta** | **o impacto será** | **Categoria EAR** |
 | --- | --- | --- | --- | --- |
 | RN01 | O projeto não atender aos requisitos levantados | Falha no levantamento de requisitos e validação constante com o projeto | e possível refatoração do projeto e redefinição dos requisitos| Requisitos
 | RN02 | Membros dos times trancarem a matéria ou abandonarem projeto | Desmotivação, problemas pessoais | Sobrecarga em outros membros do projeto e redefinição de papéis | Recursos
@@ -40,15 +40,50 @@ O Plano de Gerenciamento de Riscos tem como objetivo principal a documentação 
 | RN16 | Requisitos levantados não atendem às necessidades do cliente | Falta de comunicação e validação dos requisitos com o cliente | Insatisfação e requisitos levantados novamente | Requisitos 
 | RN17 | Estimativas incoerentes com as issues | Pouca noção de quanto esforço a issue demanda | Issue não finalizar no tempo previsto | Complexidade 
 ## 5. Interpretação
-
+| **ID** | **Impacto** | **Probabil** | **Avaliação** | **Contigência** | **Mitigação** |
+| --- | --- | --- | --- | --- |
+| RN01 | Crítico | Muito Alta | 25 | Revalidar todos os requisitos com o Product Owner e com o cliente, e aplicar validação constante nos requisitos levantados | Realização de reuniões constantes com os membros da equipe, juntamente do cliente, para obter melhor compreensão do escopo do projeto 
+| RN02 | Grande | Muito Alta | 20 | Maior qauntidade de tarefas e realocação de atividades para os membros permanecentes | Reunião para reafirmar a importância do projeto e realizar a realocação de atividades
+| RN03 | Crítico | Alta | 20 | Indicar treinamentos para a equipe de desenvolvimento sobre a tecnologia escolhida | Estabelecer treinamentos constantes sobre a tecnologia escolhida 
+| RN04 | Crítico | Muito Alta | 25 | Reafirmar a necessidade de um alto grau de comunicação e promover as mudanças necessárias, desde realização de daily meetings mais objetivas a mudanças de ferramentas para comunicação | Criando o Plano de comunicação em que a equipe demonstre comum acordo
+| RN05 | Crítico | Alta | 20 | Realizar a entrega na próxima Sprint como dívida técnica e, talvez, realocá-la para uma dupla com mais facilidade com a tecnologia | Planejar as atividades e dividi-las nas sprints com base nos pesos e dificuldade definida no planning poker 
+| RN06 | Crítico | Baixa | 10 | Trocar para uma tecnologia equivalente | Escolher uma tecnologia com melhor suporte
+| RN07 | Grande | Baixo | 8 | Quem estiver na reunião passar o conteúdo para quem não compareceu | Verificar horários onde a maioria pode comparecer
+| RN08 | Crítico | Alta | 20 | Indicar treinamentos para a equipe de desenvolvimento sobre a tecnologia escolhida | Estabelecer treinamentos constantes sobre a tecnologia escolhida | 
+| RN09 | Crítico | Alta | 20 | Atualizar o documento para que fique coerente | Avaliação do documento por dois ou mais membros participantes do projeto
+| RN10 | Crítico | Alta | 20 | Realizar refatoração de código, testes e validação com o cliente | Realizar treinamentos de todas as tecnologias utilizadas, garantir a realização de testes, boas práticas de programação e validação com o cliente 
+| RN11 | Grande | Alta | 16 | Procurar ajuda de alunos, professores, pessoas de fora do ambiente universitário e aumentar a carga de estudos | Realização de pesquisas constantes e consultoria com outros alunos, professores e pessoas de fora do ambiente universitário
+| RN12 | Grande | Alta | 16 | Realizar replanejamento da sprint utilizando a priorização do backlog do produto | Montar o backlog da sprint utilizando a priorização do backlog do produto
+| RN13 | Grande | Alta | 16 | Ter consciência do projeto e se dedicar mais | Reuniões constantes e motivações por metas
+| RN14 | Critico | Alta | 20 | Realizar reuniões com o grupo com o objetivo de mitigar desentendimentos | Atividades do grupo serem realizadas por votação da maioria 
+| RN15 | Grande | Muito Alta | 20 | Realizar um replanejamento das histórias para que entrem em conformidade com os requisitos | Realizar constantes reuniões entre os membros da equipe, com o cliente e pesquisas necessárias para obtenção de conhecimento e compreensão sobre o escopo do projeto
+| RN16 | Crítico | Alta | 20 | Realizar refatoração de código, testes e validação com o cliente | Realizar treinamentos de todas as tecnologias utilizadas, garantir a realização de testes, boas práticas de programação e validação com o cliente 
+| RN17 | Grande | Alta | 16 | Reuniões para analisar os erros e não cometer novamente | Reuniões constantes para resoluções de issues em conjunto
 
 ### 5.1. Tabela de Probabilidade
-
+| **Probabilidade** | **Intervalo** | **Peso** |
+| Muito Baixa | menor que 10% | 1 |
+| Baixa | de 10% a 25% | 2 |
+| Média | de 25% a 50% | 3 |
+| Alta | de 50% a 75% | 4 |
+| Muito Alta | maior que 75% | 5 |
 
 ### 5.2. Tabela de Impacto
+| **Impacto** | **Descrição** | **Peso** |
+| Insignificante | Impacto insignificante para o andamento do projeto | 1 |
+| Pequeno | Impacto com pouca influência no andamento do projeto | 2 |
+| Médio | Impacto notável para o andamento do projeto | 3 |
+| Grande | Impacto grave para o andamento do projeto | 4 |
+| Crítico | Impacto crítico para o andamento do projeto | 5 |
 
 
 ### 5.3. Avaliação dos Riscos
+| **Impacto/Probabilidade** | **Muito Baixa** | **Baixa** | **Média** | **Alta** | **Muito Alta** |
+| Insignificante | 1 | 2 | 3 | 4 | 5
+| Pequeno | 2 | 4 | 6 | 8 | 10
+| Médio | 3 | 6 | 9 | 12 | 15
+| Grande | 4 | 8 | 12 | 16 | 20
+| Crítico | 5 | 10 | 15 | 20 | 25
 
 ## 6. Referências
 "Gerenciamento dos riscos: O que é, objetivo e processos". Disponível em https://escritoriodeprojetos.com.br/gerenciamento-dos-riscos-do-projeto
