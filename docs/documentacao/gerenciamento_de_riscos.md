@@ -40,8 +40,8 @@ O Plano de Gerenciamento de Riscos tem como objetivo principal a documentação 
 | RN16 | Requisitos levantados não atendem às necessidades do cliente | Falta de comunicação e validação dos requisitos com o cliente | Insatisfação e requisitos levantados novamente | Requisitos 
 | RN17 | Estimativas incoerentes com as issues | Pouca noção de quanto esforço a issue demanda | Issue não finalizar no tempo previsto | Complexidade 
 ## 5. Interpretação
-| **ID** | **Impacto** | **Probabil** | **Avaliação** | **Contigência** | **Mitigação** |
-| --- | --- | --- | --- | --- |
+| **ID** | **Impacto** | **Probabilidade** | **Avaliação** | **Contigência** | **Mitigação** |
+| --- | --- | --- | --- | --- | --- |
 | RN01 | Crítico | Muito Alta | 25 | Revalidar todos os requisitos com o Product Owner e com o cliente, e aplicar validação constante nos requisitos levantados | Realização de reuniões constantes com os membros da equipe, juntamente do cliente, para obter melhor compreensão do escopo do projeto 
 | RN02 | Grande | Muito Alta | 20 | Maior qauntidade de tarefas e realocação de atividades para os membros permanecentes | Reunião para reafirmar a importância do projeto e realizar a realocação de atividades
 | RN03 | Crítico | Alta | 20 | Indicar treinamentos para a equipe de desenvolvimento sobre a tecnologia escolhida | Estabelecer treinamentos constantes sobre a tecnologia escolhida 
@@ -61,24 +61,27 @@ O Plano de Gerenciamento de Riscos tem como objetivo principal a documentação 
 | RN17 | Grande | Alta | 16 | Reuniões para analisar os erros e não cometer novamente | Reuniões constantes para resoluções de issues em conjunto
 
 ### 5.1. Tabela de Probabilidade
-| **Probabilidade** | **Intervalo** | **Peso** 
-| Muito Baixa | menor que 10% | 1 
-| Baixa | de 10% a 25% | 2 
-| Média | de 25% a 50% | 3 
-| Alta | de 50% a 75% | 4 
-| Muito Alta | maior que 75% | 5 
+| **Probabilidade** | **Intervalo** | **Peso** |
+| --- | --- | --- |
+| Muito Baixa | menor que 10% | 1 |
+| Baixa | de 10% a 25% | 2 |
+| Média | de 25% a 50% | 3 |
+| Alta | de 50% a 75% | 4 |
+| Muito Alta | maior que 75% | 5 |
 
 ### 5.2. Tabela de Impacto
-| **Impacto** | **Descrição** | **Peso** 
-| Insignificante | Impacto insignificante para o andamento do projeto | 1 
-| Pequeno | Impacto com pouca influência no andamento do projeto | 2 
-| Médio | Impacto notável para o andamento do projeto | 3 
-| Grande | Impacto grave para o andamento do projeto | 4 
-| Crítico | Impacto crítico para o andamento do projeto | 5 
+| **Impacto** | **Descrição** | **Peso** |
+| --- | --- | --- |
+| Insignificante | Impacto insignificante para o andamento do projeto | 1 |
+| Pequeno | Impacto com pouca influência no andamento do projeto | 2 |
+| Médio | Impacto notável para o andamento do projeto | 3 |
+| Grande | Impacto grave para o andamento do projeto | 4 |
+| Crítico | Impacto crítico para o andamento do projeto | 5 |
 
 
 ### 5.3. Avaliação dos Riscos
 | **Impacto/Probabilidade** | **Muito Baixa** | **Baixa** | **Média** | **Alta** | **Muito Alta** |
+| --- | --- | --- | --- | --- | --- |
 | Insignificante | 1 | 2 | 3 | 4 | 5
 | Pequeno | 2 | 4 | 6 | 8 | 10
 | Médio | 3 | 6 | 9 | 12 | 15
