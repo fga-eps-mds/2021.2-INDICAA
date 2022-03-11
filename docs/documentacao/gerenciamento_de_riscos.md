@@ -10,20 +10,37 @@ O documento em questão visa informar detalhadamente os riscos que podem afetar 
 ## 2. Objetivo
 O Plano de Gerenciamento de Riscos tem como objetivo principal a documentação e avaliação dos possíveis riscos a serem encontrados no desenvolvimento do projeto, procurando assim guiar os usuários e desenvolvedores às ações diretas para contribuir na mitigação e contenção dos efeitos negativos dos mesmos.
 ## 3. Estrutura Analítica dos Riscos
-
+Uma forma comum para estruturar categorias dos riscos, representadas hierarquicamente, usa a estrutura analítica dos riscos (EAR). Uma EAR possibilita a melhor vizualização de todos as fontes de riscos, sendo útil para identificação e categorização.
 ### 3.1. Risco Técnico
-
+| **Tipo** | **Descrição** |
+| --- | --- |
+| Requisitos | Riscos gerados pela falta de mapeamento e elicitação de requisitos |
+| Tecnologias | Riscos gerados pela tecnologia usada |
+| Complexidade | Riscos gerados pela falta de conhecimento e pela forma na qual a equipe de desenvolvimento se adapta a tecnologia escolhida |
+| Qualidade | Riscos decorrentes da qualidade do produto final |
 ### 3.2. Risco de Gerenciamento
-
+| **Tipo** | **Descrição** |
+| --- | --- |
+| Estimativa | Riscos que podem afetar o tempo de produção do projeto|
+| Controle | Riscos relacionados ao controle de atividades |
+| Planejamento | Riscos relacionados ao planejamento de confecção do projeto |
+| Comunicação | Riscos relacionados às atividades e meio de comunicação, como ruídos ou falta de comunicação da equipe |
 ### 3.3. Risco Organizacional
-
+| **Tipo** | **Descrição** |
+| --- | --- |
+| Recursos | Riscos gerados pela falta de recursos humanos e/ou tecnológicos, como perda ou defeitos em equipamentos ou membros que abandonam o projeto |
+| Priorização | Riscos gerados pela má escolha de histórias de usuários na Sprint |
+| Dependências | Riscos que podem afetar a evolução do projeto |
 ### 3.4. Risco Externo
-
+| **Tipo** | **Descrição** |
+| --- | --- |
+| Cliente | Riscos gerados pelo cliente em relação ao produto, como mudanças no escopo devido a um pedido do cliente |
+| Pandemia | Riscos gerados pela pandemia |
 ## 4. Identificação dos Riscos
 | **ID** | **Se** | **Por Conta** | **o impacto será** | **Categoria EAR** |
 | --- | --- | --- | --- | --- |
 | RN01 | O projeto não atender aos requisitos levantados | Falha no levantamento de requisitos e validação constante com o projeto | e possível refatoração do projeto e redefinição dos requisitos| Requisitos
-| RN02 | Membros dos times trancarem a matéria ou abandonarem projeto | Desmotivação, problemas pessoais | Sobrecarga em outros membros do projeto e redefinição de papéis | Recursos
+| RN02 | Membros dos times trancarem a matéria ou abandonarem projeto | Desmotivação, problemas pessoais | Sobrecarga em outros membros do projeto e redefinição de papéis | Recursos/Pandemia
 | RN03 | Dificuldade de adaptação da equipe com as tecnologias | Falta de conhecimento e incompatibilidade com o projeto | Atraso na entrega e redefinição de tecnologia | Complexidade
 | RN04 | Houver problemas de comunicação entre os grupos | Não utilização dos meios de comunicação definidos pela equipe | Desorganização, falta de alinhamento da equipe e dificuldade de gerenciamento pelos Scrum Masters | Comunicação
 | RN05 | As tarefas não forem finalizadas no prazo | Planejamento incoerente da sprint ou falta de empenho de membros do grupo | Atraso no roadmap do projeto | Planejamento
@@ -37,8 +54,9 @@ O Plano de Gerenciamento de Riscos tem como objetivo principal a documentação 
 | RN13 | Não houver evolução de conhecimento de membros da equipe | Falha nos treinamentos e membros não comprometidos com o projeto | Membros desnivelados e dificuldade no desenvolvimento do projeto | Tecnologias
 | RN14 | Houver desentendimento entre membros que atrapalhe o desenvolver do projeto | Opniões e ideias divergentes | Dificuldade de comunicação e de desenvolvimento do projeto | Comunicação
 | RN15 | Histórias de usuário mal descritas e definidas | Descrição confusa e de difícil entendimento | Implementação errada e trabalho refeito | Planejamento
-| RN16 | Requisitos levantados não atendem às necessidades do cliente | Falta de comunicação e validação dos requisitos com o cliente | Insatisfação e requisitos levantados novamente | Requisitos 
-| RN17 | Estimativas incoerentes com as issues | Pouca noção de quanto esforço a issue demanda | Issue não finalizar no tempo previsto | Complexidade 
+| RN16 | Requisitos levantados não atendem às necessidades do cliente | Falta de comunicação e validação dos requisitos com o cliente | Insatisfação e requisitos levantados novamente | Cliente/Requisitos 
+| RN17 | Estimativas incoerentes com as issues | Pouca noção de quanto esforço a issue demanda | Issue não finalizar no tempo previsto | Complexidade
+
 ## 5. Interpretação
 | **ID** | **Impacto** | **Probabilidade** | **Avaliação** | **Contigência** | **Mitigação** |
 | --- | --- | --- | --- | --- | --- |
