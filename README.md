@@ -26,7 +26,7 @@ Dentre os requisitos estabelecidos, encontram-se dispostos no painel:
 
 ## 📚 Releases
  
- 1.0 - Planejado para 08/03/2022 
+ 1.0 - 07/03/2022 
  
  2.0 - Planejado para 26/04/2022
   
@@ -41,9 +41,22 @@ Dentre os requisitos estabelecidos, encontram-se dispostos no painel:
 Esse projeto usa algumas ferramentas para o seu desenvolvimento:
 - [Ubuntu](https://ubuntu.com/download) para 
 desenvolvimento em Linux
-- [TBD]
+- [Docker](https://docs.docker.com/engine/install/ubuntu/) para Linux/Ubuntu
 
 ### 💿 Instalação 
+
+Essa aplicação tem seu ambiente configurado através de conteiners [Docker](https://www.docker.com), portanto, tem como pré-requisitos a instalação do [Docker](https://www.docker.com/get-started) e [Docker-compose](https://docs.docker.com/compose/install/).
+
+Também é necessário ter o Git instalado para clonar o repositório.
+
+**Back-end:**
+- Clonar o repositório:
+```
+git clone https://github.com/fga-eps-mds/2021.2-INDICAA
+```
+**Front-end:**
+- Para instalar a camada front-end da aplicação basta seguir os passos de instalação descritos [aqui](https://github.com/fga-eps-mds/2021.2-INDICAA-Front-end)
+
 
 ## 🤝 Contribuição Livre
 
