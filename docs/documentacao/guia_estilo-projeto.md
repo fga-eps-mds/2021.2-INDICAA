@@ -7,12 +7,9 @@
 
 # 1. Introdução
 
-# 2. Apresentação da Identidade Visual
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRM9PQoXCnghUXGfKBRbxu7zDXxjQGPCUmpY7aDO074gj_OKAaHX-L1Q6PXcEPcYQJgukVNKK_OnLbZ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+# 2. Detalhamento e Justificativas
 
-# 3. Detalhamento e Justificativas
-
-## 3.1. Nome da aplicação
+## 2.1. Nome da aplicação
 
 Sobre a escolha do nome da aplicação, teve-se a ideia de utilizar **Acacia**, em português **Acácia**
 
@@ -20,7 +17,7 @@ O nome foi escolhido por conta da história por trás da planta acácia: A acác
 
 Tal conceito se relaciona com o propósito do nosso projeto de colaboração voluntária e estimulação do senso de comunidade.
 
-## 3.2. Fontes
+## 2.2. Fontes
 
 As fontes utilizadas na aplicação serão:
 
@@ -47,7 +44,7 @@ Coloca-se no css, para a utilização das fontes:
 	font-family: 'Roboto', sans-serif;
 
 
-# 3.2.Paleta de cores
+# 2.3.Paleta de cores
 
 ![paleta de cores](img/identidade/paleta.png)
 
@@ -59,32 +56,22 @@ Ainda, em relação ao contraste, foram feitos testes e é recomendado ter estes
 
 <img src="img/identidade/contraste1.png" alt="contraste" width="200"/>
 
-<img src="img/identidade/contraste2.png" alt="contraste" width="200"/>
+# 3. Componentes
 
-<img src="img/identidade/contraste3.png" alt="contraste" width="200"/>
-
-<img src="img/identidade/contraste4.png" alt="contraste" width="200"/>
-
-<img src="img/identidade/contraste5.png" alt="contraste" width="200"/>
-
-<img src="img/identidade/contraste6.png" alt="contraste" width="200"/>
-
-# 4. Componentes
-
-## 4.1. Botões
+## 3.1. Botões
 
 Existem botões utilizando as diferentes cores da paleta, a depender do uso. O botão comum de confirmação é da cor primária. Os botões são arredondados (raio de 12 px) com texto escrito utilizando a fonte Raleway tamanho 14pt, semibold, todas letras maiúsculas. Observa-se ainda a cor da palavra escrita, a depender da cor do botão, para cumprir o contraste.
 
 ![botoes](img/identidade/botoes.png)
 
-## 4.2. Campos de formulários
+## 3.2. Campos de formulários
 
 O texto acima do formulário, de label, é na fonte Raleway, tamanho 12 pt, regular, na cor primária,com uma margem de 20px a esquerda, em relação ao campo.
 O campo possui raio de 12px arredondado, e bordas na cor primária.
 
 ![campos](img/identidade/campos.png)
 
-## 4.3. Navbar
+## 3.3. Navbar
 
 Apresenta-se a seguir algumas opções para serem analizadas e decididas, para navbar.
 
@@ -96,9 +83,3 @@ Apresenta-se a seguir algumas opções para serem analizadas e decididas, para n
 ### Para website
 
 ![contraste](img/identidade/navwebsite1.png)
-
-![contraste](img/identidade/navwebsite2.png)
-
-![contraste](img/identidade/navweb.png)
-
-![contraste](img/identidade/navweb1.png)
