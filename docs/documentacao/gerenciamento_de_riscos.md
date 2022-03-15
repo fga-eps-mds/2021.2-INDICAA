@@ -13,6 +13,7 @@ O Plano de Gerenciamento de Riscos tem como objetivo principal a documentação 
 Uma forma comum para estruturar categorias dos riscos, representadas hierarquicamente, usa a estrutura analítica dos riscos (EAR). Uma EAR possibilita a melhor vizualização de todos as fontes de riscos, sendo útil para identificação e categorização.
 
 ![](/docs/assets/Diagrama-EAR.png)
+Diagrama de riscos do projeto
 
 ### 3.1. Risco Técnico
 | **Tipo** | **Descrição** |
