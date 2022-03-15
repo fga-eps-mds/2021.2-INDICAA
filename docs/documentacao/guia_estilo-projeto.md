@@ -5,11 +5,11 @@
 | :- | :- | :- | :- |
 | 15/03/2022 | 0.1 | Criação da versão inicial do documento| Mateus Franco |
 
-# 1. Introdução
+# 1. Introdução (Matheus Costa)
 
 # 2. Detalhamento e Justificativas
 
-## 2.1. Nome da aplicação
+## 2.1. Nome da aplicação (Adne)
 
 Sobre a escolha do nome da aplicação, teve-se a ideia de utilizar **Acacia**, em português **Acácia**
 
@@ -17,7 +17,7 @@ O nome foi escolhido por conta da história por trás da planta acácia: A acác
 
 Tal conceito se relaciona com o propósito do nosso projeto de colaboração voluntária e estimulação do senso de comunidade.
 
-## 2.2. Fontes
+## 2.2. Fontes (Mateus Franco)
 
 As fontes utilizadas na aplicação serão:
 
@@ -43,8 +43,7 @@ Coloca-se no css, para a utilização das fontes:
 	font-family: 'Raleway', sans-serif;
 	font-family: 'Roboto', sans-serif;
 
-
-# 2.3.Paleta de cores
+# 2.3. Paleta de cores (Leticia)
 
 ![paleta de cores](img/identidade/paleta.png)
 
@@ -56,30 +55,6 @@ Ainda, em relação ao contraste, foram feitos testes e é recomendado ter estes
 
 <img src="img/identidade/contraste1.png" alt="contraste" width="200"/>
 
-# 3. Componentes
+# 2.4. Logo (Vitor)
 
-## 3.1. Botões
-
-Existem botões utilizando as diferentes cores da paleta, a depender do uso. O botão comum de confirmação é da cor primária. Os botões são arredondados (raio de 12 px) com texto escrito utilizando a fonte Raleway tamanho 14pt, semibold, todas letras maiúsculas. Observa-se ainda a cor da palavra escrita, a depender da cor do botão, para cumprir o contraste.
-
-![botoes](img/identidade/botoes.png)
-
-## 3.2. Campos de formulários
-
-O texto acima do formulário, de label, é na fonte Raleway, tamanho 12 pt, regular, na cor primária,com uma margem de 20px a esquerda, em relação ao campo.
-O campo possui raio de 12px arredondado, e bordas na cor primária.
-
-![campos](img/identidade/campos.png)
-
-## 3.3. Navbar
-
-Apresenta-se a seguir algumas opções para serem analizadas e decididas, para navbar.
-
-### Para celular
-
-![contraste](img/identidade/navcelular.png)
-
-
-### Para website
-
-![contraste](img/identidade/navwebsite1.png)
+# 2.5. Conjuntos e padrões dos ícones (Mateus Franco)
