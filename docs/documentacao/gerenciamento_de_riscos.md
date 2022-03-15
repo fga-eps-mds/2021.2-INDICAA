@@ -3,7 +3,7 @@
 ## Histórico de versões
 | **Data** | **Versão** | **Descrição** | **Autor** |
 | --- | --- | --- | --- |
-| 03/03/2022 | 1.0 | Criação da primeira versão do documento | Adne Moretti, Gabriel Moretti, Pedro Siqueira e Laura Pinos|
+| 03/03/2022 | 1.0 | Criação da primeira versão do documento | Adne Moretti, Gabriel Moretti, Pedro Siqueira e Vitor Eduardo|
 
 ## 1. Introdução
 O documento em questão visa informar detalhadamente os riscos que podem afetar o projeto e aplicativo do INDICAA, assim categorizando e descrevendo os mesmos entre as respectivas responsabilidades e papéis e criando a estrutura analítica dos riscos.
