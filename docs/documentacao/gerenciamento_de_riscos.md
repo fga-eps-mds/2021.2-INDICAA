@@ -11,6 +11,7 @@ O documento em questão visa informar detalhadamente os riscos que podem afetar 
 O Plano de Gerenciamento de Riscos tem como objetivo principal a documentação e avaliação dos possíveis riscos a serem encontrados no desenvolvimento do projeto, procurando assim guiar os usuários e desenvolvedores às ações diretas para contribuir na mitigação e contenção dos efeitos negativos dos mesmos.
 ## 3. Estrutura Analítica dos Riscos
 Uma forma comum para estruturar categorias dos riscos, representadas hierarquicamente, usa a estrutura analítica dos riscos (EAR). Uma EAR possibilita a melhor vizualização de todos as fontes de riscos, sendo útil para identificação e categorização.
+
 ### 3.1. Risco Técnico
 | **Tipo** | **Descrição** |
 | --- | --- |
@@ -47,11 +48,11 @@ Uma forma comum para estruturar categorias dos riscos, representadas hierarquica
 | RN06 | As tecnologias e ferramentas utilizadas apresentarem inconstâncias | do proprietário | Necessidade de troca de tecnologia por uma semelhante, atraso na entrega do produto | Tecnologias |
 | RN07 | Divergência de horários disponíveis entre os membros | Rotina dos membros | Dificuldade de marcar reuniões e treinamentos entre os membros  | Comunicação
 | RN08 | Problemas de equipamento e configuração do ambiente dos membros da equipe | Falha na internet, energia ou problemas nas máquinas | Atraso na entrega de tarefas por parte dos membros do grupo | Recursos
-| RN09 | Documentação incoerente com o projeto | Documentação não for atualizada no decorrer do projeto | Confusão no entendimento do projeto por partes não envolvidas| Documentação
+| RN09 | Documentação incoerente com o projeto | Documentação não for atualizada no decorrer do projeto | Confusão no entendimento do projeto por partes não envolvidas| Controle
 | RN10 | Baixa qualidade do software entregue | Falta de conhecimento em design, usabilidade e tecnologias | Insatisfação por parte do cliente | Qualidade
 | RN11 | Os arquitetos não conseguirem planejar e garantir a execução da arquitetura | da falta de conhecimento e experiência com as tecnologias do projeto | Dificuldade na organização do projeto | Complexidade |
-| RN12 | Alteração no escopo do projeto | Da falha no planejamento | Replanejamento, necessidade de refazer partes do projeto | Planejamento |
-| RN13 | Não houver evolução de conhecimento de membros da equipe | Falha nos treinamentos e membros não comprometidos com o projeto | Membros desnivelados e dificuldade no desenvolvimento do projeto | Tecnologias
+| RN12 | Alteração no escopo do projeto | Da falha no planejamento ou confusão em relação ao escopo | Replanejamento, necessidade de refazer partes do projeto | Planejamento |
+| RN13 | Não houver evolução de conhecimento de membros da equipe | Falha nos treinamentos e membros não comprometidos com o projeto | Membros desnivelados e dificuldade no desenvolvimento do projeto | Dependências
 | RN14 | Houver desentendimento entre membros que atrapalhe o desenvolver do projeto | Opniões e ideias divergentes | Dificuldade de comunicação e de desenvolvimento do projeto | Comunicação
 | RN15 | Histórias de usuário mal descritas e definidas | Descrição confusa e de difícil entendimento | Implementação errada e trabalho refeito | Planejamento
 | RN16 | Requisitos levantados não atendem às necessidades do cliente | Falta de comunicação e validação dos requisitos com o cliente | Insatisfação e requisitos levantados novamente | Cliente/Requisitos 
