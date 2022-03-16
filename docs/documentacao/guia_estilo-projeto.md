@@ -5,11 +5,13 @@
 | :- | :- | :- | :- |
 | 15/03/2022 | 0.1 | Criação da versão inicial do documento| Mateus Franco |
 
-# 1. Introdução (Matheus Costa)
+# 1. Introdução
+[comment]: <> (Responsável pela Introdução: Matheus Costa)
 
 # 2. Detalhamento e Justificativas
 
-## 2.1. Nome da aplicação (Adne)
+## 2.1. Nome da aplicação
+[comment]: <> (Responsável por Nome da aplicação: Adne)
 
 Sobre a escolha do nome da aplicação, teve-se a ideia de utilizar **Acacia**, em português **Acácia**
 
@@ -17,7 +19,8 @@ O nome foi escolhido por conta da história por trás da planta acácia: A acác
 
 Tal conceito se relaciona com o propósito do nosso projeto de colaboração voluntária e estimulação do senso de comunidade.
 
-## 2.2. Fontes (Mateus Franco)
+## 2.2. Fontes
+[comment]: <> (Responsável por Fontes: Mateus Franco)
 
 As fontes utilizadas na aplicação serão:
 
@@ -43,7 +46,8 @@ Coloca-se no css, para a utilização das fontes:
 	font-family: 'Raleway', sans-serif;
 	font-family: 'Roboto', sans-serif;
 
-# 2.3. Paleta de cores (Leticia)
+## 2.3. Paleta de cores
+[comment]: <> (Responsável por Paleta de cores: Leticia)
 
 ![paleta de cores](img/identidade/paleta.png)
 
@@ -55,6 +59,8 @@ Ainda, em relação ao contraste, foram feitos testes e é recomendado ter estes
 
 <img src="img/identidade/contraste1.png" alt="contraste" width="200"/>
 
-# 2.4. Logo (Vitor)
+## 2.4. Logo
+[comment]: <> (Responsável por Logo: Vitor)
 
-# 2.5. Conjuntos e padrões dos ícones (Mateus Franco)
+## 2.5. Conjuntos e padrões dos ícones
+[comment]: <> (Responsável por Conjuntos e padrões dos ícones: Mateus Franco)
