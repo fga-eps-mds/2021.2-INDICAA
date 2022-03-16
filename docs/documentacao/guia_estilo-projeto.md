@@ -5,6 +5,7 @@
 | :- | :- | :- | :- |
 | 15/03/2022 | 0.1 | Criação da versão inicial do documento| Mateus Franco |
 | 15/03/2022 | 0.2 | Adição da introdução | Matheus Costa |
+| 16/03/2022 | 0.3 | Adição das instruções da fonte | Mateus Franco |
 
 # 1. Introdução
 Pensando em manter uma consistência na identidade visual do nosso projeto, este Guia visa documentar estilos, fontes, cores, dentre outros aspectos visuais importantes estabelecidos para o projeto, a fim de que se siga um padrão de desenvolvimento.
@@ -21,31 +22,33 @@ O nome foi escolhido por conta da história por trás da planta acácia: A acác
 Tal conceito se relaciona com o propósito do nosso projeto de colaboração voluntária e estimulação do senso de comunidade.
 
 ## 2.2. Fontes
-[comment]: <> (Responsável por Fontes: Mateus Franco)
 
-As fontes utilizadas na aplicação serão:
+A principal fonte à ser utilizada no desenvolvimento do projeto será: 
 
- - **Raleway**(SIL OPEN FONT LICENSE Version 1.1), para títulos e 
- - **Roboto**(Apache License), para textos. 
+ - **UnB Pro** (Link para download: [download](http://marca.unb.br/fontesunb.php).)
 
-Estas fontes são sans-serif, facilitando a leitura para pessoas com dislexia já que são "sem serif", isto é, não possui traços e hastes rebuscadas.
+Adotamos a fonte UnB Pro pois é uma das principais famílias tipográficas oficiais da UnB. Além disso, a fonte UnB Pro é compatível com os sistemas operacionais Linux, Windows e MacOS e está disponível gratuitamente para a toda a comunidade universitária sob licença de software livre. 
 
-Além disso, estas fontes possuem boa adaptação para aplicações responsivas, como o deste projeto, adaptando-se para visualização web e mobile e também possuem licença que permite uso gratuito.
+Para realizar a instalação local da fonte: Na página de downloads das Fontes, escolha o formato de arquivo desejado e clique para baixar. Depois de baixar, descompacte o arquivo e instale na pasta Fonts do sistema operacional. Se você tem alguma versão mais antiga das Fontes UnB no seu computador, desinstale antes de instalar a nova versão que você acaba de baixar.
 
-### Uso das fontes
-
+### Utilização no projeto:
+Primeiramente, deve-se incluir a pasta da fonte que foi realizado o donwload no próprio projeto, para assim incluir no HTML e CSS.
 #### Incluindo no HTML
 
 Coloca-se no <head> o seguinte trecho de código:
 
-	<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+	<link href="caminho_da_pasta_da_fonte" rel="stylesheet">
+Observação: O caminho da pasta será onde você colocou seu arquivo com as fontes. 
+Por exemplo: 
+    "C:\Users\userIndicaa\Downloads\UnB_Pro_v1.0\UnB_Pro_v1.0"
+	
 
 #### Incluindo no CSS
 
-Coloca-se no css, para a utilização das fontes:
+Coloca-se no css, para a utilização das fonte:
 
-	font-family: 'Raleway', sans-serif;
-	font-family: 'Roboto', sans-serif;
+    font-family: 'UnB Pro';
+	font-style: normal;
 
 ## 2.3. Paleta de cores
 [comment]: <> (Responsável por Paleta de cores: Leticia)
