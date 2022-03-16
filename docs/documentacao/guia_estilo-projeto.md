@@ -4,9 +4,10 @@
 | Data   | Versão | Modificação  | Autor  |
 | :- | :- | :- | :- |
 | 15/03/2022 | 0.1 | Criação da versão inicial do documento| Mateus Franco |
+| 15/03/2022 | 0.2 | Adição da introdução | Matheus Costa |
 
 # 1. Introdução
-[comment]: <> (Responsável pela Introdução: Matheus Costa)
+Pensando em manter uma consistência na identidade visual do nosso projeto, este Guia visa documentar estilos, fontes, cores, dentre outros aspectos visuais importantes estabelecidos para o projeto, a fim de que se siga um padrão de desenvolvimento.
 
 # 2. Detalhamento e Justificativas
 
