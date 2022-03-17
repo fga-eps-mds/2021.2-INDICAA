@@ -65,3 +65,7 @@ Ainda, em relação ao contraste, foram feitos testes e é recomendado ter estes
 
 ## 2.4. Logo
 [comment]: <> (Responsável por Logo: Vitor)
+	
+A logo escolhida visou escolher uma arte minimalista que representasse bem a UnB, tanto nas cores quanto no estilo.
+
+<img src="assets/logo/logo.png" alt="contraste" width="200"/>
