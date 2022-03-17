@@ -65,6 +65,3 @@ Ainda, em relação ao contraste, foram feitos testes e é recomendado ter estes
 
 ## 2.4. Logo
 [comment]: <> (Responsável por Logo: Vitor)
-
-## 2.5. Conjuntos e padrões dos ícones
-[comment]: <> (Responsável por Conjuntos e padrões dos ícones: Mateus Franco)
