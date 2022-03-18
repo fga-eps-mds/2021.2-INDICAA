@@ -6,6 +6,7 @@
 | 15/03/2022 | 0.1 | Criação da versão inicial do documento| Mateus Franco |
 | 15/03/2022 | 0.2 | Adição da introdução | Matheus Costa |
 | 16/03/2022 | 0.3 | Adição das instruções da fonte | Mateus Franco |
+| 17/03/2022 | 0.4 | Adição do nome da aplicação | Adne Moretti |
 
 # 1. Introdução
 Pensando em manter uma consistência na identidade visual do nosso projeto, este Guia visa documentar estilos, fontes, cores, dentre outros aspectos visuais importantes estabelecidos para o projeto, a fim de que se siga um padrão de desenvolvimento.
@@ -13,13 +14,12 @@ Pensando em manter uma consistência na identidade visual do nosso projeto, este
 # 2. Detalhamento e Justificativas
 
 ## 2.1. Nome da aplicação
-[comment]: <> (Responsável por Nome da aplicação: Adne)
 
-Sobre a escolha do nome da aplicação, teve-se a ideia de utilizar **Acacia**, em português **Acácia**
+A respeito da escolha do nome da aplicação, surgiu a ideia de INDICAA.
 
-O nome foi escolhido por conta da história por trás da planta acácia: A acácia é uma árvore que participa de uma relação **__interespecífica__**, **__harmônica__** e **__facultativa__**, com formigas, chamada de **__Protocooperação__**. Isto é, nem a árvore e nem as formigas, espécies diferentes, tem a necessidade de participar deste processo, mas ambas se beneficiam caso optem por cooperar.
+Esse nome foi escolhido por se tratar de uma aplicação que utiliza Business Intelligence para apresentar indicadores com informações presentes no SIGAA, que é o site utilizado pelos coordenadores, alunos e professores da UnB. Sendo assim, fez-se a junção de **indicadores** com **SIGAA**, o que originou **INDICAA**.
 
-Tal conceito se relaciona com o propósito do nosso projeto de colaboração voluntária e estimulação do senso de comunidade.
+Assim, esse nome se relaciona com o objetivo do projeto.
 
 ## 2.2. Fontes
 
