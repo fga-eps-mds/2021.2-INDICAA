@@ -68,4 +68,4 @@ Ainda, em relação ao contraste, foram feitos testes e é recomendado ter estes
 	
 A logo escolhida visou escolher uma arte minimalista que representasse bem a UnB, tanto nas cores quanto no estilo.
 
-<img src="assets/logo/logo.png" alt="contraste" width="200"/>
+<img src="/docs/assets/logo/logo.png" alt="contraste" width="200"/>
