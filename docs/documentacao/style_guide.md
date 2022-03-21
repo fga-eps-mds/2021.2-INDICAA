@@ -7,6 +7,7 @@
 | 15/03/2022 | 0.2 | Adição da introdução | Matheus Costa |
 | 16/03/2022 | 0.3 | Adição das instruções da fonte | Mateus Franco |
 | 17/03/2022 | 0.4 | Adição do nome da aplicação | Adne Moretti |
+| 21/03/2022 | 0.5 | Adição da paleta de cores | Letícia Aires |
 
 # 1. Introdução
 Pensando em manter uma consistência na identidade visual do nosso projeto, este Guia visa documentar estilos, fontes, cores, dentre outros aspectos visuais importantes estabelecidos para o projeto, a fim de que se siga um padrão de desenvolvimento.
@@ -53,19 +54,25 @@ Coloca-se no css, para a utilização das fonte:
 ## 2.3. Paleta de cores
 [comment]: <> (Responsável por Paleta de cores: Leticia)
 
-![paleta de cores](../assets/Paleta_de_cores_INDICAA.png)
+![paleta de cores](https://user-images.githubusercontent.com/72623771/159377863-86b8210d-93eb-41c2-8929-ffc0a38105a9.png)
 
-As cores foram selecionadas observando características do produto e sua finalidade, bem como a acessibilidade, testando-se o contraste. A ferramenta utilizada para construi-la foi a aplicação web [coolors](https://coolors.co/376996-56a3a6-364259-ef476f-edc841). 
+As cores foram selecionadas em se analisando características do produto e sua finalidade, bem como a acessibilidade, ou seja, de forma a construir um software adequado para a gestão institucional, optou-se por utilizar paleta da própria UnB. 
+A ferramenta utilizada para construi-la foi a aplicação web [coolors](https://coolors.co/376996-56a3a6-364259-ef476f-edc841). 
 
-A cor primária é a cor **#376996**, e a cor secundária **#56a3a6**. A cor **#ef476f** é acento.
+As cores primárias são **#003366** e **#006633**, já **#F6F6F6** é secundária e a cor **#1D1D1D** é acento.
 
-Ainda, em relação ao contraste, foram feitos testes e é recomendado ter estes números em mente para utilização das cores.
+Com relação ao contraste, foram feitos testes e é recomendado ter estes números em mente para posterior utilização das cores.
 
-<img src="img/identidade/contraste1.png" alt="contraste" width="200"/>
-
-## 2.4. Logo
+<img src="https://user-images.githubusercontent.com/72623771/159379543-c3632383-70fe-4208-b014-c7c6ec90a9df.png" width="200"/>
+<img src="https://user-images.githubusercontent.com/72623771/159380333-030eb755-e5ef-449b-b2d5-9b802746f3a5.png" width="200"/>
+<img src="https://user-images.githubusercontent.com/72623771/159380545-3f31e9a7-4706-4d0c-bca0-153c2628b6cd.png" width="200"/>
+<img src="https://user-images.githubusercontent.com/72623771/159380652-d7ab08f9-a29e-4f70-bb7f-9e2b11b302f9.png" width="200"/>
+<img src="https://user-images.githubusercontent.com/72623771/159380788-6542f966-6778-407f-8810-e315df2dc4eb.png" width="200"/>
+	
+	
+	
 [comment]: <> (Responsável por Logo: Vitor)
 	
-A logo escolhida visou escolher uma arte minimalista que representasse bem a UnB, tanto nas cores quanto no estilo.
+A logo escolhida visou apresentar uma arte minimalista que representasse bem a UnB, tanto nas cores quanto no estilo.
 
 <img src="/docs/assets/logo/logo.png" alt="contraste" width="200"/>
