@@ -53,11 +53,11 @@ Coloca-se no css, para a utilização das fonte:
 ## 2.3. Paleta de cores
 [comment]: <> (Responsável por Paleta de cores: Leticia)
 
-![paleta de cores](img/identidade/paleta.png)
+![paleta de cores](../assets/Paleta_de_cores_INDICAA.png)
 
-As cores foram selecionadas observando características do produto e sua finalidade, bem como a acessibilidade, testando-se o contraste. A ferramenta utilizada para construi-la foi [coolors](https://coolors.co/376996-56a3a6-364259-ef476f-edc841). 
+As cores foram selecionadas observando características do produto e sua finalidade, bem como a acessibilidade, testando-se o contraste. A ferramenta utilizada para construi-la foi a aplicação web [coolors](https://coolors.co/376996-56a3a6-364259-ef476f-edc841). 
 
-A cor primária é a cor #376996, e a cor secundária #56a3a6. A cor #ef476f é acento.
+A cor primária é a cor **#376996**, e a cor secundária **#56a3a6**. A cor **#ef476f** é acento.
 
 Ainda, em relação ao contraste, foram feitos testes e é recomendado ter estes números em mente para utilização das cores.
 
