@@ -28,8 +28,8 @@ Tal layout é apenas um exemplo e pode vir a ser alterado a qualquer momento!
 | _#83_ | _Mapear dados de vagas disponíveis_ | _X_ |
 | _#84_ | _Mapear dados de quantidade de alunos matriculados_ | _X_ |
 | _#85_ | _Mapear dados de salas "disponíveis"_ | _X_ |
-| _#86_ | _Web scraping dos dados de quantidades de disciplinas ofertadas_ | _X_ |
-| _#87_ | _Download a teste do Metabase open source edition_ | _X_ |
+| _#86_ | _Web scraping dos dados de quantidades de disciplinas ofertadas_ | _8_ |
+| _#87_ | _Download a teste do Metabase open source edition_ | _3_ |
 | _#88_ | _Atualização dos documentos disponíveis no git pages_ | _X_ |
 | _#89_ | _Criação da API com o Django Rest_ | _X_ |
 
