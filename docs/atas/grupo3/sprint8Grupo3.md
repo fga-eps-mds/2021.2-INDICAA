@@ -4,59 +4,54 @@ pela equipe do software Acácia, estando disponíveis em:
 <https://github.com/fga-eps-mds/2019.2-Acacia/tree/develop/docs/sprints>.
 Tal layout é apenas um exemplo e pode vir a ser alterado a qualquer momento!
 -->
-# Sprint _8_
+# Sprint _9_
 
 ## Histórico de Revisão
 | Data | Versão | Modificação | Autor(a) |
 | --- | --- | --- | --- |
-| _16/03/2022_ | _0.1_ | _Criação do documento_ | _Matheus Pimentel_ |
+| _22/03/2022_ | _0.1_ | _Criação do documento_ | _Matheus Pimentel_ |
 
-# Planning da Sprint _8_
-- **Período:** _15/03 a 21/03_
+# Planning da Sprint _9_
+- **Período:** _22/03 a 28/03_
 - **Objetivo:** _Realização do scraping do SIGAA._
-
-## Épicos
-| ID | Descrição |
-| --- | --- | --- |
-| _#80_ | _Mapeamento dos dados a serem recebidos_ |
-| _#81_ | _Metabase_ |
 
 ## Issues
 | ID | Descrição | Estimativa |
 | --- | --- | --- |
-| _#82_ | _Mapear dados de matérias_ | _X_ |
-| _#83_ | _Mapear dados de vagas disponíveis_ | _X_ |
-| _#84_ | _Mapear dados de quantidade de alunos matriculados_ | _X_ |
-| _#85_ | _Mapear dados de salas "disponíveis"_ | _X_ |
-| _#86_ | _Web scraping dos dados de quantidades de disciplinas ofertadas_ | _8_ |
-| _#87_ | _Download a teste do Metabase open source edition_ | _3_ |
-| _#88_ | _Atualização dos documentos disponíveis no git pages_ | _X_ |
-| _#89_ | _Criação da API com o Django Rest_ | _X_ |
+| _#69_ | _Refatoração do escopo do projeto_ | _2_ |
+| _#74_ | _Atualizar o escopo nos documentos_ | _2_ | 
+| _#92_ | _Web scraping dos dados de quantidade de alunos matriculados_ | _13_ |
+| _#93_ | _Web scraping dos dados de quantidade de vagas disponíveis_ | _13_ |
+| _#94_ | _Definição do modo como serão contadas as salas disponíveis_ | _13_ |
+| _#95_ | _Pesquisa sobre tratamento de dados_ | _1_ |
 
-- Total de Pontos: _X_
+
+- Total de Pontos: _44_
 
 ### Dívidas Alocadas
 | ID | Descrição | Estimativa |
 | --- | --------- | --------- | 
-| _#75_ | _Atualização do fluxograma de branching_ | _2_ |
 | _#70_ | _Criar guia de estilo do projeto_ | _3_ |
-| _#71_ | _Separação das equipes de front-end e back-end_ | _2_ |
-| _#72_ | _Reestilização visual do projeto_ | _8_ |
-| _#58_ | _Documento de gerenciamento de riscos_ | _3_ |
+| _#82_ | _Mapear dados de matérias_ | _3_ |
+| _#83_ | _Mapear dados de vagas disponíveis_ | _1_ |
+| _#84_ | _Mapear dados de quantidade de alunos matriculados_ | _1_ |
+| _#85_ | _Mapear dados de salas "disponíveis"_ | _1_ |
+| _#86_ | _Web scraping dos dados de quantidades de disciplinas ofertadas_ | _8_ |
+| _#87_ | _Download a teste do Metabase open source edition_ | _2_ |
+| _#89_ | _Criação da API com o Django Rest_ | _8_ |
 
-- Total de Pontos: _18_
+- Total de Pontos: _27_
 
 
 ## Possíveis Riscos Mapeados para a Sprint
 - _Falhas na comunicação._
-- _Estudos / Provas de outras matérias._
-- _Descumprimento com os rituais SCRUM._
+- _Provas de membros._
 
-# Review Sprint _7_
-- _A sprint 7 começou promissora, porém, falhas constantes de comunicação e falta de cumprimento com os rituais SCRUM, geraram atrasos consideráveis ao projeto. Com isso, Iremos começar o desenvolvimento e o web scraping apenas na sprint a seguir._
+# Review Sprint _8_
+- _Com relação à comunicação, nenhuma melhoria foi apresentada. Porém o Grupo 03 fez entregas de valor com relação ao scraping de dados do SIGAA, tiramos dúvidas e fizemos scripts em python que funcionam localmente para o scraping._
 
 ## Qualidade do Trabalho Entregue
-_Com os atrasos, o trabalho entregue pela sprint 7 só pode ser analisado e revisado no início da sprint 8. Portanto, a qualidade do trabalho entregue pelo grupo 03 foi aceitável, porém tardia. Além de ter detecção muito tardia de "necessidade" de algumas issues._
+_A maior parte das issues alocadas não foram entregues, Porém, as issues que estão em execução estão sendo bem feitas num geral pela equipe do grupo 03._
 
 ## Velocity
 ![Velocity](https://i.imgur.com/GXkLWUh.png)
@@ -65,27 +60,25 @@ _Com os atrasos, o trabalho entregue pela sprint 7 só pode ser analisado e revi
 
 ## Pontos Positivos
 - _As dailies foram implementadas e correram bem._
-- _A política de branches começou a ser seguida corretamente._
-- _O entendimento geral sobre o projeto aumentou muito._
+- _Foi bom ter dado início ao scraping (Back-end)._
+- _Foi bom ter dado início à configuração do metabase (Front-end)._
+- _A produtividade foi boa mesmo com a semana caótica de provas dos membros._
 
 ## Pontos Negativos
 - _Desorganização dos horários de trabalho._
-- _Falta de cumprimento com os rituais SCRUM (por parte do projeto e não do grupo)._
-- _Comunicação extremamente precária entre os grupos._
-- _Falta de proatividade._
-- _Desânimo dos membros._
+- _Desmotivação da equipe._
+- _Falta de cumprimento das práticas SCRUM por parte dos outros grupos._
+- _Falta de proatividade dos membros das outras equipes. Deixando o grupo 03 sobrecarregado._
 
 ## Pontos de Melhoria
 - _Comunicação._
-- _Aumento na proatividade dos membros._
-- _Cobrar mais comprometimento com os rituais SCRUM._
-- _Melhor divisão e análise na criação de issues._
-- _Melhor aproveitamento do tempo para execução do projeto._
-- _Criacão de mais issues (Para o aumento da produtividade)._
+- _Motivação._
+- _Maior proatividade dos outros grupos._
+- _Melhor gerência do tempo._
 
 # Quadro de Conhecimento
 
 ![Conhecimentos](https://i.imgur.com/89ICSX2.png)
 
 # Análise do Scrum Master
-_A sprint 7 foi de longe a sprint mais caótica em termos de desorganização de comunicação com os outros grupos. Por isso, em reunião geral feita após a aula do dia 15/03/2020, foi pedido maior atenção ao meio de comunicação oficial dos grupos no telegram. Para a sprint 8 serão notadas e corrigidas caso necessário, quaisquer ações que indiquem uma piora na comunicação._
+_Com a comunicação falha, o trabalho da sprint 08 foi bastante prejudicado e muitas issues ficaram como dúvidas alocadas. Com base isso no início da sprint 09 foi observado uma melhora pequena na comunicação dos membros dos outros grupos para com o projeto inteiro. Caso a comunicação volte a piorar, será feito contato com a professora para discutir táticas de como melhorar neste quesito._
