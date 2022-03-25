@@ -1,54 +1,67 @@
-import time
-import requests
-#import pandas as pd
-#from bs4 import BeautifulSoup
+from gettext import gettext
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
-#import json
 
-
-url = "https://sig.unb.br/sigaa/public/turmas/listar.jsf?aba=p-ensino"
 
 option = Options()
 option.headless = True
 driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 
-driver.get(url)
-time.sleep(6)
+
+def acessarURL():
+    url = "https://sig.unb.br/sigaa/public/turmas/listar.jsf?aba=p-ensino"
+    driver.get(url)
 
 
-#driver.find_element_by_xpath("//*[@id='formTurma:inputDepto']").click()
-driver.find_element_by_id("formTurma:inputNivel").click()
-driver.find_element_by_xpath('//*[@id="formTurma:inputNivel"]/option[3]').click()
-
-driver.find_element_by_id("formTurma:inputDepto").click()
-driver.find_element_by_xpath('//*[@id="formTurma:inputDepto"]/option[79]').click()
-driver.find_element_by_name('formTurma:j_id_jsp_1370969402_11').click()
-
- 
+def selecionarNivelEnsino():
+    botaoCampoEnsino = driver.find_element_by_id('formTurma:inputNivel')
+    botaoGraduacao = driver.find_element_by_xpath('//*[@id="formTurma:inputNivel"]/option[3]')
+    botaoCampoEnsino.click()
+    botaoGraduacao.click()
 
 
-contadorVagas = 0
-element1 = driver.find_elements_by_xpath("//td[@style='text-align: center;']")
-for x in element1:
-    resto = contadorVagas % 2
-    html_content = x.get_attribute('innerHTML')
-    if resto == 1: 
-        print(html_content)
-    contadorVagas += 1
+def selecionarUnidade():
+    botaoUnidade = driver.find_element_by_id('formTurma:inputDepto')
+    botaoFGA = driver.find_element_by_xpath('//*[@id="formTurma:inputDepto"]/option[79]')
+    botaoUnidade.click()
+    botaoFGA.click()
 
-print('Numero de Vagas encontradas', contadorVagas/2)
 
-# element1 = driver.find_elements_by_class_name('linhaPar')
-# element2 = driver.find_elements_by_class_name('linhaImpar')
-# for k in element1:
-#     html_content = k.get_attribute('outerHTML')
-#     #print(html_content)
-#     i += 1
-# for k in element2:
-#     html_content = k.get_attribute('outerHTML')
-#     #print(html_content)
-#     i += 1
+def acionarBotaoBuscar():
+    botaoBuscar = driver.find_element_by_name('formTurma:j_id_jsp_1370969402_11')
+    botaoBuscar.click()
 
-driver.quit()
+
+def verificaVagas():
+    contadorDocentes = 0
+    contadorVagas = 0
+    element1 = driver.find_elements_by_xpath("//td[@style='text-align: center;']")
+    for x in element1:
+        resto = contadorVagas % 2
+        html_content = x.get_attribute('innerHTML')
+        if resto == 1: 
+            disciplina = driver.find_elements_by_xpath("//td[@class='nome']")[contadorDocentes]
+            turma = disciplina.get_attribute('innerHTML')
+            print(f'Vagas em {turma}: {html_content}')
+            contadorDocentes += 1
+        contadorVagas += 1
+    return contadorVagas
+
+
+def fecharJanela():
+    driver.quit()
+
+
+def main():
+    acessarURL()
+    driver.implicitly_wait(6)
+    selecionarNivelEnsino()
+    selecionarUnidade()
+    acionarBotaoBuscar()
+    contadorVagas = verificaVagas()
+    print(f'Numero de Turmas encontradas: {contadorVagas/2}')
+    fecharJanela()
+
+
+main()
