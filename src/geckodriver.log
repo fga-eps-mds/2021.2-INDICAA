@@ -1,0 +1,45 @@
+1648229128420	geckodriver	INFO	Listening on 127.0.0.1:34113
+1648229128423	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44785" "-no-remote" "-profile" "/tmp/rust_mozprofilebqRCFo"
+1648229129052	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebqRCFo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44785/devtools/browser/2f354965-71b7-4d82-80c9-8249d063b2f4
+1648229130772	Marionette	INFO	Listening on port 33203
+1648229130847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/SelectChild.jsm, line 288: TypeError: InspectorUtils.setContentState: Argument 1 is not an object.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://sig.unb.br"
+1648229180330	geckodriver	INFO	Listening on 127.0.0.1:48389
+1648229180333	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44179" "-no-remote" "-profile" "/tmp/rust_mozprofileliZZiC"
+1648229180942	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileliZZiC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44179/devtools/browser/bb251ba2-f987-4a07-89e6-2b8eea3cb989
+1648229182808	Marionette	INFO	Listening on port 42019
+1648229182864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://sig.unb.br"
+1648229203621	Marionette	INFO	Stopped listening on port 42019
+1648229245362	geckodriver	INFO	Listening on 127.0.0.1:49179
+1648229245364	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41591" "-no-remote" "-profile" "/tmp/rust_mozprofile5FILyf"
+1648229245964	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5FILyf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41591/devtools/browser/48d9d517-2042-4a6e-8151-98716f00ad74
+1648229247503	Marionette	INFO	Listening on port 34707
+1648229247593	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/SelectChild.jsm, line 292: TypeError: InspectorUtils.removeContentState: Argument 1 is not an object.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://sig.unb.br"
+1648229260189	Marionette	INFO	Stopped listening on port 34707
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1648229286617	geckodriver	INFO	Listening on 127.0.0.1:48549
+1648229286620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44745" "-no-remote" "-profile" "/tmp/rust_mozprofileSwCzrj"
+1648229287250	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSwCzrj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44745/devtools/browser/69605dd4-5dde-4edd-9320-b67273877f22
+1648229288834	Marionette	INFO	Listening on port 36171
+1648229288943	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://sig.unb.br"
+1648229305703	Marionette	INFO	Stopped listening on port 36171
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
