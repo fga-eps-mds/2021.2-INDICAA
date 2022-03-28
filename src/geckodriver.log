@@ -43,3 +43,14 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1648509627039	geckodriver	INFO	Listening on 127.0.0.1:57350
+1648509630087	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57351" "-no-remote" "-profile" "C:\\Users\\lelal\\AppData\\Local\\Temp\\rust_mozprofileaMxhuS"
+1648509630934	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lelal\\AppData\\Local\\Temp\\rust_mozprofileaMxhuS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57351/devtools/browser/c96f97ab-2d86-45be-8aaf-1c8185245966
+1648509633942	Marionette	INFO	Listening on port 57356
+1648509634318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://sig.unb.br"
+1648509645936	Marionette	INFO	Stopped listening on port 57356
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
