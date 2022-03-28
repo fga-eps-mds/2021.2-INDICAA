@@ -10,7 +10,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.keys import Keys
 
 
-# Configuração do navegador Firefox
+# Configuração do navegador (Firefox)
 option = Options()
 option.headless = True
 driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
