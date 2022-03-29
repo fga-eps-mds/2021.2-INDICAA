@@ -9,7 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.keys import Keys
-
+materias = []
 
 # Configuração do navegador (Firefox)
 option = Options()
@@ -49,9 +49,9 @@ def acionarBotaoBuscar():
     botaoBuscar = driver.find_element(By.NAME, 'formTurma:j_id_jsp_1370969402_11')
     botaoBuscar.click()
 
-# Faz a contagem da quantidade de alunos matriculados em cada turma e printa o resultado
-# O formato de saída é: ""
-def verificaVagasOcupadas():
+
+def vagasOcupadasTurma():
+    turmas = []
     contadorDocentes = 0
     contadorVagas = 0
     contadorTurmas = 0
@@ -67,7 +67,13 @@ def verificaVagasOcupadas():
                                     "//td[@class='nome']")[contadorDocentes]
         
             turma = disciplina.get_attribute('innerHTML')
-            print(f'Alunos Matriculados em {turma}: {numeroAlunos}')
+            professor, cargahoraria = turma.split(" (")
+            cargahoraria, branco = cargahoraria.split(")")
+            turmas.append({"turma": professor,
+                          "matriculados": numeroAlunos,
+                          "carga-horaria": cargahoraria})
+
+            print(turmas)
             contadorDocentes += 1
         contadorTurmas+=1
     return contadorVagas
@@ -108,7 +114,9 @@ def alunosPorDisciplina():
     Soma.append(soma)
 
     for x in Disc:
-        resultado.append({"disciplina":x})
+        codigo, materia = x.split(" - ")
+        resultado.append({"disciplina":materia,
+                          "codigo": codigo})
     num=0
     for y in Soma:
         resultado[num]["matriculados"] = y
@@ -130,9 +138,14 @@ def main():
     selecionarUnidade()
     selecionarSemestre()
     acionarBotaoBuscar()
-    contadorVagas = verificaVagasOcupadas()
+    contadorVagas = vagasOcupadasTurma()
     print(f'Numero de Alunos encontrados: {contadorVagas}')
-    print(alunosPorDisciplina())
+    alunos = alunosPorDisciplina()
+    #print(alunosPorDisciplina())
+    resultado = {'departamento': 'Faculdade do Gama',
+                 'numAlunos': contadorVagas,
+                 'materias': alunos}
+    print(resultado)
     fecharJanela()
 
 
