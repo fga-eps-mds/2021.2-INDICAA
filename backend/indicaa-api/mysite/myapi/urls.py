@@ -3,7 +3,7 @@ from rest_framework import routers
 from . import views
 
 router = routers.DefaultRouter()
-router.register(r'cursos', views.CursoViewSet)
+router.register(r'materia', views.MateriaViewSet)
 router.register(r'departamento', views.DepartamentoViewSet)
 
 # Wire up our API using automatic URL routing.

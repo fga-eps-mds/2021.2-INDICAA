@@ -1,10 +1,10 @@
-from .models import Curso, Departamento
+from .models import Materia, Departamento
 from rest_framework import serializers
 
-class CursoSerializer(serializers.HyperlinkedModelSerializer):
+class MateriaSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
-        model = Curso
-        fields = ('name', 'campus')
+        model = Materia
+        fields = ('name', 'codigoMateria', 'cargaHoraria', 'departamento')
 
 
 class DepartamentoSerializer(serializers.HyperlinkedModelSerializer):
