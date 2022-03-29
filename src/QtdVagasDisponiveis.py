@@ -1,5 +1,3 @@
-import time
-import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
@@ -54,6 +52,7 @@ def acionarBotaoBuscar():
 def verificaVagas():
     contadorDocentes = 0
     contadorVagas = 0
+    vagasTotais = 0
     element1 = driver.find_elements(By.XPATH,
                                     "//td[@style='text-align: center;']")  # lista com todas as quantidades de vagas disponíveis
     for x in element1:
@@ -67,10 +66,13 @@ def verificaVagas():
             turma = disciplina.get_attribute('innerHTML')
             numeroAlunos = int(vagas, base=10)
             vagasDisponiveis = vagasOfertadas - numeroAlunos
+            vagasTotais += vagasDisponiveis
             print(f'Vagas Disponiveis em {turma}: {vagasDisponiveis}')
             contadorDocentes += 1
         contadorVagas += 1
+    print(f'Numero total de vagas disponíveis: {vagasTotais}')
     return contadorVagas
+
 
 
 def fecharJanela():
@@ -85,7 +87,7 @@ def main():
     # selecionarSemestre()
     acionarBotaoBuscar()
     contadorVagas = verificaVagas()
-    print(f'Numero de Turmas encontradas: {contadorVagas/2}')
+    print(f'Numero de turmas encontradas: {contadorVagas/2}')
     fecharJanela()
 
 main()
