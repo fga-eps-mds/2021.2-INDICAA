@@ -81,4 +81,4 @@ _A maior parte das issues alocadas não foram entregues, Porém, as issues que e
 ![Conhecimentos](https://i.imgur.com/89ICSX2.png)
 
 # Análise do Scrum Master
-_Com a comunicação falha, o trabalho da sprint 08 foi bastante prejudicado e muitas issues ficaram como dúvidas alocadas. Com base isso no início da sprint 09 foi observado uma melhora pequena na comunicação dos membros dos outros grupos para com o projeto inteiro. Caso a comunicação volte a piorar, será feito contato com a professora para discutir táticas de como melhorar neste quesito._
+_Com a comunicação falha, o trabalho da sprint 08 foi bastante prejudicado e muitas issues ficaram como dívidas alocadas. Com base isso no início da sprint 09 foi observado uma melhora pequena na comunicação dos membros dos outros grupos para com o projeto inteiro. Caso a comunicação volte a piorar, será feito contato com a professora para discutir táticas de como melhorar neste quesito._
