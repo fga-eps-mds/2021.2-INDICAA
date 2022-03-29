@@ -1,5 +1,4 @@
 # As seguintes importacoes podem ser utilizadas futuramente 
-from calendar import c
 from pydoc import classname
 import time
 import requests
@@ -73,7 +72,7 @@ def verificaVagasOcupadas():
         contadorTurmas+=1
     return contadorVagas
 
-def verificaAlunosDisciplina():
+def alunosPorDisciplina():
     atual=0
     Disc=[]
     Soma=[]
@@ -108,7 +107,6 @@ def verificaAlunosDisciplina():
 
     Soma.append(soma)
 
-    
     for x in Disc:
         resultado.append({"disciplina":x})
     num=0
@@ -117,6 +115,8 @@ def verificaAlunosDisciplina():
         num+=1
 
     return resultado
+    
+    
 
 # Fecha o navegador
 def fecharJanela():
@@ -132,7 +132,7 @@ def main():
     acionarBotaoBuscar()
     contadorVagas = verificaVagasOcupadas()
     print(f'Numero de Alunos encontrados: {contadorVagas}')
-    print(verificaAlunosDisciplina())
+    print(alunosPorDisciplina())
     fecharJanela()
 
 
