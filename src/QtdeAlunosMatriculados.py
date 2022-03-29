@@ -1,4 +1,5 @@
 # As seguintes importacoes podem ser utilizadas futuramente 
+from pydoc import classname
 import time
 import requests
 # Essas dependências importadas foram utilizadas no decorrer do código
@@ -70,6 +71,52 @@ def verificaVagasOcupadas():
         contadorTurmas+=1
     return contadorVagas
 
+def alunosPorDisciplina():
+    atual=0
+    Disc=[]
+    Soma=[]
+    atualSoma=0
+    atualDisc=0
+    soma=0
+    resultado = []
+    lista = driver.find_elements(By.XPATH,
+                                    '//*[@id="turmasAbertas"]/table/tbody/tr')
+    for x in lista:
+        linha = driver.find_elements(By.XPATH,
+                                    '//*[@id="turmasAbertas"]/table/tbody/tr')[atual]
+        if linha.get_attribute("class") == 'linhaPar' or linha.get_attribute("class") == 'linhaImpar':
+            linhaUsada = driver.find_elements(By.XPATH,
+                                    '//*[@id="turmasAbertas"]/table/tbody/tr/td[7]')[atualSoma]
+            conteudo = linhaUsada.get_attribute('innerHTML')
+            soma=soma + int(conteudo)
+            atualSoma+=1
+        if linha.get_attribute("class") == 'agrupador':
+            linhaUsada = driver.find_elements(By.XPATH,
+                                    "//span[@class='tituloDisciplina']")[atualDisc]
+            conteudo = linhaUsada.get_attribute('innerHTML')
+            Disc.append(conteudo)
+            if atualDisc==0:
+                atualDisc+=1
+            else:
+                Soma.append(soma)
+                atualDisc+=1
+            soma=0
+            
+        atual+=1
+
+    Soma.append(soma)
+
+    for x in Disc:
+        resultado.append({"disciplina":x})
+    num=0
+    for y in Soma:
+        resultado[num]["matriculados"] = y
+        num+=1
+
+    return resultado
+    
+    
+
 # Fecha o navegador
 def fecharJanela():
     driver.quit()
@@ -82,8 +129,9 @@ def main():
     selecionarUnidade()
     selecionarSemestre()
     acionarBotaoBuscar()
-    contadorVagas = verificaVagasOcupadas()
-    print(f'Numero de Turmas encontradas: {contadorVagas}')
+    #contadorVagas = verificaVagasOcupadas()
+    #print(f'Numero de Turmas encontradas: {contadorVagas}')
+    print(verificaAlunosDisciplina())
     fecharJanela()
 
 
