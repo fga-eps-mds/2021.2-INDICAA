@@ -9,3 +9,11 @@ class Curso(models.Model):
     def __str__(self):
         return self.name
 
+
+class Departamento(models.Model):
+    name = models.CharField(max_length=100, primary_key=True) #, help_text='Ex.: Faculdade do Gama'
+
+    def __str__(self):
+        return self.name
+
+
