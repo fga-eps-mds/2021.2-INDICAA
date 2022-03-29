@@ -23,19 +23,13 @@ def selecionarNivelEnsino():
     botaoCampoEnsino.click()
     botaoGraduacao.click()
 
-def selecionarAno():
-    botaoAno = driver.find_element_by_xpath("//*[@id='formTurma:inputAno']")
-    botaoAno.clear()
-    botaoAno.send_keys("2021")
-
-
-
-def selecionarSemestre():
-
-    botaoSemestre = driver.find_element_by_id('formTurma:inputPeriodo')
-    botaoSegundoSemestre = driver.find_element_by_xpath('//*[@id="formTurma:inputPeriodo"]/option[2]')
+def selecionarSemestre():    
+    inputAno = driver.find_element_by_id("formTurma:inputAno")
+    inputAno.click()
+    inputAno.send_keys(Keys.CONTROL, 'a')
+    inputAno.send_keys('2021')
+    botaoSemestre=driver.find_element_by_xpath('//*[@id="formTurma:inputPeriodo"]/option[2]')
     botaoSemestre.click()
-    botaoSegundoSemestre.click()
 
 def selecionarUnidade():
     botaoUnidade = driver.find_element_by_id('formTurma:inputDepto')
@@ -55,11 +49,11 @@ def verificaVagas():
     element1 = driver.find_elements_by_xpath("//td[@style='text-align: center;']")
     for x in element1:
         resto = contadorVagas % 2
-        numeroAlunos = x.get_attribute('innerHTML')
-        if resto == 1: 
+        numeroVagas = x.get_attribute('innerHTML')
+        if resto == 0: 
             disciplina = driver.find_elements_by_xpath("//td[@class='nome']")[contadorDocentes]
             turma = disciplina.get_attribute('innerHTML')
-            print(f'Alunos Matriculados em {turma}: {numeroAlunos}')
+            print(f'Vagas Ofertadas em {turma}: {numeroVagas}')
             contadorDocentes += 1
         contadorVagas += 1
     return contadorVagas
@@ -75,7 +69,6 @@ def main():
     driver.implicitly_wait(6)
     selecionarNivelEnsino()
     selecionarUnidade()
-    selecionarAno()
     selecionarSemestre()
     acionarBotaoBuscar()
     contadorVagas = verificaVagas()
