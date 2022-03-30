@@ -148,7 +148,6 @@ def main():
     contadorVagas = vagasOcupadasTurma()
     print(f'Numero de Alunos encontrados: {contadorVagas}')
     alunos = alunosPorDisciplina()
-    #print(alunosPorDisciplina())
     resultado = {'departamento': 'Faculdade do Gama',
                  'numAlunos': contadorVagas,
                  'materias': alunos}
