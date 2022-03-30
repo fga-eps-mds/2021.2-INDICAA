@@ -1,4 +1,5 @@
 # As seguintes importacoes podem ser utilizadas futuramente 
+import json
 from pydoc import classname
 import time
 import requests
@@ -49,79 +50,85 @@ def acionarBotaoBuscar():
     botaoBuscar = driver.find_element(By.NAME, 'formTurma:j_id_jsp_1370969402_11')
     botaoBuscar.click()
 
-
+# Esse método é responsável por percorrer todas as turmas, pegando a quantidade de vagas ocupadas em cada turma, 
+# ao percorrer, guarda em uma lista de dicts e printa esta, esse tambem calcula e retorna a quantidade total de alunos matriculados
+# em materias do departamento
 def vagasOcupadasTurma():
     turmas = []
     contadorDocentes = 0
     contadorVagas = 0
     contadorTurmas = 0
+    # Pega todos os elementos que possuem o mesmo xpath
     element1 = driver.find_elements(By.XPATH,
                                     "//td[@style='text-align: center;']")
-   
+    # Percorre cada elemento, procura o nome da turma e guarda em um dict
     for x in element1:
         resto = contadorTurmas % 2
         numeroAlunos = x.get_attribute('innerHTML')
+        # Verifica se o item da lista é par ou ímpar, o numero de vagas ocupadas estao nos impares
         if resto == 1: 
             contadorVagas += int(numeroAlunos)
             disciplina = driver.find_elements(By.XPATH,
                                     "//td[@class='nome']")[contadorDocentes]
         
             turma = disciplina.get_attribute('innerHTML')
+            # As linhas seguintes separam o nome da turma da sua carga horaria
             professor, cargahoraria = turma.split(" (")
             cargahoraria, branco = cargahoraria.split(")")
+            # Coloca o dict da turma dentro de uma lista de turmas
             turmas.append({"turma": professor,
                           "matriculados": numeroAlunos,
                           "carga-horaria": cargahoraria})
 
-            print(turmas)
             contadorDocentes += 1
         contadorTurmas+=1
+    print(turmas)
     return contadorVagas
-
+# O método abaixo é o responsável por percorrer as materias, as turmas relacionadas e somar todas as vagas ocupadas
+# em cada materia do departamento
 def alunosPorDisciplina():
     atual=0
-    Disc=[]
-    Soma=[]
     atualSoma=0
     atualDisc=0
     soma=0
     resultado = []
+    # A linha de código a seguir pega todos os campos com tr e guarda em uma lista
     lista = driver.find_elements(By.XPATH,
                                     '//*[@id="turmasAbertas"]/table/tbody/tr')
-    for x in lista:
+    # Percorre cada elemento da lista
+    for _ in lista:
+        # Pega cada linha de tr, de acordo com a sua posição na lista e guarda em linha
         linha = driver.find_elements(By.XPATH,
                                     '//*[@id="turmasAbertas"]/table/tbody/tr')[atual]
+        # Verifica se o classname da linha é 'linhaPar' ou 'linhaImpar', ou seja, se a linha corresponde a uma turma, se sim, pega a quantidade 
+        # de vagas ocupadas e soma a variavel soma
         if linha.get_attribute("class") == 'linhaPar' or linha.get_attribute("class") == 'linhaImpar':
             linhaUsada = driver.find_elements(By.XPATH,
                                     '//*[@id="turmasAbertas"]/table/tbody/tr/td[7]')[atualSoma]
             conteudo = linhaUsada.get_attribute('innerHTML')
             soma=soma + int(conteudo)
             atualSoma+=1
+        # Se a linha tiver classname agrupador, ou seja, for uma materia, armazena no dict o titulo da disciplina e o codigo
+        # e ao final, zera a soma de vagas ocupadas
         if linha.get_attribute("class") == 'agrupador':
             linhaUsada = driver.find_elements(By.XPATH,
                                     "//span[@class='tituloDisciplina']")[atualDisc]
             conteudo = linhaUsada.get_attribute('innerHTML')
-            Disc.append(conteudo)
+            # Separa o titulo da materia do codigo 
+            codigo, materia = conteudo.split(" - ")
+            resultado.append({"disciplina":materia,
+                              "codigo": codigo})
+
             if atualDisc==0:
                 atualDisc+=1
             else:
-                Soma.append(soma)
+                resultado[atualDisc-1]["matriculados"] = soma
                 atualDisc+=1
+                
             soma=0
-            
         atual+=1
-
-    Soma.append(soma)
-
-    for x in Disc:
-        codigo, materia = x.split(" - ")
-        resultado.append({"disciplina":materia,
-                          "codigo": codigo})
-    num=0
-    for y in Soma:
-        resultado[num]["matriculados"] = y
-        num+=1
-
+    # Acrescenta as informacoes de vagas ocupadas do ultimo elemento da lista no dict
+    resultado[atualDisc-1]["matriculados"] = soma
     return resultado
     
     
