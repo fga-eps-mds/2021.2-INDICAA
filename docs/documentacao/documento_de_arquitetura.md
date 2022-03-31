@@ -2,7 +2,7 @@
 
 |Data|Versão|Descrição|Autor|
 |-|-|-|-|
-|30/01/2022|0.1|Abertura Documento de Visão|Guilherme|
+|30/01/2022|0.1|Abertura Documento de Arquitetura|Guilherme|
 |31/01/2022|0.2|Adicionado Tópico de Referências|Guilherme|
 |01/02/2022|0.3|Listagem das restrições da arquitetura|Arthur|
 |01/02/2022|0.4|Definição do Escopo do Projeto|Guilherme|
@@ -12,17 +12,25 @@
 |02/03/2022|0.8|Adicionado o Diagrama de Pacotes | Guilherme Barbosa e Gabriel Mariano|
 |03/03/2022|0.9|Adicionado o Diagrama de Casos de Uso | Guilherme Santos|
 |05/03/2022|0.9.1| Revisão geral dos documentos do projeto | Adne Moretti e Matheus Pimentel Leal
+|26/03/2022|0.9.2| Atualização do escopo e pequenas correções | Gabriel Moretti e Matheus Pimentel Leal
 
 
 ## 1. <a name="1">Introdução</a>
 
 ### 1.1 <a name ="1_1">Objetivo</a>
 
-<p align="justify"> &emsp;&emsp; O objetivo deste documento é oferecer, de modo claro e geral, a visão aquitetural do projeto INDICAA, trazendo consigo as características necessárias para os controles de suas atividades arquiteturais, moldando, assim, todo procedimento para o desenvolvimento do sistema. Esse documento também se dispõe a elucidar quais foram as motivações que levaram a equipe a tomar decisões a respeito dessa arquitetura.  </p>
+<p align="justify"> &emsp;&emsp; O objetivo deste documento é oferecer, de modo claro e geral, a visão arquitetural do projeto INDICAA, trazendo consigo as características necessárias para os controles de suas atividades arquiteturais, moldando, assim, todo procedimento para o desenvolvimento do sistema. Esse documento também se dispõe a elucidar quais foram as motivações que levaram a equipe a tomar decisões a respeito dessa arquitetura.  </p>
 
 ### 1.2 <a name="1_2">Escopo</a>
 
-<p align="justify"> &emsp;&emsp; Esse documento aplica-se ao projeto INDICAA, um sistema que agrupa diversas informações importantes para organização dos coordenadores da UnB. Eles terão a possibilidade de visualizar a quantidade de disciplinas e vagas ofertadas, a quantidade de alunos matriculados e a quantidade de salas disponíveis. E por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento de informações será mais simples, ajudando tanto a parte estudantil da UnB, quanto a parte de gestão e controle de processos como a própria matrícula em disciplina. Esse projeto será desenvolvido pelos alunos da disciplina de Métodos de Desenvolvimento de Software da Universidade de Brasília - Campus Gama</p>
+<p align="justify"> &emsp;&emsp;  No contexto da pandemia, a gestão de espaços se tornou fundamental para o bom funcionamento da UnB. Nesse contexto, a equipe de coordenação voltou seus esforços para propiciar uma boa divisão das disciplinas e atividades no geral de acordo com o espaço existente. Para tal, a visualização da divisão dos espaços de acordo com os períodos do dia é essencial para uma melhor tomada de decisões pelos gestores, o que impactará diretamente a execução das atividades acadêmicas da universidade.</p>
+ 
+<p align="justify"> &emsp;&emsp; Nesse contexto, o objetivo desse projeto é propiciar uma melhor organização das informações 
+disponibilizadas pelo nosso site acadêmico. Sendo assim, os coordenadores terão a possibilidade de visualizar a quantidade 
+de disciplinas por curso, a quantidade de vagas ofertadas, a quantidade de alunos matriculados e a quantidade 
+de salas disponíveis. Por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento
+de informações será mais simples, ajudando tanto a parte 
+de gerenciamento e controle da disponibilização de disciplinas por parte dos coordenadores como a própria matrícula em disciplina por parte dos discentes. </p>
 
 ### 1.3 <a name=1_3>Definições, acrônimos e abreviações</a>
 
@@ -39,7 +47,7 @@ Tabela com o significado de abreviações para termos usados ao longo do documen
 
 ### 1.4 <a name=1_4>Visão Geral</a>
 
-<p align="justify"> &emsp;&emsp; Este documento está dividído em 6 grandes tópicos, com subdivisões, com o objetivo final de detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos podem ser encontrados a seguir:</p>
+<p align="justify"> &emsp;&emsp; Este documento está dividido em 6 grandes tópicos, com subdivisões, com o objetivo final de detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações. Os tópicos podem ser encontrados a seguir:</p>
 
 | |Tópico |Descrição |
 |-|-|-|

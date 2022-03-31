@@ -9,6 +9,7 @@
 17/02/2022 | 0.3 | Inserção dos Requisitos de Alto Nível | Gabriel Moretti de Souza e Matheus Pimentel Leal
 18/02/2022 | 0.3.1 | Pequenas Correções e Adição da descrição ao papel do Designer | Gabriel Moretti de Souza
 05/03/2022 | 0.4 | Revisão geral dos documentos do projeto | Adne Moretti e Matheus Pimentel Leal
+26/03/2022 | 0.4.1 | Atualização do escopo do projeto | Gabriel Moretti e Matheus Pimentel Leal
 
 ### Siglas
 **Sigla** | **Descrição**
@@ -23,18 +24,22 @@ MVP | Minimum viable product
 Este documento visa informar as principais características do projeto **INDICAA** de forma concisa e clara para a leitura de todos os interessados no projeto e nas suas etapas de execução e decisão. Abaixo serão tratados os seguintes tópicos relacionados a este projeto: descrição, propósito e justificativa, objetivos, partes interessadas (usuários e envolvidos no desenvolvimento), requisitos de alto nível, análise de riscos, requisitos para a aprovação seguindo a definition of done estabelecida e estratégias de comunicação.
 
 ## 2. Descrição
-O projeto **INDICAA** foi proposto pela profª Carla Silva Rocha Aguiar e consiste em realizar a criação de uma aplicação para facilitar a busca por informações no site SIGAA, que é utilizado por alunos, professores e coordenadores da UnB. As informações que serão disponibilizadas na aplicação **INDICAA** são:
+O projeto **INDICAA** foi proposto pela profª Carla Silva Rocha Aguiar e consiste em realizar a criação de uma aplicação para facilitar a busca por informações no site SIGAA, que é utilizado por coordenadores, professores e alunos da UnB. As informações que serão disponibilizadas na aplicação **INDICAA** são:
 * Quantidade de disciplinas
 * Quantidade de vagas ofertadas
 * Quantidade de alunos matriculados
 * Quantidade de salas disponíveis
 
 ## 3. Propósito e justificativa
-Tendo em vista que o contexto pandêmico trouxe uma nova forma de comunicação e interação, dificuldades de manejo das tecnologias são constantemente encontradas por seus usuários no mundo todo. A comunidade acadêmica da UnB não é exceção. Com isso, o **INDICAA** visa trazer uma forma facilitada e intuitiva de busca por informações no SIGAA, principalmente tendo em vista o eminente retorno das atividades presenciais na UnB.
+No contexto da pandemia, a gestão de espaços se tornou fundamental para o bom funcionamento da UnB. Nesse contexto, a equipe de coordenação voltou seus esforços para propiciar uma boa divisão das disciplinas e atividades no geral de acordo com o espaço existente. Para tal, a visualização da divisão dos espaços de acordo com os períodos do dia é essencial para uma melhor tomada de decisões pelos gestores, o que impactará diretamente a execução das atividades acadêmicas da universidade.
 
 ## 4. Objetivos
-O objetivo do **INDICAA** é ofertar um painel com os dados da lista de oferta de disciplinas do SIGAA dispostos de maneira intuitiva, de modo a facilitar a visualização das informações por campus e departamentos da UnB, que foram citadas no tópico **2** deste documento.
-Atualmente, a lista de ofertas do SIGAA é composta por uma grande quantidade de dados dispostos separadamente. O _software_ desenvolvido facilitaria o entendimento destes dados e auxiliaria na tomada de decisões, por parte da coordenação, com base nas informações disponibilizadas.
+Nesse contexto, o objetivo desse projeto é propiciar uma melhor organização das informações 
+disponibilizadas pelo nosso site acadêmico. Sendo assim, os coordenadores terão a possibilidade de visualizar a quantidade 
+de disciplinas por curso, a quantidade de vagas ofertadas, a quantidade de alunos matriculados e a quantidade 
+de salas disponíveis. Por meio dessas funcionalidades, a análise, o compartilhamento e o monitoramento
+de informações será mais simples, ajudando tanto a parte 
+de gerenciamento e controle da disponibilização de disciplinas por parte dos coordenadores como a própria matrícula em disciplina por parte dos discentes. 
 
 ## 5. Partes interessadas
 ### 5.1 Usuários
@@ -111,6 +116,7 @@ Mudanças no escopo do projeto | Realizar _reviews_ do projeto e validar se ocor
 
 ## 9. Estratégias de comunicação
 [Documento de gerenciamento de comunicação](link)
+
 Para comunicação interna foram utilizadas as seguintes ferramentas: **Discord** e **Telegram**.<br />
 Para comunicação com os demais grupos utilizamos, além das ferramentas citadas anteriormente, o **GitHub**.<br />
 Para aulas e treinamentos com a professora e monitores, também foi utilizada a ferramenta do **Jitsi Meet**.
