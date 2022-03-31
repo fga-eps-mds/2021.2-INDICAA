@@ -43,7 +43,7 @@ def acionarBotaoBuscar():
     botaoBuscar.click()
 
 
-def verificaVagas():
+def verificaVagasOfertadas():
     contadorDocentes = 0
     contadorVagas = 0
     element1 = driver.find_elements_by_xpath("//td[@style='text-align: center;']")
@@ -71,7 +71,7 @@ def main():
     selecionarUnidade()
     selecionarSemestre()
     acionarBotaoBuscar()
-    contadorVagas = verificaVagas()
+    contadorVagas = verificaVagasOfertadas()
     print(f'Numero de Turmas encontradas: {contadorVagas/2}')
     fecharJanela()
 

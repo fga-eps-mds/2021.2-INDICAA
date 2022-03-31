@@ -41,7 +41,7 @@ def acionarBotaoBuscar():
     botaoBuscar.click()
 
 
-def verificaVagas():
+def mapearMaterias():
     # contadorMaterias armazenará a quantidade de matérias contadas na lista
     contadorMaterias = 0
 
@@ -74,7 +74,7 @@ def main():
     # informações necessárias antes de iniciar o scraping
     driver.implicitly_wait(2)
 
-    contMaterias = verificaVagas()
+    contMaterias = mapearMaterias()
     print('Quantidade de matérias apresentadas na listagem: ', contMaterias)
 
     # Encerrando o navegador
