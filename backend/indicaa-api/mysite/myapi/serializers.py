@@ -1,13 +1,20 @@
-from .models import Materia, Departamento
+from .models import Materia, Departamento, Turma
 from rest_framework import serializers
-
-class MateriaSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = Materia
-        fields = ('name', 'codigoMateria', 'cargaHoraria', 'departamento')
 
 
 class DepartamentoSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Departamento
-        fields = ['name']
+        fields = ['nome']
+
+
+class MateriaSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Materia
+        fields = ('nome', 'codigoMateria', 'cargaHoraria', 'departamento')
+
+        
+class TurmaSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Turma
+        fields = ('idTurma', 'docente', 'codigoTurma', 'horario', 'vagasOfertadas', 'vagasOcupadas', 'local', 'ano', 'semestre', 'materia')
