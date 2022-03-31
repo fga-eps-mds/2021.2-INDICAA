@@ -24,11 +24,5 @@
 |vagasOfertadas|Obrigatório|int|---------|Quantidade de vagas ofertadas|40|
 |vagasOcupadas|Obrigatório|int|---------|Quantidade de vagas ofertadas|0|
 |local|Obrigatório|varchar|40|Local da aula da Turma|"remoto" ou "I10"|
-
-## Entidade: Período
-
-|Atributo|Propriedades do atributo|Tipo de dado|Tamanho|Descrição|Exemplo|
-|-|-|-|-|-|-|
-|semestre|Chave primária<br>Obrigatório|int|---------|Semestre do Período|1|
-|ano|Chave primária<br>Obrigatório|int|---------|Ano do Período|2021|
-
+|ano|Obrigatório|int|---------|Ano do Período|2021|
+|semestre|Obrigatório|int|---------|Semestre do Período|2|
