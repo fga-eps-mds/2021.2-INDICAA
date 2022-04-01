@@ -1,6 +1,7 @@
 ---
 name: Issue comum
 about: Esta issue descreve uma issue comum do projeto (Feature ou documentação)
+
 title: Nome da issue
 labels: ''
 assignees: ''
