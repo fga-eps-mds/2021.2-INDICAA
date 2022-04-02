@@ -4,17 +4,17 @@ from django.shortcuts import render
 
 from rest_framework import viewsets
 
-from .serializers import MateriaSerializer, DepartamentoSerializer, TurmaSerializer
-from .models import Materia, Departamento, Turma
+from .serializers import MateriaSerializer, UnidadeSerializer, TurmaSerializer
+from .models import Materia, Unidade, Turma
 
 
-class DepartamentoViewSet(viewsets.ModelViewSet):
-    queryset = Departamento.objects.all().order_by('nome')
-    serializer_class = DepartamentoSerializer
+class UnidadeViewSet(viewsets.ModelViewSet):
+    queryset = Unidade.objects.all().order_by('nome')
+    serializer_class = UnidadeSerializer
 
 
 class MateriaViewSet(viewsets.ModelViewSet):
-    queryset = Materia.objects.all().order_by('departamento')
+    queryset = Materia.objects.all().order_by('unidade')
     serializer_class = MateriaSerializer
 
 

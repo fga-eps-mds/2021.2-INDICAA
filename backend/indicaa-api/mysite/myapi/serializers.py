@@ -1,17 +1,17 @@
-from .models import Materia, Departamento, Turma
+from .models import Materia, Unidade, Turma
 from rest_framework import serializers
 
 
-class DepartamentoSerializer(serializers.HyperlinkedModelSerializer):
+class UnidadeSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
-        model = Departamento
+        model = Unidade
         fields = ['nome']
 
 
 class MateriaSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Materia
-        fields = ('nome', 'codigoMateria', 'cargaHoraria', 'departamento')
+        fields = ('nome', 'codigoMateria', 'cargaHoraria', 'unidade')
 
         
 class TurmaSerializer(serializers.HyperlinkedModelSerializer):

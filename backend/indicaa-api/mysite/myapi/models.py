@@ -4,7 +4,7 @@ from django.db import models
 # Create your models here.
 
 
-class Departamento(models.Model):
+class Unidade(models.Model):
     nome = models.CharField(
         max_length=255, 
         primary_key=True
@@ -25,8 +25,8 @@ class Materia(models.Model):
     cargaHoraria = models.CharField(
         max_length=3
     ) 
-    departamento = models.ForeignKey(
-        Departamento, 
+    unidade = models.ForeignKey(
+        Unidade, 
         on_delete=models.RESTRICT
     )
 
