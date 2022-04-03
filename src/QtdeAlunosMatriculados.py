@@ -1,8 +1,5 @@
 # As seguintes importacoes podem ser utilizadas futuramente 
-import json
 from pydoc import classname
-import time
-import requests
 # Essas dependências importadas foram utilizadas no decorrer do código
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -10,12 +7,13 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.keys import Keys
+import pprint as pp
 materias = []
 
 # Configuração do navegador (Firefox)
 option = Options()
 option.headless = True
-driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
+driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=option)
 
 # A seguinte funcao acessa a URL do SIGAA, em que será realizado o web scaping
 def acessarURL():
@@ -82,7 +80,7 @@ def vagasOcupadasTurma():
 
             contadorDocentes += 1
         contadorTurmas+=1
-    print(turmas)
+    pp.pprint(turmas)
     return contadorVagas
 # O método abaixo é o responsável por percorrer as materias, as turmas relacionadas e somar todas as vagas ocupadas
 # em cada materia do departamento
@@ -151,7 +149,7 @@ def main():
     resultado = {'departamento': 'Faculdade do Gama',
                  'numAlunos': contadorVagas,
                  'materias': alunos}
-    print(resultado)
+    pp.pprint(resultado)
     fecharJanela()
 
 
