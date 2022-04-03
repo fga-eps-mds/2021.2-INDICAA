@@ -65,6 +65,9 @@ def vagasOcupadasTurma():
         numeroAlunos = x.get_attribute('innerHTML')
         # Verifica se o item da lista é par ou ímpar, o numero de vagas ocupadas estao nos impares
         if resto == 1: 
+            codigoTurma = (driver.find_elements(By.CLASS_NAME, "turma")[contadorDocentes]).get_attribute('innerHTML')
+            
+            horario = (driver.find_elements(By.XPATH, "//*[@id='turmasAbertas']/table/tbody/tr")[contadorDocentes].find_elements(By.XPATH, "//td[4]")[contadorDocentes]).get_attribute('innerText').strip()
             contadorVagas += int(numeroAlunos)
             disciplina = driver.find_elements(By.XPATH,
                                     "//td[@class='nome']")[contadorDocentes]
@@ -75,6 +78,8 @@ def vagasOcupadasTurma():
             cargahoraria, branco = cargahoraria.split(")")
             # Coloca o dict da turma dentro de uma lista de turmas
             turmas.append({"turma": professor,
+                          "codigoTurma": codigoTurma,
+                          "horario": horario,
                           "matriculados": numeroAlunos,
                           "carga-horaria": cargahoraria})
 
@@ -144,12 +149,12 @@ def main():
     selecionarSemestre()
     acionarBotaoBuscar()
     contadorVagas = vagasOcupadasTurma()
-    print(f'Numero de Alunos encontrados: {contadorVagas}')
+    # print(f'Numero de Alunos encontrados: {contadorVagas}')
     alunos = alunosPorDisciplina()
     resultado = {'departamento': 'Faculdade do Gama',
                  'numAlunos': contadorVagas,
                  'materias': alunos}
-    pp.pprint(resultado)
+    # pp.pprint(resultado)
     fecharJanela()
 
 
