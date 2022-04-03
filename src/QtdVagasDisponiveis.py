@@ -1,6 +1,5 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.keys import Keys
@@ -8,8 +7,8 @@ from selenium.webdriver.common.keys import Keys
 # Configuração do Navegador (Firefox)
 option = Options()
 option.headless = True
-servicoFirefox = Service(GeckoDriverManager().install())
-driver = webdriver.Firefox(service=servicoFirefox, options=option)
+driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+
 # Acessar a página inicial da Consulta de Turmas do SIGAA
 def acessarURL():
     url = "https://sig.unb.br/sigaa/public/turmas/listar.jsf?aba=p-ensino"
