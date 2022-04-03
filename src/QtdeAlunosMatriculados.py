@@ -63,8 +63,10 @@ def vagasOcupadasTurma():
     for x in element1:
         resto = contadorTurmas % 2
         numeroAlunos = x.get_attribute('innerHTML')
+        anoSemestre = (driver.find_element(By.XPATH, "//*[@id='turmasAbertas']/table/tbody/tr[2]/td[2]")).get_attribute('innerHTML')
         # Verifica se o item da lista é par ou ímpar, o numero de vagas ocupadas estao nos impares
         if resto == 1: 
+            ano, semestre = anoSemestre.split(".")
             codigoTurma = (driver.find_elements(By.CLASS_NAME, "turma")[contadorDocentes]).get_attribute('innerHTML')
             
             horario = (driver.find_elements(By.XPATH, "//*[@id='turmasAbertas']/table/tbody/tr")[contadorDocentes].find_elements(By.XPATH, "//td[4]")[contadorDocentes]).get_attribute('innerText').strip()
@@ -81,7 +83,9 @@ def vagasOcupadasTurma():
                           "codigoTurma": codigoTurma,
                           "horario": horario,
                           "matriculados": numeroAlunos,
-                          "carga-horaria": cargahoraria})
+                          "carga-horaria": cargahoraria,
+                          "ano": ano,
+                          "semestre": semestre})
 
             contadorDocentes += 1
         contadorTurmas+=1
