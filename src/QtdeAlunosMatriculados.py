@@ -1,8 +1,5 @@
 # As seguintes importacoes podem ser utilizadas futuramente 
-import json
 from pydoc import classname
-import time
-import requests
 # Essas dependências importadas foram utilizadas no decorrer do código
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -10,12 +7,13 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.keys import Keys
+import pprint as pp
 materias = []
 
 # Configuração do navegador (Firefox)
 option = Options()
 option.headless = True
-driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
+driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=option)
 
 # A seguinte funcao acessa a URL do SIGAA, em que será realizado o web scaping
 def acessarURL():
@@ -65,8 +63,13 @@ def vagasOcupadasTurma():
     for x in element1:
         resto = contadorTurmas % 2
         numeroAlunos = x.get_attribute('innerHTML')
+        anoSemestre = (driver.find_element(By.XPATH, "//*[@id='turmasAbertas']/table/tbody/tr[2]/td[2]")).get_attribute('innerHTML')
         # Verifica se o item da lista é par ou ímpar, o numero de vagas ocupadas estao nos impares
         if resto == 1: 
+            ano, semestre = anoSemestre.split(".")
+            codigoTurma = (driver.find_elements(By.CLASS_NAME, "turma")[contadorDocentes]).get_attribute('innerHTML')
+            local = (driver.find_elements(By.XPATH, "//*[@id='turmasAbertas']/table/tbody/tr")[contadorDocentes].find_elements(By.XPATH, "//td[8]")[contadorDocentes]).get_attribute('innerHTML').strip()
+            horario = (driver.find_elements(By.XPATH, "//*[@id='turmasAbertas']/table/tbody/tr")[contadorDocentes].find_elements(By.XPATH, "//td[4]")[contadorDocentes]).get_attribute('innerText').strip()
             contadorVagas += int(numeroAlunos)
             disciplina = driver.find_elements(By.XPATH,
                                     "//td[@class='nome']")[contadorDocentes]
@@ -77,12 +80,17 @@ def vagasOcupadasTurma():
             cargahoraria, branco = cargahoraria.split(")")
             # Coloca o dict da turma dentro de uma lista de turmas
             turmas.append({"turma": professor,
+                          "codigoTurma": codigoTurma,
+                          "horario": horario,
                           "matriculados": numeroAlunos,
-                          "carga-horaria": cargahoraria})
+                          "carga-horaria": cargahoraria,
+                          "local": local,
+                          "ano": ano,
+                          "semestre": semestre})
 
             contadorDocentes += 1
         contadorTurmas+=1
-    print(turmas)
+    pp.pprint(turmas)
     return contadorVagas
 # O método abaixo é o responsável por percorrer as materias, as turmas relacionadas e somar todas as vagas ocupadas
 # em cada materia do departamento
@@ -151,7 +159,7 @@ def main():
     resultado = {'departamento': 'Faculdade do Gama',
                  'numAlunos': contadorVagas,
                  'materias': alunos}
-    print(resultado)
+    pp.pprint(resultado)
     fecharJanela()
 
 
