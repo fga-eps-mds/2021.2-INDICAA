@@ -1,6 +1,6 @@
 # Dicionário de Dados
 
-## Entidade: Departamento
+## Entidade: Unidade
 
 |Atributo|Propriedades do atributo|Tipo de dado|Tamanho|Descrição|Exemplo|
 |-|-|-|-|-|-|

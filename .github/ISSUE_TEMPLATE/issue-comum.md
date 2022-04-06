@@ -1,12 +1,15 @@
 ---
 name: Issue comum
-about: 'Espaço destinado à descrição da tarefa (issue) a ser criada e desenvolvida,
-  como por exemplo: "Fazer um ovo mexido".'
-title: Descrição clara e sucinta sobre a issue.
+about: Esta issue descreve uma issue comum do projeto (Feature ou documentação)
+
+title: Nome da issue
 labels: ''
 assignees: ''
 
 ---
+
+# Descrição
+Espaço destinado à descrição da tarefa (issue) a ser criada e desenvolvida, como por exemplo: "Fazer um ovo mexido".
 
 # Tarefas
 Nesse espaço deve estar detalhado o(s) passo(s) a serem seguidos e completados, como por exemplo:
