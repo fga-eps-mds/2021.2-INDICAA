@@ -22,7 +22,7 @@
 |codigoTurma|Chave primária<br>Obrigatório|varchar|2|Código da Turma|"01" ou "A"|
 |horario|Obrigatório|varchar|20|Horário da Turma seguindo o padrão do SIGAA|"5M1234 5T23"|
 |vagasOfertadas|Obrigatório|int|---------|Quantidade de vagas ofertadas|40|
-|vagasOcupadas|Obrigatório|int|---------|Quantidade de vagas ofertadas|0|
+|vagasOcupadas|Obrigatório|int|---------|Quantidade de vagas ocupadas|0|
 |local|Obrigatório|varchar|40|Local da aula da Turma|"remoto" ou "I10"|
 |ano|Obrigatório|int|---------|Ano do Período|2021|
 |semestre|Obrigatório|int|---------|Semestre do Período|2|
