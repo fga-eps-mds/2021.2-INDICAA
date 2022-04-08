@@ -50,11 +50,11 @@ def verificaVagasOfertadas():
     element1 = driver.find_elements(By.XPATH, "//td[@style='text-align: center;']")
     for x in element1:
         resto = contadorVagas % 2
-        numeroVagas = x.get_attribute('innerHTML')
+        vagasOfertadas = x.get_attribute('innerHTML')
         if resto == 0: 
             disciplina = driver.find_elements(By.XPATH, "//td[@class='nome']")[contadorDocentes]
             turma = disciplina.get_attribute('innerHTML')
-            print(f'Vagas Ofertadas em {turma}: {numeroVagas}')
+            print(f'Vagas Ofertadas em {turma}: {vagasOfertadas}')
             contadorDocentes += 1
         contadorVagas += 1
     return contadorVagas

@@ -62,7 +62,7 @@ def vagasOcupadasTurma():
     # Percorre cada elemento, procura o nome da turma e guarda em um dict
     for x in element1:
         resto = contadorTurmas % 2
-        numeroAlunos = x.get_attribute('innerHTML')
+        vagasOcupadas = x.get_attribute('innerHTML')
         anoSemestre = (driver.find_element(By.XPATH, "//*[@id='turmasAbertas']/table/tbody/tr[2]/td[2]")).get_attribute('innerHTML')
         # Verifica se o item da lista é par ou ímpar, o numero de vagas ocupadas estao nos impares
         if resto == 1: 
@@ -70,20 +70,20 @@ def vagasOcupadasTurma():
             codigoTurma = (driver.find_elements(By.CLASS_NAME, "turma")[contadorDocentes]).get_attribute('innerHTML')
             local = (driver.find_elements(By.XPATH, "//*[@id='turmasAbertas']/table/tbody/tr")[contadorDocentes].find_elements(By.XPATH, "//td[8]")[contadorDocentes]).get_attribute('innerHTML').strip()
             horario = (driver.find_elements(By.XPATH, "//*[@id='turmasAbertas']/table/tbody/tr")[contadorDocentes].find_elements(By.XPATH, "//td[4]")[contadorDocentes]).get_attribute('innerText').strip()
-            contadorVagas += int(numeroAlunos)
+            contadorVagas += int(vagasOcupadas)
             disciplina = driver.find_elements(By.XPATH,
                                     "//td[@class='nome']")[contadorDocentes]
         
             turma = disciplina.get_attribute('innerHTML')
             # As linhas seguintes separam o nome da turma da sua carga horaria
-            professor, cargahoraria = turma.split(" (")
-            cargahoraria, branco = cargahoraria.split(")")
+            docente, cargaHoraria = turma.split(" (")
+            cargaHoraria, branco = cargaHoraria.split(")")
             # Coloca o dict da turma dentro de uma lista de turmas
-            turmas.append({"turma": professor,
+            turmas.append({"docente": docente,
                           "codigoTurma": codigoTurma,
                           "horario": horario,
-                          "matriculados": numeroAlunos,
-                          "carga-horaria": cargahoraria,
+                          "vagasOcupadas": vagasOcupadas,
+                          "cargaHoraria": cargaHoraria,
                           "local": local,
                           "ano": ano,
                           "semestre": semestre})
@@ -123,9 +123,9 @@ def alunosPorDisciplina():
                                     "//span[@class='tituloDisciplina']")[atualDisc]
             conteudo = linhaUsada.get_attribute('innerHTML')
             # Separa o titulo da materia do codigo 
-            codigo, materia = conteudo.split(" - ")
-            resultado.append({"disciplina":materia,
-                              "codigo": codigo})
+            codigoMateria, nome = conteudo.split(" - ")
+            resultado.append({"nome":nome,
+                              "codigoMateria": codigoMateria})
 
             if atualDisc==0:
                 atualDisc+=1
@@ -153,12 +153,12 @@ def main():
     selecionarUnidade()
     selecionarSemestre()
     acionarBotaoBuscar()
-    contadorVagas = vagasOcupadasTurma()
-    print(f'Numero de Alunos encontrados: {contadorVagas}')
-    alunos = alunosPorDisciplina()
-    resultado = {'departamento': 'Faculdade do Gama',
-                 'numAlunos': contadorVagas,
-                 'materias': alunos}
+    vagasOcupadasTotal = vagasOcupadasTurma()
+    print(f'Numero de Alunos encontrados: {vagasOcupadasTotal}')
+    materias = alunosPorDisciplina()
+    resultado = {'nome': 'Faculdade do Gama',
+                 'vagasOcupadasTotal': vagasOcupadasTotal,
+                 'materias': materias}
     pp.pprint(resultado)
     fecharJanela()
 
