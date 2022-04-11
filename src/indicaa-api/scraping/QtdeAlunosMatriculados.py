@@ -8,7 +8,6 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.keys import Keys
-from api.models import Unidade, Materia, Turma
 import pprint as pp
 materias = []
 
@@ -70,7 +69,8 @@ def percorreTurmas(atualSoma, soma, materia, codigoMateria):
 
     indicaa = IndicaaServices()
     indicaa.criar_turma(professor, codigoTurma, vagasOcupadas, vagasOfertadas, local, horario, semestre, ano, materia)
-
+    indicaa.atualizar_materia(codigoMateria, cargahoraria)
+    
 def alunosPorDisciplina():
     indicaa = IndicaaServices()
     unidade = indicaa.criar_unidade("Faculdade do Gama")
