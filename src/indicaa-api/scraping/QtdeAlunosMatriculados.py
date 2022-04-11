@@ -1,6 +1,7 @@
 # As seguintes importacoes podem ser utilizadas futuramente 
 from pydoc import classname
 # Essas dependências importadas foram utilizadas no decorrer do código
+from api.services import IndicaaServices
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
@@ -50,11 +51,13 @@ def acionarBotaoBuscar():
     botaoBuscar.click()
 
 def percorreTurmas(atualSoma, soma, materia, codigoMateria):
-    linhaUsada = driver.find_elements(By.XPATH,
-                                    '//*[@id="turmasAbertas"]/table/tbody/tr/td[7]')[atualSoma]
-    conteudo = linhaUsada.get_attribute('innerHTML')
-    soma=soma + int(conteudo)
-    anoSemestre = (driver.find_element(By.XPATH, "//*[@id='turmasAbertas']/table/tbody/tr[2]/td[2]")).get_attribute('innerHTML')
+    vagasOcupadas = driver.find_elements(By.XPATH,
+                                    '//*[@id="turmasAbertas"]/table/tbody/tr/td[7]')[atualSoma].get_attribute('innerHTML')
+    vagasOfertadas = driver.find_elements(By.XPATH, 
+                                    '//*[@id="turmasAbertas"]/table/tbody/tr/td[6]')[atualSoma].get_attribute('innerHTML')
+    soma=soma + int(vagasOcupadas)
+    anoSemestre = (driver.find_element(By.XPATH, 
+                        "//*[@id='turmasAbertas']/table/tbody/tr[2]/td[2]")).get_attribute('innerHTML')
     ano, semestre = anoSemestre.split(".")
     codigoTurma = (driver.find_elements(By.CLASS_NAME, "turma")[atualSoma]).get_attribute('innerHTML')
     local = (driver.find_elements(By.XPATH, "//*[@id='turmasAbertas']/table/tbody/tr")[atualSoma].find_elements(By.XPATH, "//td[8]")[atualSoma]).get_attribute('innerHTML').strip()
@@ -65,28 +68,12 @@ def percorreTurmas(atualSoma, soma, materia, codigoMateria):
     professor, cargahoraria = turma.split(" (")
     cargahoraria, _ = cargahoraria.split(")") 
 
-    turma_teste = Turma.objects.filter(materia=materia, docente=professor, codigoTurma=codigoTurma).last()
-    if(turma_teste==None):
-        turma_teste = Turma.objects.create(
-            docente=professor,
-            codigoTurma=codigoTurma,
-            vagasOcupadas=conteudo,
-            vagasOfertadas=0,
-            local=local,
-            horario=horario,
-            semestre=semestre,
-            ano=ano,
-            materia=materia
-        )
-        turma_teste.save()
-    Materia.objects.filter(codigoMateria=codigoMateria).update(cargaHoraria=cargahoraria)
+    indicaa = IndicaaServices()
+    indicaa.criar_turma(professor, codigoTurma, vagasOcupadas, vagasOfertadas, local, horario, semestre, ano, materia)
 
 def alunosPorDisciplina():
-    unidade = Unidade.objects.filter(nome="Faculdade do Gama").last()
-    if(unidade==None):
-        unidade = Unidade.objects.create(
-            nome="Faculdade do Gama"
-        )
+    indicaa = IndicaaServices()
+    unidade = indicaa.criar_unidade("Faculdade do Gama")
     atual=0
     atualSoma=0
     atualDisc=0
@@ -118,22 +105,11 @@ def alunosPorDisciplina():
             atualDisc+=1
                 
             soma=0
-            materia_teste = Materia.objects.filter(codigoMateria=codigoMateria).last()
-            if(materia_teste==None):
-                materia_teste = Materia.objects.create(
-                    nome=nome,
-                    codigoMateria=codigoMateria,
-                    cargaHoraria="qualquer",
-                    unidade=unidade
-                )
-                materia_teste.save()
+            indicaa = IndicaaServices()
+            materia_teste = indicaa.criar_materia(nome, codigoMateria, unidade)
 
         if linha.get_attribute("class") == 'linhaPar' or linha.get_attribute("class") == 'linhaImpar':
             percorreTurmas(atualSoma, soma, materia_teste, codigoMateria)
-            # linhaUsada = driver.find_elements(By.XPATH,
-            #                         '//*[@id="turmasAbertas"]/table/tbody/tr/td[7]')[atualSoma]
-            # conteudo = linhaUsada.get_attribute('innerHTML')
-            # soma=soma + int(conteudo)
             atualSoma+=1
 
         
