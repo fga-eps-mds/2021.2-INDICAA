@@ -49,8 +49,7 @@ def acionarBotaoBuscar():
     botaoBuscar = driver.find_element(By.NAME, 'formTurma:j_id_jsp_1370969402_11')
     botaoBuscar.click()
 
-def percorreTurmas(atualSoma, soma, materia):
-    turmas = []
+def percorreTurmas(atualSoma, soma, materia, codigoMateria):
     linhaUsada = driver.find_elements(By.XPATH,
                                     '//*[@id="turmasAbertas"]/table/tbody/tr/td[7]')[atualSoma]
     conteudo = linhaUsada.get_attribute('innerHTML')
@@ -80,8 +79,7 @@ def percorreTurmas(atualSoma, soma, materia):
             materia=materia
         )
         turma_teste.save()
-    else:
-        Turma.objects.filter(materia=materia, docente=professor, codigoTurma=codigoTurma).update(horario=horario)
+    Materia.objects.filter(codigoMateria=codigoMateria).update(cargaHoraria=cargahoraria)
 
 def alunosPorDisciplina():
     unidade = Unidade.objects.filter(nome="Faculdade do Gama").last()
@@ -95,6 +93,7 @@ def alunosPorDisciplina():
     soma=0
     resultado = []
     materia_teste = None
+    codigoMateria=""
 
     lista = driver.find_elements(By.XPATH,
                                     '//*[@id="turmasAbertas"]/table/tbody/tr')
@@ -103,21 +102,11 @@ def alunosPorDisciplina():
     
         linha = driver.find_elements(By.XPATH,
                                     '//*[@id="turmasAbertas"]/table/tbody/tr')[atual]
-
-        if linha.get_attribute("class") == 'linhaPar' or linha.get_attribute("class") == 'linhaImpar':
-            percorreTurmas(atualSoma, soma, materia_teste)
-            # linhaUsada = driver.find_elements(By.XPATH,
-            #                         '//*[@id="turmasAbertas"]/table/tbody/tr/td[7]')[atualSoma]
-            # conteudo = linhaUsada.get_attribute('innerHTML')
-            # soma=soma + int(conteudo)
-            atualSoma+=1
-        # Se a linha tiver classname agrupador, ou seja, for uma materia, armazena no dict o titulo da disciplina e o codigo
-        # e ao final, zera a soma de vagas ocupadas
         if linha.get_attribute("class") == 'agrupador':
             linhaUsada = driver.find_elements(By.XPATH,
                                     "//span[@class='tituloDisciplina']")[atualDisc]
             conteudo = linhaUsada.get_attribute('innerHTML')
-            # Separa o titulo da materia do codigo 
+
             codigoMateria, nome = conteudo.split(" - ")
             resultado.append({"nome":nome,
                               "codigoMateria": codigoMateria})
@@ -138,8 +127,17 @@ def alunosPorDisciplina():
                     unidade=unidade
                 )
                 materia_teste.save()
+
+        if linha.get_attribute("class") == 'linhaPar' or linha.get_attribute("class") == 'linhaImpar':
+            percorreTurmas(atualSoma, soma, materia_teste, codigoMateria)
+            # linhaUsada = driver.find_elements(By.XPATH,
+            #                         '//*[@id="turmasAbertas"]/table/tbody/tr/td[7]')[atualSoma]
+            # conteudo = linhaUsada.get_attribute('innerHTML')
+            # soma=soma + int(conteudo)
+            atualSoma+=1
+
+        
         atual+=1
-    # Acrescenta as informacoes de vagas ocupadas do ultimo elemento da lista no dict
     # resultado[atualDisc-1]["matriculados"] = soma
     return resultado
     
