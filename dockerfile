@@ -2,11 +2,13 @@ FROM python:3.9
 
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
-ENV DJANGO_SETTINGS_MODULE settings
+ENV DJANGO_SETTINGS_MODULE=app.settings
+
+
 
 WORKDIR /code
 
-COPY requirements.txt .
+COPY ./src/indicaa-api/requirements.txt .
 RUN pip install -r requirements.txt
 
 COPY . .
