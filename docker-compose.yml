@@ -1,27 +1,70 @@
+# version: "3"
 version: "3"
 
 services:
   app:
     build:
       context: .
-    ports:
-      - "8000:8000"
-    volumes:
-      - ./app:/app
     command: >
       sh -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
-
-postgres:
-    image: postgres
-    container_name: indicaa-postgres
-    ports:
-      - "5432:5432"
     volumes:
-      -
-    networks:
-     -
+      - ./app:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
     environment:
-      - POSTGRES_NAME=postgres
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_USER=postgres
-      - POSTGRES_DB=postgres
+        - DB_HOST=db:5432
+        - DB_NAME=DB_NAME
+        - DB_PASSWORD=DB_PASS
+        - DB_USER=DB_USER
+  db:
+      image: postgres:13
+      container_name: indicaa-postgres
+      ports:
+        - "5432:5432"
+      environment:
+        - POSTGRES_HOST=db
+        - POSTGRES_NAME=DB_NAME
+        - POSTGRES_PASSWORD=DB_PASS
+        - POSTGRES_USER=DB_USER
+        - POSTGRES_DB=postgres
+        - POSTGRES_PORT=5432
+      volumes:
+        - ./db:/var/lib/postgresql/data/
+        # - type: volume
+        #   source: postgres
+        #   target: /data
+        #   volume:
+        #     nocopy: true
+        # - type: bind
+        #   source: /var/run/postgres/postgres.sock
+        #   target: /var/run/postgres/postgres.sock
+
+
+
+
+
+
+
+
+# services:
+#   web:
+#     build: .
+#     command: python manage.py runserver 0.0.0.0:8000
+#     volumes:
+#       - .:/code
+#     ports:
+#       - 8000:8000
+#     depends_on:
+#       - db
+#   db:
+#     image: postgres:13
+#     environment:
+#       - POSTGRES_USER=postgres
+#       - POSTGRES_PASSWORD=postgres
+#     volumes:
+#       - postgres_data:/var/lib/postgresql/data/
+
+# volumes:
+#   postgres_data:
