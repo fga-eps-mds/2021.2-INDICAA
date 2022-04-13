@@ -1,19 +1,19 @@
 version: "3"
 
 services:
-  app:
+  indicaa:
     build:
       context: .
     command: >
       sh -c "python ./src/indicaa-api/manage.py migrate && python ./src/indicaa-api/manage.py runserver 0.0.0.0:8000"
     volumes:
-      - ./app:/app
+      - .:/code
     ports:
       - "8000:8000"
     depends_on:
       - db
     environment:
-        - DB_HOST=db:5432
+        # - DB_HOST=POSTGRES_HOST
         - DB_NAME=DB_NAME
         - DB_PASSWORD=DB_PASS
         - DB_USER=DB_USER
