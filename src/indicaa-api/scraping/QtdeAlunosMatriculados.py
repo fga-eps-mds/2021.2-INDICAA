@@ -9,8 +9,7 @@ from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.keys import Keys
 import pprint as pp
-materias = []
-
+unidade = None
 # Configuração do navegador (Firefox)
 option = Options()
 option.headless = True
@@ -42,8 +41,12 @@ def selecionarUnidade(n):
     botaoUnidade = driver.find_element(By.ID, 'formTurma:inputDepto')
     botaoFGA = driver.find_elements(By.XPATH, '//*[@id="formTurma:inputDepto"]/option')
     botaoFGA = botaoFGA[n]
+    nomeUnidade = botaoFGA.get_attribute('innerHTML')
+    indicaa = IndicaaServices()
+    unidade = indicaa.criar_unidade(nomeUnidade)
     botaoUnidade.click()
     botaoFGA.click()
+    return nomeUnidade
 
 # Clica no botao buscar para visualizar o resultado da consulta
 def acionarBotaoBuscar():
@@ -73,8 +76,6 @@ def percorreTurmas(atualSoma, soma, materia, codigoMateria):
     indicaa.atualizar_materia(codigoMateria, cargahoraria)
     
 def alunosPorDisciplina():
-    indicaa = IndicaaServices()
-    unidade = indicaa.criar_unidade("Faculdade do Gama")
     atual=0
     atualSoma=0
     atualDisc=0
@@ -95,7 +96,11 @@ def alunosPorDisciplina():
                                     "//span[@class='tituloDisciplina']")[atualDisc]
             conteudo = linhaUsada.get_attribute('innerHTML')
 
-            codigoMateria, nome = conteudo.split(" - ")
+            conteudo = conteudo.split(" - ")
+            codigoMateria = conteudo[0]
+            nome = conteudo[1]
+            if len(conteudo) == 3:
+                nome = nome + " - " + conteudo[2]
             resultado.append({"nome":nome,
                               "codigoMateria": codigoMateria})
 
@@ -118,7 +123,6 @@ def alunosPorDisciplina():
     # resultado[atualDisc-1]["matriculados"] = soma
     return resultado
     
-    
 
 # Fecha o navegador
 def fecharJanela():
@@ -128,19 +132,19 @@ def main():
     acessarURL()
     driver.implicitly_wait(6)
     selecionarNivelEnsino()
-    for i in range(2, 192):
-        selecionarUnidade(i)
+    for i in range(40, 192):
+        nomeUnidade = selecionarUnidade(i)
         selecionarSemestre()
         acionarBotaoBuscar()
         alunos = alunosPorDisciplina()
-        print(alunos)
+        # print(alunos)
     # selecionarUnidade()
     # selecionarSemestre()
     # acionarBotaoBuscar()
     # vagasOcupadasTotal = vagasOcupadasTurma()
     # print(f'Numero de Alunos encontrados: {vagasOcupadasTotal}')
         materias = alunosPorDisciplina()
-        resultado = {'nome': 'Faculdade do Gama',
+        resultado = {'nome': nomeUnidade,
                     #  'vagasOcupadasTotal': vagasOcupadasTotal,
                     'materias': materias}
         pp.pprint(resultado)
