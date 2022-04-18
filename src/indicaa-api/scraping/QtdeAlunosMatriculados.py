@@ -38,9 +38,10 @@ def selecionarSemestre():
     botaoSemestre.click()
 
 # Seleciona a unidade da UnB para a busca, nesse caso, a Faculdade do Gama
-def selecionarUnidade():
+def selecionarUnidade(n):
     botaoUnidade = driver.find_element(By.ID, 'formTurma:inputDepto')
-    botaoFGA = driver.find_element(By.XPATH, '//*[@id="formTurma:inputDepto"]/option[79]')
+    botaoFGA = driver.find_elements(By.XPATH, '//*[@id="formTurma:inputDepto"]/option')
+    botaoFGA = botaoFGA[n]
     botaoUnidade.click()
     botaoFGA.click()
 
@@ -127,16 +128,22 @@ def main():
     acessarURL()
     driver.implicitly_wait(6)
     selecionarNivelEnsino()
-    selecionarUnidade()
-    selecionarSemestre()
-    acionarBotaoBuscar()
+    for i in range(2, 192):
+        selecionarUnidade(i)
+        selecionarSemestre()
+        acionarBotaoBuscar()
+        alunos = alunosPorDisciplina()
+        print(alunos)
+    # selecionarUnidade()
+    # selecionarSemestre()
+    # acionarBotaoBuscar()
     # vagasOcupadasTotal = vagasOcupadasTurma()
     # print(f'Numero de Alunos encontrados: {vagasOcupadasTotal}')
-    materias = alunosPorDisciplina()
-    resultado = {'nome': 'Faculdade do Gama',
-                #  'vagasOcupadasTotal': vagasOcupadasTotal,
-                 'materias': materias}
-    pp.pprint(resultado)
+        materias = alunosPorDisciplina()
+        resultado = {'nome': 'Faculdade do Gama',
+                    #  'vagasOcupadasTotal': vagasOcupadasTotal,
+                    'materias': materias}
+        pp.pprint(resultado)
     fecharJanela()
 
 
