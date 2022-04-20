@@ -1,9 +1,11 @@
 # As seguintes importacoes podem ser utilizadas futuramente 
 from pydoc import classname
+
+from requests import options
 # Essas dependências importadas foram utilizadas no decorrer do código
 from api.services import IndicaaServices
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.firefox.service import Service
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
