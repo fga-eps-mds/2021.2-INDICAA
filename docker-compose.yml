@@ -38,6 +38,8 @@ services:
       MB_DB_HOST: db
     depends_on:
       - db
+    logging:
+      driver: none
   db:
       image: postgres:13
       container_name: indicaa-postgres
