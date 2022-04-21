@@ -1,7 +1,6 @@
 from .models import Unidade, Turma, Materia
 
 class IndicaaServices:
-
     def criar_unidade(self, nomeUnidade):
         unidade = Unidade.objects.filter(nome=nomeUnidade).last()
         if(unidade==None):

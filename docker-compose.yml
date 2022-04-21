@@ -5,7 +5,7 @@ services:
     build:
       context: .
     command: >
-      sh -c "python ./src/indicaa-api/manage.py migrate && python ./src/indicaa-api/manage.py runserver 0.0.0.0:8000"
+      sh -c "python ./src/indicaa-api/manage.py migrate && ./src/indicaa-api/manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/code
     ports:
@@ -18,7 +18,26 @@ services:
       - POSTGRES_NAME=postgres
       - POSTGRES_HOST=db
       - POSTGRES_PORT=5432
-
+  metabase-indicaa:
+    image: metabase/metabase:latest
+    container_name: metabase-indicaa
+    hostname: metabase-indicaa
+    # volumes:
+    # - /dev/urandom:/dev/random:ro
+    ports:
+      - 3000:3000
+    volumes:
+      # declare your mount volume /host/dir:/container/dir
+      - /home/app/metabase-data:/metabase-data
+    environment:
+      MB_DB_TYPE: postgres
+      MB_DB_DBNAME: postgres
+      MB_DB_PORT: 5432
+      MB_DB_USER: postgres
+      MB_DB_PASS: postgres
+      MB_DB_HOST: db
+    depends_on:
+      - db
   db:
       image: postgres:13
       container_name: indicaa-postgres
