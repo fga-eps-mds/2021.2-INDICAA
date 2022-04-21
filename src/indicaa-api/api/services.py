@@ -9,6 +9,7 @@ class IndicaaServices:
                 nome=nomeUnidade
             )
         return unidade
+    
     def criar_materia(self, nome, codigoMateria, unidade):
         materia_teste = Materia.objects.filter(codigoMateria=codigoMateria).last()
         if(materia_teste==None):

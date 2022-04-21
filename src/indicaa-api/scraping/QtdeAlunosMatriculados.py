@@ -10,8 +10,9 @@ from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.keys import Keys
 import pprint as pp
 
-# unidade = None
+
 indicaa = IndicaaServices()
+
 # Configuração do navegador (Firefox)
 option = Options()
 option.headless = True
@@ -48,8 +49,6 @@ def selecionarUnidade(n):
     botaoFGA = driver.find_elements(By.XPATH, '//*[@id="formTurma:inputDepto"]/option')
     botaoFGA = botaoFGA[n]
     nomeUnidade = botaoFGA.get_attribute('innerHTML')
-    # indicaa = IndicaaServices()
-    # unidade =  indicaa.criar_unidade(nomeUnidade)
     botaoUnidade.click()
     botaoFGA.click()
     return nomeUnidade
@@ -87,7 +86,6 @@ def percorreTurmas(atualSoma, soma, materia, codigoMateria):
     professor, cargahoraria = turma.split(" (")
     cargahoraria, _ = cargahoraria.split(")")
 
-    indicaa = IndicaaServices()
     indicaa.criar_turma(professor, codigoTurma, vagasOcupadas, vagasOfertadas, local, horario, semestre, ano, materia)
     indicaa.atualizar_materia(codigoMateria, cargahoraria)
 
@@ -130,7 +128,6 @@ def alunosPorDisciplina():
             unidade = indicaa.criar_unidade(selecionarUnidade(52))
 
             soma = 0
-            # indicaa = IndicaaServices()
             materia_teste = indicaa.criar_materia(nome, codigoMateria, unidade)
 
         if linha.get_attribute("class") == 'linhaPar' or linha.get_attribute("class") == 'linhaImpar':
@@ -155,7 +152,7 @@ def main():
     nomeUnidade = selecionarUnidade(52)
     selecionarSemestre()
     acionarBotaoBuscar()
-    alunos = alunosPorDisciplina()
+    # alunos = alunosPorDisciplina()
     # print(alunos)
     # selecionarUnidade()
     # selecionarSemestre()
