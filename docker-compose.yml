@@ -5,7 +5,7 @@ services:
     build:
       context: .
     command: >
-      sh -c "python ./src/indicaa-api/manage.py migrate && ./src/indicaa-api/manage.py runserver 0.0.0.0:8000"
+      sh -c "python ./src/indicaa-api/manage.py migrate && python ./src/indicaa-api/manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/code
     ports:
