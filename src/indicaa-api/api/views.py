@@ -7,11 +7,15 @@ from rest_framework import viewsets
 from .serializers import MateriaSerializer, UnidadeSerializer, TurmaSerializer
 from .models import Materia, Unidade, Turma
 from django.http import HttpResponse
+import sys
 
 
 class UnidadeViewSet(viewsets.ModelViewSet):
     queryset = Unidade.objects.all().order_by('nome')
     serializer_class = UnidadeSerializer
+    if "runserver" in sys.argv:
+            from scraping.QtdeAlunosMatriculados import main
+            #main()
         
 
 class MateriaViewSet(viewsets.ModelViewSet):
