@@ -6,7 +6,7 @@ ENV DJANGO_SETTINGS_MODULE=config.settings
 
 
 
-WORKDIR /code
+WORKDIR ./code
 
 COPY ./src/indicaa-api/requirements.txt .
 RUN pip install -r requirements.txt
