@@ -16,14 +16,14 @@ class Unidade(models.Model):
 
 class Materia(models.Model):
     codigoMateria = models.CharField(
-        max_length=10, 
+        max_length=15, 
         primary_key=True
     )
     nome = models.CharField(
         max_length=255
     )
     cargaHoraria = models.CharField(
-        max_length=3
+        max_length=4
     ) 
     unidade = models.ForeignKey(
         Unidade, 
@@ -42,10 +42,10 @@ class Turma(models.Model):
         max_length=255
     )
     codigoTurma = models.CharField(
-        max_length=2
+        max_length=4
     )
     horario = models.CharField(
-        max_length=20
+        max_length=100
     )
     vagasOfertadas = models.IntegerField()
     vagasOcupadas = models.IntegerField()

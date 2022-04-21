@@ -138,6 +138,3 @@ def main():
                  'materias': materias}
     pp.pprint(resultado)
     fecharJanela()
-
-
-main()
