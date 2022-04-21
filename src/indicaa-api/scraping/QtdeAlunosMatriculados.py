@@ -90,7 +90,7 @@ def percorreTurmas(atualSoma, soma, materia, codigoMateria):
     indicaa.atualizar_materia(codigoMateria, cargahoraria)
 
 
-def alunosPorDisciplina():
+def alunosPorDisciplina(n):
     atual = 0
     atualSoma = 0
     atualDisc = 0
@@ -114,8 +114,8 @@ def alunosPorDisciplina():
             conteudo = conteudo.split(" - ")
             codigoMateria = conteudo[0]
             nome = conteudo[1]
-            if len(conteudo) == 3:
-                nome = nome + " - " + conteudo[2]
+            # if len(conteudo) == 3:
+            #     nome = nome + " - " + conteudo[2]
             resultado.append({"nome": nome,
                               "codigoMateria": codigoMateria})
 
@@ -125,9 +125,10 @@ def alunosPorDisciplina():
             # resultado[atualDisc-1]["matriculados"] = soma
             atualDisc += 1
 
-            unidade = indicaa.criar_unidade(selecionarUnidade(52))
+            unidade = indicaa.criar_unidade(selecionarUnidade(n))
 
             soma = 0
+            
             materia_teste = indicaa.criar_materia(nome, codigoMateria, unidade)
 
         if linha.get_attribute("class") == 'linhaPar' or linha.get_attribute("class") == 'linhaImpar':
@@ -148,10 +149,10 @@ def main():
     acessarURL()
     driver.implicitly_wait(6)
     selecionarNivelEnsino()
-    # for i in range(2, 10):
-    nomeUnidade = selecionarUnidade(52)
-    selecionarSemestre()
-    acionarBotaoBuscar()
+    for i in range(1, 192):
+        nomeUnidade = selecionarUnidade(i)
+        selecionarSemestre()
+        acionarBotaoBuscar()
     # alunos = alunosPorDisciplina()
     # print(alunos)
     # selecionarUnidade()
@@ -159,11 +160,11 @@ def main():
     # acionarBotaoBuscar()
     # vagasOcupadasTotal = vagasOcupadasTurma()
     # print(f'Numero de Alunos encontrados: {vagasOcupadasTotal}')
-    materias = alunosPorDisciplina()
-    resultado = {'nome': nomeUnidade,
-                 #  'vagasOcupadasTotal': vagasOcupadasTotal,
-                 'materias': materias}
-    pp.pprint(resultado)
+        materias = alunosPorDisciplina(i)
+        resultado = {'nome': nomeUnidade,
+                     #  'vagasOcupadasTotal': vagasOcupadasTotal,
+                     'materias': materias}
+        pp.pprint(resultado)
     fecharJanela()
 
 
