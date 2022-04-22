@@ -15,7 +15,7 @@ class UnidadeViewSet(viewsets.ModelViewSet):
     serializer_class = UnidadeSerializer
     if "runserver" in sys.argv:
             from scraping.QtdeAlunosMatriculados import main
-            #main()
+            main()
         
 
 class MateriaViewSet(viewsets.ModelViewSet):

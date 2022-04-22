@@ -136,5 +136,6 @@ def main():
     resultado = {'nome': 'Faculdade do Gama',
                 #  'vagasOcupadasTotal': vagasOcupadasTotal,
                  'materias': materias}
-    pp.pprint(resultado)
     fecharJanela()
+    pp.pprint(resultado)
+    return resultado
