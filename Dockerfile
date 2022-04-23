@@ -4,8 +4,6 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 ENV DJANGO_SETTINGS_MODULE=config.settings
 
-
-
 WORKDIR ./code
 
 COPY ./src/indicaa-api/requirements.txt .
