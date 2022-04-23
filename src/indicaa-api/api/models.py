@@ -10,20 +10,18 @@ class Unidade(models.Model):
         primary_key=True
     )
 
-    def __str__(self):
-        return self.nome
 
 
 class Materia(models.Model):
     codigoMateria = models.CharField(
-        max_length=10, 
+        max_length=255, 
         primary_key=True
     )
     nome = models.CharField(
         max_length=255
     )
     cargaHoraria = models.CharField(
-        max_length=3
+        max_length=255
     ) 
     unidade = models.ForeignKey(
         Unidade, 
@@ -42,10 +40,10 @@ class Turma(models.Model):
         max_length=255
     )
     codigoTurma = models.CharField(
-        max_length=2
+        max_length=255
     )
     horario = models.CharField(
-        max_length=20
+        max_length=255
     )
     vagasOfertadas = models.IntegerField()
     vagasOcupadas = models.IntegerField()

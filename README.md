@@ -1,116 +1,46 @@
-# **INDICAA**
+<div align="center"><img id="indicaa-logo" src="assets/logo.svg"></img></div><br/>
 
-<p align="center">
-  <img width="500" src="docs/assets/logo/logo.png">
-</p>
+<div align="center">
+<img src="https://img.shields.io/github/issues/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/issues-closed/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/issues-pr/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/issues-pr-closed/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/repo-size/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"> <img src="https://img.shields.io/github/license/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/v/release/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/last-commit/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img>
+</div><br/>
 
+[INDICAA](https://indicaa.herokuapp.com/) é um projeto desenvolvido por alunos da matéria de Métodos de Desenvolvimento de Software da [Universidade de Brasília - UnB](https://www.unb.br/) com o objetivo de facilitar o acesso às informações apresentadas pelo site acadêmico [SIGAA oferta](https://sig.unb.br/sigaa/public/turmas/listar.jsf?aba=p-ensino).
 
- ![GitHub issues](https://img.shields.io/github/issues/fga-eps-mds/Projeto01?color=red)
- ![GitHub closed issues](https://img.shields.io/github/issues-closed/fga-eps-mds/Projeto01?color=green)
- ![GitHub pull requests](https://img.shields.io/github/issues-pr/fga-eps-mds/Projeto01?color=orange)
- ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/fga-eps-mds/Projeto01?color=brightgreen)
- ![GitHub branches](https://badgen.net/github/branches/fga-eps-mds/Projeto01/)
- ![GitHub repo size](https://img.shields.io/github/repo-size/fga-eps-mds/Projeto01?color=purple)
- ![GitHub contributors](https://img.shields.io/github/contributors/fga-eps-mds/Projeto01?color=ff69b4)
- ![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
- 
-## 💻 Objetivos do Projeto
+Nós somos um projeto que visa a busca e a disponibilização visual de informações acadêmicas relevantes aos coordenadores da Universidade de Brasília - UnB, e também, possibilitar a pesquisa e a filtragem de dados por meio da interface do [Metabase](https://www.metabase.com/).
 
-Com o retorno às atividades presenciais, faz-se necessária a volta da divisão de sala para cada professor, relacionando o número de alunos matriculados; as vagas ofertadas pelas matérias; e as salas disponíveis. Tendo em vista essa atividade e a alta demanda de tempo para buscar as informações no site do Sigaa, foi proposto um projeto com a ideia de criar um software capaz apresentar um painel com os indicadores do SIGAA, de modo a facilitar a visualização dessas informações e o trabalho da secretaria na organização da volta das aulas presenciais.  
+No contexto da pandemia, a gestão de espaços se tornou fundamental para o bom funcionamento da UnB. Nesse contexto, a equipe de coordenação voltou seus esforços para propiciar uma boa divisão das disciplinas e atividades no geral de acordo com o espaço existente. Para tal, a visualização da divisão dos espaços de acordo com os períodos do dia é essencial para uma melhor tomada de decisões pelos gestores, o que impactará diretamente a execução das atividades acadêmicas da universidade.
 
-Dentre os requisitos estabelecidos, encontram-se dispostos no painel:
-  - Quantidade de disciplinas ofertadas por curso
-  - Quantidade de vagas ofertadas por curso
-  - Quantidade de alunos matriculados por curso
-  - Quantidade de salas disponiveis por curso
+-   [Documentação do projeto](https://fga-eps-mds.github.io/2021.2-INDICAA-Wiki/)
 
-## 📚 Releases
- 
- 1.0 - 07/03/2022 
- 
- 2.0 - Planejado para 26/04/2022
-  
-## ⚙️ Fluxo Organizacional
-  Para melhor desenvolvimento do projeto e gestão das atividades foi usado uma metodologia ágil hibrida de Scrum e Kanban.
-  Workflow organizado e controlado através do ZenHub, com o uso de roadmaps e planning poker.
+Utilizando a interface do _**Metabase**_, é possível visualizar os dashboards já criados pela equipe de desenvolvedores do projeto INDICAA, criar novos dashboards conforme necessidade de obtenção de dados mais específicos, visualizar os dados retirados do site SIGAA e armazenados no banco de dados INDICAA e também, filtrar os dados que estão sendo visualizados com base nas categorias disponíveis.
 
-## ✏ Como executar o projeto
+![image](https://user-images.githubusercontent.com/62526025/163576771-5e0479f7-e859-4d76-9041-e8951c7462fe.png)
 
-### 🧰️ Tecnologias e Ferramentas
+## ⌨️🔨 Linguagens e ferramentas utilizadas
 
-Esse projeto usa algumas ferramentas para o seu desenvolvimento:
-- [Ubuntu](https://ubuntu.com/download) para 
-desenvolvimento em Linux
-- [Docker](https://docs.docker.com/engine/install/ubuntu/) para Linux/Ubuntu
+<div align="center">
+<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"></img> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"></img> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"></img> <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white"></img> <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"></img> <img src="https://img.shields.io/badge/django%20rest-ff1709?style=for-the-badge&logo=django&logoColor=white"></img> <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white"></img> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></img> <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"></img> <img src="https://img.shields.io/badge/Metabase-509EE3?style=for-the-badge&logo=metabase&logoColor=fff"></img>
+</div>
 
-### 💿 Instalação 
+## 📑 Releases previstas
 
-Essa aplicação tem seu ambiente configurado através de conteiners [Docker](https://www.docker.com), portanto, tem como pré-requisitos a instalação do [Docker](https://www.docker.com/get-started) e [Docker-compose](https://docs.docker.com/compose/install/).
+-   <a href="https://github.com/fga-eps-mds/2021.2-INDICAA/releases/tag/v0.1"><img src="https://img.shields.io/badge/Release_1-v0.1-green?style=for-the-badge"></img><img src="https://img.shields.io/badge/Date-07%2F03%2F2022-lightgrey?style=for-the-badge"></img></a>
+-   <img src="https://img.shields.io/badge/Release_2-v0.2-yellow?style=for-the-badge"></img><img src="https://img.shields.io/badge/Date-26%2F04%2F2022-lightgrey?style=for-the-badge"></img>
 
-Também é necessário ter o Git instalado para clonar o repositório.
+## 🚀💾 Executando o projeto
 
-**Back-end:**
-- Clonar o repositório:
-```
-git clone https://github.com/fga-eps-mds/2021.2-INDICAA
-```
-**Front-end:**
-- Para instalar a camada front-end da aplicação basta seguir os passos de instalação descritos [aqui](https://github.com/fga-eps-mds/2021.2-INDICAA-Front-end)
+### 🐧 Ubuntu
 
+`As instruções para a execução seguirão aqui`
 
-## 🤝 Contribuição Livre
+### 🪟 Windows
 
-[Guia de Contribuição](https://github.com/fga-eps-mds/2021.2-INDICAA/blob/main/docs/contributing.md)
+`As instruções para a execução seguirão aqui`
 
-[Código de Conduta](https://github.com/fga-eps-mds/2021.2-INDICAA/blob/main/CODE_OF_CONDUCT.md)
+## 🤝 Contribuições
 
-[Políticas de Commits](https://github.com/fga-eps-mds/2021.2-INDICAA/blob/main/docs/templates/commit_Template.md)
+O projeto INDICAA é um projeto Open Source e de software livre desenvolvido por alunos da disciplina de Métodos de Desenvolvimento de software da UnB. Com isso, o projeto é de livre contribuição e reprodução. Vale apenas ressaltar que é necessário que sejam seguidas as [regras de contribuição](https://fga-eps-mds.github.io/2021.2-INDICAA-Wiki/contributing/) e o [código de conduta do projeto](https://fga-eps-mds.github.io/2021.2-INDICAA-Wiki/CODE_OF_CONDUCT/).
 
-[Template para criação de issues](docs/templates/IssueTemplate.md)
+## 🔐 Licença
 
-[Template para criação de pull requests](https://github.com/fga-eps-mds/2021.2-INDICAA/blob/main/.github/pull_request_template.md)
-
-## 🤓 Desenvolvedores
-
-### Grupo 1
-
-<table>
-	<tr>    
-    <td align="center"><a href="https://github.com/LeticiaAires"><img src="https://avatars.githubusercontent.com/u/72623771?v=4" width="100px;" alt=""/><br /><sub><b>Leticia Aires</b></sub></a><br /><a href="https://github.com/LeticiaAires"></a></td>    
-    <td align="center"><a href="https://github.com/lucasqueiroz23"><img src="https://avatars.githubusercontent.com/u/86672557?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Henrique</b></sub></a><br /><a href="https://github.com/lucasqueiroz23"></a></td>
-    <td align="center"><a href="https://github.com/mc-gomes"><img src="https://avatars.githubusercontent.com/u/72279998?v=4" width="100px;" alt=""/><br /><sub><b>Matheus Costa Gomes</b></sub></a><br /><a href="https://github.com/mc-gomes"></a></td>
-    <td align="center"><a href="https://github.com/laurapinos"><img src="https://avatars.githubusercontent.com/u/62102447?v=4" width="100px;" alt=""/><br /><sub><b>Laura Pinos </b></sub></a><br /><a href="https://github.com/laurapinos"></a></td>
-    <td align="center"><a href="https://github.com/vitorekr"><img src="https://avatars.githubusercontent.com/u/56610229?v=4" width="100px;" alt=""/><br /><sub><b>Vitor Khül</b></sub></a><br /><a href="https://github.com/vitorekr"></a></td>
-    <td align="center"><a href="https://github.com/OCaioOliveira"><img src="https://avatars.githubusercontent.com/u/54439337?v=4" width="100px;" alt=""/><br /><sub><b>Caio César</b></sub></a><br /><a href="https://github.com/OCaioOliveira"></a></td>
-	</tr>
-</table>
-
-### Grupo 3
-
-<table>
-	<tr>
-		<td align="center"><a href="https://github.com/Matheuspleal"><img src="https://avatars.githubusercontent.com/u/62526025?v=4" width="100px;" alt=""/><br /><sub><b>Matheus Pimentel Leal</b></sub></a><br /><a href="https://github.com/Matheuspleal"></a></td>
-		<td align="center"><a href="https://github.com/AdneMoretti"><img src="https://avatars.githubusercontent.com/u/64036847?v=4" width="100px;" alt=""/><br /><sub><b>Adne Moretti</b></sub></a><br /><a href="https://github.com/AdneMoretti"></a></td>
-		<td align="center"><a href="https://github.com/MorettiGS"><img src="https://avatars.githubusercontent.com/u/78612945?v=4" width="100px;" alt=""/><br /><sub><b>Gabriel Moretti</b></sub></a><br /><a href="https://github.com/MorettiGS"></a></td>
-    		<td align="center"><a href="https://github.com/gabrielm2q"><img src="https://avatars.githubusercontent.com/u/72149063?v=4" width="100px;" alt=""/><br /><sub><b>Gabriel Mariano</b></sub></a><br /><a href="https://github.com/gabrielm2q"></a></td>
-		<td align="center"><a href="https://github.com/guibrbs"><img src="https://avatars.githubusercontent.com/u/88190414?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Barbosa</b></sub></a><br /><a href="https://github.com/guibrbs"></a></td>	
-	</tr>
-</table>
-
-### Grupo 4	
-
-<table>
-	<tr>
-		<td align="center"><a href="https://github.com/guigudf"><img src="https://avatars.githubusercontent.com/u/78756768?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Araujo</b></sub></a><br /><a href="https://github.com/guigudf"></a></td>
-		<td align="center"><a href="https://github.com/PedroSiq"><img src="https://avatars.githubusercontent.com/u/86636146?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Augusto</b></sub></a><br /><a href="https://github.com/PedroSiq"></a></td>
-    		<td align="center"><a href="https://github.com/joaopaulob3"><img src="https://avatars.githubusercontent.com/u/87615410?v=4" width="100px;" alt=""/><br /><sub><b>João Paulo</b></sub></a><br /><a href="https://github.com/joaopaulob3"></a></td>
-    		<td align="center"><a href="https://github.com/thiago-vivan"><img src="https://avatars.githubusercontent.com/u/80918128?v=4" width="100px;" alt=""/><br /><sub><b>Thiago Vivan</b></sub></a><br /><a href="https://github.com/thiago-vivan"></a></td>
-    		<td align="center"><a href="https://github.com/Eruel6"><img src="https://avatars.githubusercontent.com/u/71983159?v=4" width="100px;" alt=""/><br /><sub><b>Arthur Taylor</b></sub></a><br /><a href="https://github.com/Eruel6"></a></td>
-    		<td align="center"><a href="https://github.com/mateusvff"><img src="https://avatars.githubusercontent.com/u/71900095?v=4" width="100px;" alt=""/><br /><sub><b>Mateus Franco</b></sub></a><br /><a href="https://github.com/mateusvff"></a></td>
-    		<td align="center"><a href="https://github.com/Thiab394"><img src="https://avatars.githubusercontent.com/u/71983200?v=4" width="100px;" alt=""/><br /><sub><b>Thiago Oliveira</b></sub></a><br /><a href="https://github.com/Thiab394"></a></td>
-	</tr>
-</table>
-
-## 📝 Licença
-Este projeto está licenciado sob os termos da licença 
-[GNU GPL v3.0](./LICENSE).
+Este projeto está licenciado sob os termos estabelecidos pela [GNU General Public License v3.0](https://github.com/fga-eps-mds/2021.2-INDICAA/blob/main/LICENSE).
