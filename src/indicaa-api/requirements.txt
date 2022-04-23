@@ -7,7 +7,7 @@ charset-normalizer==2.0.12
 cryptography==36.0.1
 dj-database-url==0.5.0
 Django==4.0.3
-django-heroku==0.0.0
+django-heroku
 djangorestframework==3.13.1
 flake8==4.0.1
 h11==0.13.0
@@ -43,3 +43,5 @@ urllib3==1.26.9
 webdriver-manager==3.5.4
 whitenoise==6.0.0
 wsproto==1.0.0
+gunicorn
+whitenoise
