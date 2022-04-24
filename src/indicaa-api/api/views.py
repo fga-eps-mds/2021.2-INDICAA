@@ -14,8 +14,12 @@ class UnidadeViewSet(viewsets.ModelViewSet):
     queryset = Unidade.objects.all().order_by('nome')
     serializer_class = UnidadeSerializer
     if "runserver" in sys.argv:
-            from scraping.QtdeAlunosMatriculados import main
-            #main()
+        # from scraping.QtdeAlunosMatriculados import main
+        # main()
+        # from scraping.remove import delete_everything
+        # delete_everything()
+        from scraping.expansao import main
+        main()
         
 
 class MateriaViewSet(viewsets.ModelViewSet):
