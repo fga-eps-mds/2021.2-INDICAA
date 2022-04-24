@@ -10,8 +10,6 @@ class Unidade(models.Model):
         primary_key=True
     )
 
-    def __str__(self):
-        return self.nome
 
 
 class Materia(models.Model):
