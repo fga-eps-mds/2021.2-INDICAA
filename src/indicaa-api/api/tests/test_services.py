@@ -11,3 +11,8 @@ class TestServices():
     def test_criar_unidade(self, db):
         unidade = self.indicaa.criar_unidade("INSTITUTO DE ZOOLOGIA")
         assert unidade.nome == "INSTITUTO DE ZOOLOGIA"
+
+    def test_criar_materia(self, db):
+        unidade = self.indicaa.criar_unidade("INSTITUTO DE ZOOLOGIA")
+        materia = self.indicaa.criar_materia("COMPILADORES", 'FGA0000', unidade)
+        assert materia.nome == "COMPILADORES"
