@@ -27,15 +27,96 @@ Utilizando a interface do _**Metabase**_, é possível visualizar os dashboards 
 -   <a href="https://github.com/fga-eps-mds/2021.2-INDICAA/releases/tag/v0.1"><img src="https://img.shields.io/badge/Release_1-v0.1-green?style=for-the-badge"></img><img src="https://img.shields.io/badge/Date-07%2F03%2F2022-lightgrey?style=for-the-badge"></img></a>
 -   <img src="https://img.shields.io/badge/Release_2-v0.2-yellow?style=for-the-badge"></img><img src="https://img.shields.io/badge/Date-26%2F04%2F2022-lightgrey?style=for-the-badge"></img>
 
-## 🚀💾 Executando o projeto
 
-### 🐧 Ubuntu
+# 🚀💾 Instalação e execução do projeto
 
-`As instruções para a execução seguirão aqui`
+## 🌎 Acesso ao projeto em sua versão de produção (na web)
 
-### 🪟 Windows
+- [Metabase](https://indicaa.herokuapp.com/)
+  
+- [API](https://indicaa-unb-apii.herokuapp.com/)
 
-`As instruções para a execução seguirão aqui`
+## 🏭 Rodando o projeto em versão de desenvolvimento (localmente)
+
+### Instalação das tecnologias
+
+🐋 Docker cli:
+
+Confira se o docker está instalado em sua máquina.
+
+```sh
+docker version
+```
+O comando acima deve retornar uma mensagem com a versão do docker instalada em sua máquina. Caso o Docker não esteja instalado, visite a [página oficial de instruções de instalação](https://docs.docker.com/engine/install/ubuntu/) e faça o passo a passo descrito.
+
+É recomendada a utilização de versões >= _**20.10.14**_.
+
+🐍 Python:
+
+Verifique a versão instalada do python.
+
+```sh
+python --version
+```
+ou
+```sh
+python3 --version
+```
+Os comandos acima devem retornar algo como: 
+```Python 3.9.0```
+. Isso significa que o python está instalado e sua versão é a 
+3.9.0.
+É recomendada a utilização de versões >= _**3.9.x**_. Caso necessário, siga o passo a passo informado na [página oficial de instruções de instalação](https://python.org.br/instalacao-linux/).
+#
+### Execução
+🚀 GitHub Pages
+
+Clonar o repositório [Wiki](https://github.com/fga-eps-mds/2021.2-INDICAA-Wiki):
+```sh
+git clone https://github.com/fga-eps-mds/2021.2-INDICAA-Wiki 
+```
+Entrar na pasta em que o clone está localizado:
+```sh
+cd 2021.2-INDICAA-Wiki
+```
+Instalar os pacotes _**mkdocs material**_ e _**mkdocstrings**_
+```sh
+pip install mkdocs-material mkdocstrings
+```
+Rodar o gitpages localmente:
+```sh
+mkdocs serve
+```
+Agora, o git pages (versão de desenvolvimento) deve estar disponível em: ```http://127.0.0.1:6969/```
+
+🧭 API
+
+Clonar este repositório:
+```sh
+git clone https://github.com/fga-eps-mds/2021.2-INDICAA
+```
+Entrar na pasta em que o clone está localizado:
+```sh
+cd 2021.2-INDICAA
+```
+
+Com o docker instalado na sua máquina, rodar:
+```sh
+docker-compose up
+```
+A instrução acima rodará a ```aplicação``` do INDICAA, ou seja, criará um banco de dados **POSTGRE**, posteriormente é feito o scraping das informações obtidas através do [SIGAA](https://sig.unb.br/sigaa/public/turmas/listar.jsf?aba=p-ensino) e, por fim, será hospedado o Metabase, a partir de uma imagem do **Docker Hub**.
+
+A **API** deve estar disponível em: ```http://127.0.0.1:8000/```
+
+E o **Banco de Dados POSTGRE** deve estar disponível em: ```http://127.0.0.1:5432/```
+
+_**Obs.:**_ Note que terá uma demora na execução e esse processo é totalmente normal.
+
+📊 Metabase
+
+O **Metabase** deve estar disponível em: ```http://127.0.0.1:3000/```
+
+Como é o primeiro acesso a imagem criada pelo **Docker Hub**, será necessário realizar uma configuração prévia, seguindo as etapas descritas na [issue.](https://github.com/fga-eps-mds/2021.2-INDICAA/issues/87#issuecomment-1075163142)
 
 ## 🤝 Contribuições
 
