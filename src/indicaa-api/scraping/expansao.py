@@ -51,6 +51,9 @@ def selecionarUnidade(n):
     nomeUnidade = botaoFGA[n].get_attribute('innerHTML')
     botaoUnidade.click()
     botao.click()
+
+    nomeUnidade = nomeUnidade.replace("/",'')
+
     return nomeUnidade
 
 

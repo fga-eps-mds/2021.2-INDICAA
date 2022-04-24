@@ -16,10 +16,10 @@ class UnidadeViewSet(viewsets.ModelViewSet):
     if "runserver" in sys.argv:
             # from scraping.QtdeAlunosMatriculados import main
             # main()
-            from scraping.remove import delete_everything
-            delete_everything()
-            from scraping.expansao import main
-            main()
+        from scraping.remove import delete_everything
+        delete_everything()
+        from scraping.expansao import main
+        main()
         
 
 class MateriaViewSet(viewsets.ModelViewSet):

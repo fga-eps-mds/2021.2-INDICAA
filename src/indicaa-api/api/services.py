@@ -21,8 +21,8 @@ class IndicaaServices:
             materia_teste.save()
         return materia_teste
 
-    def atualizar_materia(self, codigoMateria, cargahoraria):
-        Materia.objects.filter(codigoMateria=codigoMateria).update(cargaHoraria=cargahoraria)
+    def atualizar_materia(self, codigoMateria, cargaHoraria):
+        Materia.objects.filter(codigoMateria=codigoMateria).update(cargaHoraria=cargaHoraria)
 
     def criar_turma(self, professor, codigoTurma, vagasOcupadas, vagasOfertadas, local, horario, semestre, ano, materia):
         turma_teste = Turma.objects.filter(materia=materia, docente=professor, codigoTurma=codigoTurma).last()
