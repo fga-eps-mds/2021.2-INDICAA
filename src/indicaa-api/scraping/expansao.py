@@ -53,6 +53,8 @@ def selecionarUnidade(n):
     botao.click()
 
     nomeUnidade = nomeUnidade.replace("/",'')
+    nomeUnidade = nomeUnidade.replace(".",'')
+    
 
     return nomeUnidade
 
@@ -152,7 +154,7 @@ def main():
     acessarURL()
     driver.implicitly_wait(6)
     selecionarNivelEnsino()
-    for i in range(8, 10):
+    for i in range(2, 192):
         nomeUnidade = selecionarUnidade(i)
         selecionarSemestre()
         acionarBotaoBuscar()
