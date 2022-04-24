@@ -1,3 +1,5 @@
+from cgitb import lookup
+from django.forms import UUIDField
 from .models import Materia, Unidade, Turma
 from rest_framework import serializers
 
