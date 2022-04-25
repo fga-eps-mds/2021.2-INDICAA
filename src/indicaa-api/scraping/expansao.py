@@ -154,7 +154,7 @@ def main():
     acessarURL()
     driver.implicitly_wait(6)
     selecionarNivelEnsino()
-    for i in range(2, 10):
+    for i in range(75, 79):
         nomeUnidade = selecionarUnidade(i)
         selecionarSemestre()
         acionarBotaoBuscar()
