@@ -40,7 +40,7 @@ def selecionarSemestre():
 # Seleciona a unidade da UnB para a busca, nesse caso, a Faculdade do Gama
 def selecionarUnidade():
     botaoUnidade = driver.find_element(By.ID, 'formTurma:inputDepto')
-    botaoFGA = driver.find_element(By.XPATH, '//*[@id="formTurma:inputDepto"]/option[8]')
+    botaoFGA = driver.find_element(By.XPATH, '//*[@id="formTurma:inputDepto"]/option[79]')
     nomeUnidade = botaoFGA.get_attribute('innerHTML')
     botaoUnidade.click()
     botaoFGA.click()
