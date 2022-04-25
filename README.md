@@ -1,7 +1,7 @@
 <div align="center"><img id="indicaa-logo" src="assets/logo.svg"></img></div><br/>
 
 <div align="center">
-<img src="https://img.shields.io/github/issues/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/issues-closed/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/issues-pr/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/issues-pr-closed/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/repo-size/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"> <img src="https://img.shields.io/github/license/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/v/release/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/last-commit/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img>
+<img src="https://img.shields.io/github/issues/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/issues-closed/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/issues-pr/fga-eps-mds/2021.2-INDICAA-Wiki?style=for-the-badge"></img> <img src="https://img.shields.io/github/issues-pr-closed/fga-eps-mds/2021.2-INDICAA-Wiki?style=for-the-badge"></img> <img src="https://img.shields.io/github/repo-size/fga-eps-mds/2021.2-INDICAA-Wiki?style=for-the-badge"> <img src="https://img.shields.io/github/license/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/v/release/fga-eps-mds/2021.2-INDICAA?style=for-the-badge"></img> <img src="https://img.shields.io/github/last-commit/fga-eps-mds/2021.2-INDICAA-Wiki?style=for-the-badge"></img>
 </div><br/>
 
 [INDICAA](https://indicaa.herokuapp.com/) é um projeto desenvolvido por alunos da matéria de Métodos de Desenvolvimento de Software da [Universidade de Brasília - UnB](https://www.unb.br/) com o objetivo de facilitar o acesso às informações apresentadas pelo site acadêmico [SIGAA oferta](https://sig.unb.br/sigaa/public/turmas/listar.jsf?aba=p-ensino).
@@ -27,14 +27,13 @@ Utilizando a interface do _**Metabase**_, é possível visualizar os dashboards 
 -   <a href="https://github.com/fga-eps-mds/2021.2-INDICAA/releases/tag/v0.1"><img src="https://img.shields.io/badge/Release_1-v0.1-green?style=for-the-badge"></img><img src="https://img.shields.io/badge/Date-07%2F03%2F2022-lightgrey?style=for-the-badge"></img></a>
 -   <img src="https://img.shields.io/badge/Release_2-v0.2-yellow?style=for-the-badge"></img><img src="https://img.shields.io/badge/Date-26%2F04%2F2022-lightgrey?style=for-the-badge"></img>
 
-
 # 🚀💾 Instalação e execução do projeto
 
 ## 🌎 Acesso ao projeto em sua versão de produção (na web)
 
 - [Metabase](https://indicaa.herokuapp.com/)
   
-- [API](https://indicaa-unb-apii.herokuapp.com/)
+- [API](https://indicaa-api.herokuapp.com/)
 
 ## 🏭 Rodando o projeto em versão de desenvolvimento (localmente)
 
@@ -66,12 +65,15 @@ Os comandos acima devem retornar algo como:
 ```Python 3.9.0```
 . Isso significa que o python está instalado e sua versão é a 
 3.9.0.
+
 É recomendada a utilização de versões >= _**3.9.x**_. Caso necessário, siga o passo a passo informado na [página oficial de instruções de instalação](https://python.org.br/instalacao-linux/).
+
 #
 ### Execução
+
 🚀 GitHub Pages
 
-Clonar o repositório [Wiki](https://github.com/fga-eps-mds/2021.2-INDICAA-Wiki):
+Clonar este repositório:
 ```sh
 git clone https://github.com/fga-eps-mds/2021.2-INDICAA-Wiki 
 ```
@@ -91,7 +93,7 @@ Agora, o git pages (versão de desenvolvimento) deve estar disponível em: ```ht
 
 🧭 API
 
-Clonar este repositório:
+Clonar o repositório [INDICAA](https://github.com/fga-eps-mds/2021.2-INDICAA/):
 ```sh
 git clone https://github.com/fga-eps-mds/2021.2-INDICAA
 ```
@@ -118,10 +120,12 @@ O **Metabase** deve estar disponível em: ```http://127.0.0.1:3000/```
 
 Como é o primeiro acesso a imagem criada pelo **Docker Hub**, será necessário realizar uma configuração prévia, seguindo as etapas descritas na [issue.](https://github.com/fga-eps-mds/2021.2-INDICAA/issues/87#issuecomment-1075163142)
 
-## 🤝 Contribuições
+
+
+# 🤝 Contribuições
 
 O projeto INDICAA é um projeto Open Source e de software livre desenvolvido por alunos da disciplina de Métodos de Desenvolvimento de software da UnB. Com isso, o projeto é de livre contribuição e reprodução. Vale apenas ressaltar que é necessário que sejam seguidas as [regras de contribuição](https://fga-eps-mds.github.io/2021.2-INDICAA-Wiki/contributing/) e o [código de conduta do projeto](https://fga-eps-mds.github.io/2021.2-INDICAA-Wiki/CODE_OF_CONDUCT/).
 
-## 🔐 Licença
+# 🔐 Licença
 
 Este projeto está licenciado sob os termos estabelecidos pela [GNU General Public License v3.0](https://github.com/fga-eps-mds/2021.2-INDICAA/blob/main/LICENSE).
