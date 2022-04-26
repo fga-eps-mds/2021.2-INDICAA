@@ -41,8 +41,10 @@ def selecionarSemestre():
 def selecionarUnidade():
     botaoUnidade = driver.find_element(By.ID, 'formTurma:inputDepto')
     botaoFGA = driver.find_element(By.XPATH, '//*[@id="formTurma:inputDepto"]/option[79]')
+    nomeUnidade = botaoFGA.get_attribute('innerHTML')
     botaoUnidade.click()
     botaoFGA.click()
+    return nomeUnidade
 
 # Clica no botao buscar para visualizar o resultado da consulta
 def acionarBotaoBuscar():
@@ -71,9 +73,9 @@ def percorreTurmas(atualSoma, soma, materia, codigoMateria):
     indicaa.criar_turma(professor, codigoTurma, vagasOcupadas, vagasOfertadas, local, horario, semestre, ano, materia)
     indicaa.atualizar_materia(codigoMateria, cargahoraria)
     
-def alunosPorDisciplina():
+def alunosPorDisciplina(nomeUnidade):
     indicaa = IndicaaServices()
-    unidade = indicaa.criar_unidade("Faculdade do Gama")
+    unidade = indicaa.criar_unidade(nomeUnidade)
     atual=0
     atualSoma=0
     atualDisc=0
@@ -127,17 +129,15 @@ def main():
     acessarURL()
     driver.implicitly_wait(6)
     selecionarNivelEnsino()
-    selecionarUnidade()
+    nomeUnidade = selecionarUnidade()
     selecionarSemestre()
     acionarBotaoBuscar()
     # vagasOcupadasTotal = vagasOcupadasTurma()
     # print(f'Numero de Alunos encontrados: {vagasOcupadasTotal}')
-    materias = alunosPorDisciplina()
-    resultado = {'nome': 'Faculdade do Gama',
+    materias = alunosPorDisciplina(nomeUnidade)
+    resultado = {'nome': nomeUnidade,
                 #  'vagasOcupadasTotal': vagasOcupadasTotal,
                  'materias': materias}
-    pp.pprint(resultado)
     fecharJanela()
-
-
-main()
+    pp.pprint(resultado)
+    return resultado

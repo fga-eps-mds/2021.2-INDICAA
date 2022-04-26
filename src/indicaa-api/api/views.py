@@ -1,19 +1,26 @@
+from django.http import HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
-
+from .services import IndicaaServices
 from rest_framework import viewsets
-from scraping.QtdeAlunosMatriculados import alunosPorDisciplina
 from .serializers import MateriaSerializer, UnidadeSerializer, TurmaSerializer
 from .models import Materia, Unidade, Turma
+from django.http import HttpResponse
+import sys
 
 
 class UnidadeViewSet(viewsets.ModelViewSet):
-    def get(self, request):
-        alunosPorDisciplina()
-        
     queryset = Unidade.objects.all().order_by('nome')
     serializer_class = UnidadeSerializer
+    if "runserver" in sys.argv:
+        # from scraping.QtdeAlunosMatriculados import main
+        # main()
+        # from scraping.remove import delete_everything
+        # delete_everything()
+        from scraping.expansao import main
+        main()
+        
 
 class MateriaViewSet(viewsets.ModelViewSet):
     queryset = Materia.objects.all().order_by('codigoMateria')
